@@ -12,11 +12,26 @@ h1{margin:0;font-size:26px}.mu{color:#5C5A52;font-size:13px;margin:4px 0 0}
 .tile{flex:none;width:56px;height:56px;border-radius:16px;display:flex;align-items:center;justify-content:center}
 .mid{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}.nm{font-size:15px;font-weight:600;line-height:1.25}.sub{font-size:13px;color:#5C5A52}.warn{font-size:12px;font-weight:600;color:#7A3E00}
 .rt{display:flex;flex-direction:column;align-items:flex-end;gap:2px}.bd{padding:2px 8px;border-radius:6px;background:#B3361A;color:#fff;font-size:12px;font-weight:700}.pr{font-size:22px;font-weight:700}.old{font-size:12px;color:#5C5A52;text-decoration:line-through}
+[hidden]{display:none!important}main{padding-bottom:calc(88px + env(safe-area-inset-bottom))}section{display:flex;flex-direction:column;gap:12px}
+.av{flex:none;width:44px;height:44px;border-radius:22px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700}
+.pill{flex:none;padding:4px 10px;border-radius:999px;font-size:12px;font-weight:700}
+.info{flex-direction:column;align-items:stretch;background:#E3F0E8;border-color:#C5DDCF;font-size:13px;line-height:1.4}
+#tabs{position:fixed;left:0;right:0;bottom:0;display:flex;background:#fff;border-top:1px solid #E4E1D6;padding-bottom:env(safe-area-inset-bottom)}
+#tabs a{flex:1;min-height:56px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:12px;color:#5C5A52;text-decoration:none}
+#tabs a[aria-current=page]{color:#1F6B4A;font-weight:700}
 </style></head><body><main>
-<div><h1>Offerte della settimana</h1><p class="mu" id="agg">Caricamento…</p></div>
+<section id="v-offerte"><div><h1>Offerte della settimana</h1><p class="mu" id="agg">Caricamento…</p></div>
 <div id="chips" role="group" aria-label="Categorie"></div>
-<div id="list" style="display:flex;flex-direction:column;gap:12px"></div>
+<div id="list" style="display:flex;flex-direction:column;gap:12px"></div></section>
+<section id="v-volantini" hidden><div><h1>Volantini</h1><p class="mu">Letti in automatico, nessuna azione richiesta</p></div>
+<div class="card info"><b style="color:#17543A;font-size:15px">Lettura automatica attiva</b><span>Ogni giorno l'app legge le offerte dalle pagine dei supermercati.</span><span id="agg2"></span></div>
+<h2 style="margin:2px 0 0;font-size:16px">Stato delle fonti</h2><div id="vol" style="display:flex;flex-direction:column;gap:12px"></div></section>
+<section id="v-supermercati" hidden><div><h1>Supermercati</h1><p class="mu">Le catene da cui leggere le offerte</p></div>
+<div id="sup" style="display:flex;flex-direction:column;gap:12px"></div>
+<p class="mu">Per aggiungere o cambiare una catena si modifica il file web/data/supermercati.json.</p></section>
 </main>
+<nav id="tabs" aria-label="Navigazione">
+<a href="#offerte"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg> Offerte</a><a href="#volantini"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg> Volantini</a><a href="#supermercati"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l1-5h16l1 5M3 9h18M3 9v11h18V9M9 20v-6h6v6"/></svg> Supermercati</a></nav>
 <script>
 const I={latticini:'<path d="M8 3h8l2 4v14H6V7l2-4z"/><path d="M6 7h12M10 13h4"/>',dispensa:'<path d="M3 12h18a9 9 0 0 1-18 0z"/><path d="M8 12c0-3 2-4 2-7M13 12c0-3 2-4 2-7"/>',bevande:'<path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5V9z"/><path d="M16 10h2a2 2 0 0 1 0 4h-2M8 3v3M12 3v3"/>',altro:'<path d="M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/>'};
 const COL={latticini:['#E4EEF9','#1F4E8C'],dispensa:['#FBEFD9','#7A4B00'],bevande:['#F1E6DD','#5A3A22'],altro:['#E3F0E8','#17543A']};
@@ -37,7 +52,24 @@ const m=el('div','mid');m.append(el('div','nm',o.prodotto),el('div','sub',[o.neg
 if(o.dettagli)m.append(el('div','sub',o.dettagli));if(o.scade_prima)m.append(el('div','warn','valido fino al '+o.scade_prima));
 const r=el('div','rt');if(badge(o))r.append(el('span','bd',badge(o)));r.append(el('span','pr',eur(o.prezzo)));if(o.prezzo_precedente)r.append(el('span','old',eur(o.prezzo_precedente)));
 c.append(t,m,r);L.append(c)}}
-fetch('data/offerte.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{all=d.offerte;document.getElementById('agg').textContent='Aggiornate '+new Date(d.aggiornato).toLocaleString('it-IT',{dateStyle:'short',timeStyle:'short'})+' · '+Object.entries(d.periodi).map(([n,p])=>n+' '+p).join(' · ');chips();draw()})
-.catch(()=>{document.getElementById('agg').textContent='Nessun dato ancora: lancia "Aggiorna offerte" su GitHub (tab Actions).'});
+const avatar=s=>{const a=el('span','av',s.ini);a.style.background=s.bg;a.style.color=s.fg;return a};
+const pill=(x,bg,fg)=>{const p=el('span','pill',x);p.style.background=bg;p.style.color=fg;return p};
+function row(s,detail,state){const c=el('div','card'),m=el('div','mid');m.append(el('div','nm',s.nome+(s.negozio?' · '+s.negozio:'')),el('div','sub',detail));c.append(avatar(s),m,state);return c}
+function route(){const h=(location.hash||'#offerte').slice(1);for(const k of['offerte','volantini','supermercati']){document.getElementById('v-'+k).hidden=k!==h}
+document.querySelectorAll('#tabs a').forEach(a=>a.getAttribute('href')==='#'+h?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current'));window.scrollTo(0,0)}
+addEventListener('hashchange',route);route();
+Promise.all([fetch('data/offerte.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>null),fetch('data/supermercati.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>[])]).then(([d,S])=>{
+const ag=document.getElementById('agg');
+if(!d){ag.textContent='Nessun dato ancora: lancia "Aggiorna offerte" su GitHub (tab Actions).'}
+else{all=d.offerte;const when=new Date(d.aggiornato).toLocaleString('it-IT',{dateStyle:'short',timeStyle:'short'});
+ag.textContent='Aggiornate '+when+' · '+Object.entries(d.periodi).map(([n,p])=>n+' '+p).join(' · ');document.getElementById('agg2').textContent='Ultimo aggiornamento: '+when;chips();draw()}
+const V=document.getElementById('vol'),G=document.getElementById('sup');
+for(const s of S){const f=((d&&d.fonti)||[]).find(x=>x.nome===s.nome);
+let det,st;if(f&&f.ok){det=f.n+' offerte · '+f.periodo;st=pill('Letto','#E3F0E8','#17543A')}
+else if(f){det='Errore nell\'ultima lettura';st=pill('Errore','#F9E3DE','#8C2A14')}
+else if(s.attivo){det='In attesa della prima lettura';st=pill('In attesa','#FBEFD9','#7A3E00')}
+else{det='Non ancora configurata';st=pill('Non attivo','#ECEAE2','#5C5A52')}
+V.append(row(s,det,st));
+G.append(row(s,s.fonte+' · '+s.frequenza,s.attivo?pill('Attivo','#E3F0E8','#17543A'):pill('Da configurare','#ECEAE2','#5C5A52')))}});
 if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
 </script></body></html>

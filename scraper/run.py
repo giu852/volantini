@@ -13,5 +13,5 @@ if not d["offerte"]:
 for o in d["offerte"]:
     o["negozio"] = "MPreis"
 OUT.parent.mkdir(parents=True, exist_ok=True)
-OUT.write_text(json.dumps({"aggiornato": datetime.now(timezone.utc).isoformat(), "periodi": {"MPreis": d["periodo"]}, "offerte": d["offerte"]}, ensure_ascii=False, indent=1))
+OUT.write_text(json.dumps({"aggiornato": datetime.now(timezone.utc).isoformat(), "periodi": {"MPreis": d["periodo"]}, "fonti": [{"nome": "MPreis", "ok": True, "n": len(d["offerte"]), "periodo": d["periodo"]}], "offerte": d["offerte"]}, ensure_ascii=False, indent=1))
 print(f"OK: {len(d['offerte'])} offerte MPreis ({d['periodo']})")
