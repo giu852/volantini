@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Offerte casa</title><link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="icon-192.png"><meta name="theme-color" content="#1F6B4A">
+<style>
+:root{color-scheme:light}body{margin:0;background:#FBFAF6;color:#1B1B18;font-family:system-ui,-apple-system,sans-serif}
+main{max-width:480px;margin:0 auto;padding:calc(20px + env(safe-area-inset-top)) 16px calc(24px + env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:12px}
+h1{margin:0;font-size:26px}.mu{color:#5C5A52;font-size:13px;margin:4px 0 0}
+#chips{display:flex;gap:8px;overflow-x:auto;margin:0 -16px;padding:0 16px}
+#chips button{flex:none;min-height:44px;padding:0 14px;border-radius:999px;border:1px solid #C9C6B8;background:#fff;font-size:14px;font-weight:600;color:#1B1B18}
+#chips button[aria-pressed=true]{background:#1F6B4A;border-color:#1F6B4A;color:#fff}
+.card{display:flex;gap:12px;align-items:center;background:#fff;border:1px solid #E4E1D6;border-radius:14px;padding:14px}
+.tile{flex:none;width:56px;height:56px;border-radius:16px;display:flex;align-items:center;justify-content:center}
+.mid{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}.nm{font-size:15px;font-weight:600;line-height:1.25}.sub{font-size:13px;color:#5C5A52}.warn{font-size:12px;font-weight:600;color:#7A3E00}
+.rt{display:flex;flex-direction:column;align-items:flex-end;gap:2px}.bd{padding:2px 8px;border-radius:6px;background:#B3361A;color:#fff;font-size:12px;font-weight:700}.pr{font-size:22px;font-weight:700}.old{font-size:12px;color:#5C5A52;text-decoration:line-through}
+</style></head><body><main>
+<div><h1>Offerte della settimana</h1><p class="mu" id="agg">Caricamento…</p></div>
+<div id="chips" role="group" aria-label="Categorie"></div>
+<div id="list" style="display:flex;flex-direction:column;gap:12px"></div>
+</main>
+<script>
+const I={latticini:'<path d="M8 3h8l2 4v14H6V7l2-4z"/><path d="M6 7h12M10 13h4"/>',dispensa:'<path d="M3 12h18a9 9 0 0 1-18 0z"/><path d="M8 12c0-3 2-4 2-7M13 12c0-3 2-4 2-7"/>',bevande:'<path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5V9z"/><path d="M16 10h2a2 2 0 0 1 0 4h-2M8 3v3M12 3v3"/>',altro:'<path d="M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/>'};
+const COL={latticini:['#E4EEF9','#1F4E8C'],dispensa:['#FBEFD9','#7A4B00'],bevande:['#F1E6DD','#5A3A22'],altro:['#E3F0E8','#17543A']};
+const CAT={latticini:/latte|yogurt|burro|mozzarella|formaggio/i,bevande:/caff|vino|lagrein|sciroppo|acqua|birra/i,dispensa:/pasta|rag[uù]|sugo|olio|mais|fagiolini|ketchup|nutella|pandoro|panettone|cioccolato|pizza/i};
+const cat=n=>Object.keys(CAT).find(k=>CAT[k].test(n))||'altro';
+const pct=o=>o.promo.tipo==='1+1'?50:(o.sconto_pct||0);
+const eur=n=>n==null?'':n.toFixed(2).replace('.',',')+' €';
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+let all=[],sel='tutte';
+function chips(){const box=document.getElementById('chips');box.replaceChildren();for(const k of ['tutte','latticini','dispensa','bevande','altro']){const b=el('button','',k[0].toUpperCase()+k.slice(1));b.type='button';b.setAttribute('aria-pressed',k===sel);b.onclick=()=>{sel=k;chips();draw()};box.append(b)}}
+function badge(o){const p=o.promo;return p.tipo==='1+1'?'1+1 gratis':p.tipo==='multi'?'da '+p.quantita+' '+(p.unita||''):pct(o)?'-'+pct(o)+'%':''}
+function draw(){const L=document.getElementById('list');L.replaceChildren();
+const rows=all.filter(o=>sel==='tutte'||cat(o.prodotto)===sel).sort((a,b)=>pct(b)-pct(a));
+if(!rows.length)L.append(el('p','mu','Nessuna offerta in questa categoria.'));
+for(const o of rows){const k=cat(o.prodotto),c=el('div','card'),t=el('div','tile');t.style.background=COL[k][0];t.style.color=COL[k][1];
+t.innerHTML='<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+I[k]+'</svg>';
+const m=el('div','mid');m.append(el('div','nm',o.prodotto),el('div','sub',[o.negozio,o.formato].filter(Boolean).join(' · ')));
+if(o.dettagli)m.append(el('div','sub',o.dettagli));if(o.scade_prima)m.append(el('div','warn','valido fino al '+o.scade_prima));
+const r=el('div','rt');if(badge(o))r.append(el('span','bd',badge(o)));r.append(el('span','pr',eur(o.prezzo)));if(o.prezzo_precedente)r.append(el('span','old',eur(o.prezzo_precedente)));
+c.append(t,m,r);L.append(c)}}
+fetch('data/offerte.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{all=d.offerte;document.getElementById('agg').textContent='Aggiornate '+new Date(d.aggiornato).toLocaleString('it-IT',{dateStyle:'short',timeStyle:'short'})+' · '+Object.entries(d.periodi).map(([n,p])=>n+' '+p).join(' · ');chips();draw()})
+.catch(()=>{document.getElementById('agg').textContent='Nessun dato ancora: lancia "Aggiorna offerte" su GitHub (tab Actions).'});
+if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+</script></body></html>
