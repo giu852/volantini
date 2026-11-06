@@ -42,9 +42,9 @@
  {
   "nome": "Lidl",
   "negozio": "Varna",
-  "fonte": "Pagina volantino Lidl",
+  "fonte": "Volantino (inserito a mano, prova)",
   "frequenza": "ogni settimana, il lunedì",
-  "attivo": false,
+  "attivo": true,
   "ini": "LI",
   "bg": "#E4EEF9",
   "fg": "#1F4E8C"
