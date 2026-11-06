@@ -1,0 +1,309 @@
+{
+ "aggiornato": "2026-11-06T08:15:27.977785+00:00",
+ "periodi": {
+  "MPreis": "VEN 30.10. – VEN 13.11."
+ },
+ "offerte": [
+  {
+   "prodotto": "Latteria Vipiteno burro",
+   "dettagli": null,
+   "formato": "250 g",
+   "prezzo": 2.39,
+   "prezzo_precedente": 3.79,
+   "sconto_pct": 37,
+   "prezzo_effettivo": 2.39,
+   "promo": {
+    "tipo": "multi",
+    "quantita": 4,
+    "unita": "conf."
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Mila yogurt intero",
+   "dettagli": "gusti assortiti",
+   "formato": "conf. da 2x125 g",
+   "prezzo": 0.69,
+   "prezzo_precedente": 1.29,
+   "sconto_pct": 47,
+   "prezzo_effettivo": 0.69,
+   "promo": {
+    "tipo": "multi",
+    "quantita": 2,
+    "unita": "conf."
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Brimi mozzarella",
+   "dettagli": "senza lattosio",
+   "formato": "125 g",
+   "prezzo": 2.1,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.05,
+   "promo": {
+    "tipo": "1+1"
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "filetto di suino",
+   "dettagli": "conf. da 2 pezzi, valido fino al 04.11.",
+   "formato": "al kg",
+   "prezzo": 9.99,
+   "prezzo_precedente": 12.99,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": "04.11.",
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Mila formaggio da taglio Dolomitenkönig",
+   "dettagli": null,
+   "formato": "al kg",
+   "prezzo": 9.99,
+   "prezzo_precedente": 16.99,
+   "sconto_pct": 41,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 41
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "De Cecco pasta",
+   "dettagli": "vari formati",
+   "formato": "500 g",
+   "prezzo": 0.99,
+   "prezzo_precedente": 1.69,
+   "sconto_pct": 41,
+   "prezzo_effettivo": 0.99,
+   "promo": {
+    "tipo": "multi",
+    "quantita": 2,
+    "unita": "conf."
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Barilla ragù o sugo amatriciana",
+   "dettagli": "gusti assortiti",
+   "formato": "300 g",
+   "prezzo": 1.69,
+   "prezzo_precedente": 2.59,
+   "sconto_pct": 35,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "multi",
+    "quantita": 3,
+    "unita": "vas."
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Bonduelle mais dolce o fagiolini",
+   "dettagli": "lattina",
+   "formato": "300 - 400 g",
+   "prezzo": 2.39,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.2,
+   "promo": {
+    "tipo": "1+1"
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Pizza A Mano pizza",
+   "dettagli": "surgelata, gusti assortiti",
+   "formato": "350 - 450 g",
+   "prezzo": 3.49,
+   "prezzo_precedente": 5.99,
+   "sconto_pct": 42,
+   "prezzo_effettivo": 3.49,
+   "promo": {
+    "tipo": "multi",
+    "quantita": 2,
+    "unita": "conf."
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Felix ketchup",
+   "dettagli": "assortito",
+   "formato": "435 - 450 g",
+   "prezzo": 3.69,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.84,
+   "promo": {
+    "tipo": "1+1"
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Milka cioccolato a tavoletta",
+   "dettagli": "Latte, Nocciola, Oreo oder Noisette",
+   "formato": "87 - 100 g",
+   "prezzo": 2.39,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.2,
+   "promo": {
+    "tipo": "1+1"
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Nutella",
+   "dettagli": null,
+   "formato": "750 g",
+   "prezzo": 4.99,
+   "prezzo_precedente": 7.79,
+   "sconto_pct": 36,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "multi",
+    "quantita": 2,
+    "unita": "vas."
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Balocco pandoro o panettone",
+   "dettagli": null,
+   "formato": "700 g",
+   "prezzo": 7.69,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.85,
+   "promo": {
+    "tipo": "1+1"
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Kronen olio di colza",
+   "dettagli": null,
+   "formato": "1 l",
+   "prezzo": 5.89,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.94,
+   "promo": {
+    "tipo": "1+1"
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Monini olio d‘oliva extra vergine",
+   "dettagli": null,
+   "formato": "1 l",
+   "prezzo": 5.99,
+   "prezzo_precedente": 8.99,
+   "sconto_pct": 33,
+   "prezzo_effettivo": 5.99,
+   "promo": {
+    "tipo": "multi",
+    "quantita": 2,
+    "unita": "bott."
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Nescafé Gold",
+   "dettagli": "caffè solubile, aromi diversi",
+   "formato": "200 g",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "1+1"
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Mautner Markhof sciroppo di frutta",
+   "dettagli": "gusti assortiti",
+   "formato": "700 ml",
+   "prezzo": 4.29,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.15,
+   "promo": {
+    "tipo": "1+1"
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Cantina Cortaccia Lagrein DOC",
+   "dettagli": null,
+   "formato": "750 ml",
+   "prezzo": 7.99,
+   "prezzo_precedente": 10.49,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "multi",
+    "quantita": 2,
+    "unita": "bott."
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Whiskas Pranzetti",
+   "dettagli": "cibo per gatti, gusti assortiti",
+   "formato": "conf. da 6x50 g",
+   "prezzo": 1.99,
+   "prezzo_precedente": 3.59,
+   "sconto_pct": 45,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 45
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  },
+  {
+   "prodotto": "Zewa carta igienica",
+   "dettagli": "3 veli",
+   "formato": "20 rotoli",
+   "prezzo": 6.99,
+   "prezzo_precedente": 11.99,
+   "sconto_pct": 42,
+   "prezzo_effettivo": 6.99,
+   "promo": {
+    "tipo": "multi",
+    "quantita": 2,
+    "unita": "conf."
+   },
+   "scade_prima": null,
+   "negozio": "MPreis"
+  }
+ ]
+}
