@@ -1,0 +1,72 @@
+[
+ {
+  "nome": "Eurospar",
+  "negozio": "Bressanone",
+  "fonte": "Volantino Despar",
+  "frequenza": "ogni 2 settimane",
+  "attivo": false,
+  "ini": "ES",
+  "bg": "#E3F0E8",
+  "fg": "#17543A"
+ },
+ {
+  "nome": "Poli",
+  "negozio": "Bressanone",
+  "fonte": "Da definire",
+  "frequenza": "da definire",
+  "attivo": false,
+  "ini": "PO",
+  "bg": "#EDE6F5",
+  "fg": "#4B2C7A"
+ },
+ {
+  "nome": "Conad",
+  "negozio": "Bressanone/Varna",
+  "fonte": "Da definire",
+  "frequenza": "da definire",
+  "attivo": false,
+  "ini": "CO",
+  "bg": "#F9E3DE",
+  "fg": "#8C2A14"
+ },
+ {
+  "nome": "Coop",
+  "negozio": "Bressanone",
+  "fonte": "Da definire",
+  "frequenza": "da definire",
+  "attivo": false,
+  "ini": "CP",
+  "bg": "#E4EEF9",
+  "fg": "#1F4E8C"
+ },
+ {
+  "nome": "Lidl",
+  "negozio": "Varna",
+  "fonte": "Volantini trovati in automatico, offerte lette a mano (prova)",
+  "frequenza": "ogni settimana, il lunedì",
+  "attivo": true,
+  "ini": "LI",
+  "bg": "#E4EEF9",
+  "fg": "#1F4E8C"
+ },
+ {
+  "nome": "Eurospin",
+  "negozio": "Varna",
+  "fonte": "Volantino digitale",
+  "frequenza": "ogni settimana",
+  "attivo": false,
+  "ini": "EN",
+  "bg": "#FBEFD9",
+  "fg": "#7A4B00"
+ },
+ {
+  "nome": "MPreis",
+  "negozio": "Bressanone/Varna",
+  "fonte": "Pagina offerte mpreis.it",
+  "frequenza": "ogni 2 settimane",
+  "attivo": true,
+  "ini": "MP",
+  "bg": "#F9E3DE",
+  "fg": "#8C2A14"
+ }
+]
