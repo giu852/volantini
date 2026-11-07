@@ -1,0 +1,82 @@
+name: Test schede Lidl
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright requests
+      - run: playwright install --with-deps chromium
+      - run: |
+          python - <<'PY'
+          import re, json, requests
+          from pathlib import Path
+          from playwright.sync_api import sync_playwright
+
+          OUT = Path("out"); OUT.mkdir(exist_ok=True)
+          LOG = open(OUT / "log.txt", "w", encoding="utf-8")
+          def say(*a):
+              s = " ".join(str(x) for x in a)
+              print(s, flush=True); LOG.write(s + "\n"); LOG.flush()
+
+          URLS = {"sottocosto": "https://www.lidl.it/c/store/sottocosto-lidl-black-days-kw-45-26/a10106087",
+                  "frutta": "https://www.lidl.it/c/store/frutta-e-verdura-kw-45-26/a10106088",
+                  "plus": "https://www.lidl.it/c/store/lidl-plus-kw-45-26/a10106090"}
+
+          say("##### 1) HTML grezzo, senza browser")
+          for n, u in URLS.items():
+              h = requests.get(u, headers={"User-Agent": "Mozilla/5.0"}, timeout=30).text
+              chiave = "Broccoli" if n != "sottocosto" else "Rio Mare"
+              say(f"{n}: {len(h)} caratteri | '{chiave}' presente: {chiave in h}")
+              m = re.search(chiave, h)
+              if m:
+                  say("   contesto:", h[max(0, m.start() - 250):m.start() + 350].replace("\n", " "))
+              for attrs, body in re.findall(r"<script([^>]*)>(.*?)</script>", h, re.S):
+                  if chiave in body:
+                      say("   script che contiene i prodotti:", attrs[:150], "| lunghezza", len(body)); break
+
+          JS = r"""() => {
+           const isP = e => e.children.length === 0 && /€\*/.test(e.textContent);
+           const leaves = [...document.querySelectorAll('*')].filter(isP);
+           const cards = leaves.map(l => { let a = l;
+             while (a.parentElement) { const p = a.parentElement;
+               if ([...p.querySelectorAll('*')].filter(isP).length > 1) break; a = p; } return a; });
+           return {n: leaves.length,
+             all: cards.map(c => c.innerText.replace(/\n+/g, ' ¦ ')),
+             sample: cards.slice(0, 2).map(c => ({html: c.outerHTML.slice(0, 2500), links: [...c.querySelectorAll('a[href]')].map(x => x.href).slice(0, 3)}))};
+          }"""
+
+          say("\n##### 2) Browser: struttura delle schede prodotto")
+          with sync_playwright() as p:
+              br = p.chromium.launch()
+              ctx = br.new_context(locale="it-IT", viewport={"width": 1280, "height": 900})
+              for n, u in URLS.items():
+                  page = ctx.new_page(); page.goto(u, wait_until="domcontentloaded", timeout=60000); page.wait_for_timeout(6000)
+                  for et in ("Accetta tutti", "Accetta", "Accetto"):
+                      try:
+                          page.get_by_role("button", name=et).first.click(timeout=1500); break
+                      except Exception:
+                          pass
+                  for _ in range(3):
+                      for _ in range(5):
+                          page.mouse.wheel(0, 2500); page.wait_for_timeout(900)
+                      try:
+                          page.get_by_text("Mostra di più").first.click(timeout=2000); page.wait_for_timeout(3000)
+                      except Exception:
+                          break
+                  r = page.evaluate(JS)
+                  say(f"\n=== {n}: schede con prezzo: {r['n']}")
+                  for i, t in enumerate(r["all"][:60]): say(f"  [{i}] {t[:230]}")
+                  for i, s in enumerate(r["sample"]):
+                      say(f"  --- HTML scheda {i} | link: {s['links']}\n{s['html']}")
+                  page.close()
+              br.close()
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lidl-schede
+          path: out/
