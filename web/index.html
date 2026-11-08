@@ -21,14 +21,16 @@ h1{margin:0;font-size:26px}.mu{color:#5C5A52;font-size:13px;margin:4px 0 0}
 #tabs a[aria-current=page]{color:#1F6B4A;font-weight:700}
 .lnk{min-height:44px;box-sizing:border-box;display:inline-flex;align-items:center;padding:0 14px;border-radius:10px;border:1px solid #C9C6B8;background:#fff;color:#1B1B18;font-size:14px;font-weight:600;text-decoration:none}
 #when .seg{flex:1;min-height:44px;border-radius:10px;border:1px solid #C9C6B8;background:#fff;font-size:14px;font-weight:600;color:#1B1B18}#when .seg[aria-pressed=true]{background:#17543A;border-color:#17543A;color:#fff}
+.shopchip{flex:none;min-height:44px;box-sizing:border-box;padding:0 14px;border-radius:999px;border:2px solid transparent;font-size:14px;font-weight:600}.shopchip[aria-pressed=true]{border-color:#1B1B18;font-weight:700}.shop{align-self:flex-start;padding:2px 10px;border-radius:999px;font-size:12px;font-weight:700}
 </style></head><body><main>
 <section id="v-offerte"><div><h1>Offerte della settimana</h1><p class="mu" id="agg">Caricamento…</p></div>
 <div id="when" role="group" aria-label="Periodo" style="display:flex;gap:8px"></div>
+<div id="shops" role="group" aria-label="Supermercati" style="display:flex;gap:8px;overflow-x:auto;margin:0 -16px;padding:0 16px"></div>
 <div id="chips" role="group" aria-label="Categorie"></div>
 <div id="list" style="display:flex;flex-direction:column;gap:12px"></div></section>
 <section id="v-volantini" hidden><div><h1>Volantini</h1><p class="mu">Letti in automatico, nessuna azione richiesta</p></div>
 <div class="card info"><b style="color:#17543A;font-size:15px">Lettura automatica attiva</b><span>Ogni giorno l'app legge le offerte dalle pagine dei supermercati.</span><span id="agg2"></span></div>
-<h2 style="margin:2px 0 0;font-size:16px">Stato delle fonti</h2><div id="vol" style="display:flex;flex-direction:column;gap:12px"></div>
+<h2 style="margin:2px 0 0;font-size:16px">Stato delle fonti</h2><p class="mu" style="margin:-6px 0 0">Tocca una catena per vedere le sue offerte.</p><div id="vol" style="display:flex;flex-direction:column;gap:12px"></div>
 <h2 style="margin:2px 0 0;font-size:16px">Volantini trovati</h2><div id="vlist" style="display:flex;flex-direction:column;gap:12px"></div></section>
 <section id="v-supermercati" hidden><div><h1>Supermercati</h1><p class="mu">Le catene da cui leggere le offerte</p></div>
 <div id="sup" style="display:flex;flex-direction:column;gap:12px"></div>
@@ -44,41 +46,48 @@ const cat=o=>{const n=o.prodotto+' '+(o.categoria||'');return Object.keys(CAT).f
 const pct=o=>o.promo.tipo==='1+1'?50:(o.sconto_pct||0);
 const eur=n=>n==null?'':n.toFixed(2).replace('.',',')+' €';
 const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
-let all=[],sel='tutte',when='ora';
+let all=[],sel='tutte',when='ora',shop='tutti',SM={};
 const oggi=()=>{const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')};
 const inCorso=o=>(!o.inizio||o.inizio<=oggi())&&(!o.fine||o.fine>=oggi());
 const inArrivo=o=>!!o.inizio&&o.inizio>oggi();
+function negozi(){const box=document.getElementById('shops');box.replaceChildren();
+const nomi=[...new Set([...all.map(o=>o.negozio),...(shop==='tutti'?[]:[shop])])];
+for(const k of ['tutti',...nomi]){const b=el('button','shopchip',(k==='tutti'?'Tutti':k));b.type='button';b.setAttribute('aria-pressed',k===shop);
+const c=SM[k];b.style.background=c?c.bg:'#fff';b.style.color=c?c.fg:'#1B1B18';if(!c)b.style.borderColor=k===shop?'#1B1B18':'#C9C6B8';
+b.onclick=()=>{shop=k;negozi();draw()};box.append(b)}}
+function vaiOfferte(nome){shop=nome;when='ora';sel='tutte';negozi();periodo();chips();draw();location.hash='#offerte'}
 function periodo(){const box=document.getElementById('when');box.replaceChildren();const n=all.filter(inArrivo).length;
 for(const [k,l] of [['ora','In corso ('+all.filter(inCorso).length+')'],['presto','In arrivo ('+n+')']]){const b=el('button','',l);b.type='button';b.className='seg';b.setAttribute('aria-pressed',k===when);b.onclick=()=>{when=k;periodo();draw()};box.append(b)}}
 function chips(){const box=document.getElementById('chips');box.replaceChildren();for(const k of ['tutte','frutta','latticini','dispensa','bevande','altro']){const b=el('button','',k[0].toUpperCase()+k.slice(1));b.type='button';b.setAttribute('aria-pressed',k===sel);b.onclick=()=>{sel=k;chips();draw()};box.append(b)}}
 function badge(o){const p=o.promo;return p.tipo==='1+1'?'1+1 gratis':p.tipo==='sottocosto'?'Sottocosto':p.tipo==='multi'?'da '+p.quantita+' '+(p.unita||''):pct(o)?'-'+pct(o)+'%':''}
 function draw(){const L=document.getElementById('list');L.replaceChildren();
-const rows=all.filter(o=>(when==='ora'?inCorso(o):inArrivo(o))&&(sel==='tutte'||cat(o)===sel)).sort((a,b)=>pct(b)-pct(a));
-if(!rows.length)L.append(el('p','mu','Nessuna offerta in questa categoria.'));
+const rows=all.filter(o=>(when==='ora'?inCorso(o):inArrivo(o))&&(shop==='tutti'||o.negozio===shop)&&(sel==='tutte'||cat(o)===sel)).sort((a,b)=>pct(b)-pct(a));
+if(!rows.length)L.append(el('p','mu',shop==='tutti'?'Nessuna offerta con questi filtri.':'Nessuna offerta per '+shop+' con questi filtri (fonte non ancora collegata o nessuna offerta in corso).'));
 for(const o of rows){const k=cat(o),c=el('div','card'),t=el('div','tile');t.style.background=COL[k][0];t.style.color=COL[k][1];
 t.innerHTML='<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+I[k]+'</svg>';
-const m=el('div','mid');m.append(el('div','nm',o.prodotto),el('div','sub',[o.negozio,o.formato].filter(Boolean).join(' · ')));
+const m=el('div','mid');const sp=el('span','shop',o.negozio),sc=SM[o.negozio];if(sc){sp.style.background=sc.bg;sp.style.color=sc.fg}else{sp.style.background='#ECEAE2';sp.style.color='#1B1B18'}
+m.append(sp,el('div','nm',o.prodotto),el('div','sub',o.formato||''));
 if(o.dettagli)m.append(el('div','sub',o.dettagli));if(o.scade_prima)m.append(el('div','warn','valido fino al '+o.scade_prima));
 const r=el('div','rt');if(badge(o))r.append(el('span','bd',badge(o)));r.append(el('span','pr',eur(o.prezzo)));if(o.prezzo_precedente)r.append(el('span','old',eur(o.prezzo_precedente)));
 c.append(t,m,r);L.append(c)}}
 const avatar=s=>{const a=el('span','av',s.ini);a.style.background=s.bg;a.style.color=s.fg;return a};
 const pill=(x,bg,fg)=>{const p=el('span','pill',x);p.style.background=bg;p.style.color=fg;return p};
-function row(s,detail,state){const c=el('div','card'),m=el('div','mid');m.append(el('div','nm',s.nome+(s.negozio?' · '+s.negozio:'')),el('div','sub',detail));c.append(avatar(s),m,state);return c}
+function row(s,detail,state,fn){const c=el('div','card'),m=el('div','mid');m.append(el('div','nm',s.nome+(s.negozio?' · '+s.negozio:'')),el('div','sub',detail));c.append(avatar(s),m,state);if(fn){c.tabIndex=0;c.setAttribute('role','button');c.style.cursor='pointer';c.onclick=fn;c.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();fn()}}}return c}
 function route(){const h=(location.hash||'#offerte').slice(1);for(const k of['offerte','volantini','supermercati']){document.getElementById('v-'+k).hidden=k!==h}
 document.querySelectorAll('#tabs a').forEach(a=>a.getAttribute('href')==='#'+h?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current'));window.scrollTo(0,0)}
 addEventListener('hashchange',route);route();
 Promise.all([fetch('data/offerte.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>null),fetch('data/supermercati.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>[])]).then(([d,S])=>{
 const ag=document.getElementById('agg');
 if(!d){ag.textContent='Nessun dato ancora: lancia "Aggiorna offerte" su GitHub (tab Actions).'}
-else{all=d.offerte;const quando=new Date(d.aggiornato).toLocaleString('it-IT',{dateStyle:'short',timeStyle:'short'});
-ag.textContent='Aggiornate '+quando+' · '+Object.entries(d.periodi).map(([n,p])=>n+' '+p).join(' · ');document.getElementById('agg2').textContent='Ultimo aggiornamento: '+quando;periodo();chips();draw()}
+else{SM=Object.fromEntries(S.map(s=>[s.nome,s]));all=d.offerte;const quando=new Date(d.aggiornato).toLocaleString('it-IT',{dateStyle:'short',timeStyle:'short'});
+ag.textContent='Aggiornate '+quando+' · '+Object.entries(d.periodi).map(([n,p])=>n+' '+p).join(' · ');document.getElementById('agg2').textContent='Ultimo aggiornamento: '+quando;periodo();negozi();chips();draw()}
 const V=document.getElementById('vol'),G=document.getElementById('sup');
 for(const s of S){const f=((d&&d.fonti)||[]).find(x=>x.nome===s.nome);
 let det,st;if(f&&f.ok){det=f.n+' offerte · '+f.periodo;st=pill('Letto','#E3F0E8','#17543A')}
 else if(f){det='Errore nell\'ultima lettura';st=pill('Errore','#F9E3DE','#8C2A14')}
 else if(s.attivo){det='In attesa della prima lettura';st=pill('In attesa','#FBEFD9','#7A3E00')}
 else{det='Non ancora configurata';st=pill('Non attivo','#ECEAE2','#5C5A52')}
-V.append(row(s,det,st));
+V.append(row(s,det,st,()=>vaiOfferte(s.nome)));
 G.append(row(s,s.fonte+' · '+s.frequenza,s.attivo?pill('Attivo','#E3F0E8','#17543A'):pill('Da configurare','#ECEAE2','#5C5A52')))}const VL=document.getElementById('vlist');const dm=x=>new Date(x).toLocaleDateString('it-IT',{day:'numeric',month:'numeric'});
 const lidl=S.find(x=>x.nome==='Lidl');
 for(const v of ((d&&d.volantini)||[])){const c=el('div','card'),m=el('div','mid');c.style.flexWrap='wrap';
