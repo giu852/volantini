@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-08T18:53:29.242266+00:00",
+ "aggiornato": "2026-11-08T19:02:19.791470+00:00",
  "periodi": {
   "MPreis": "VEN 30.10. – VEN 13.11.",
-  "Lidl": "2/11 – 11/11"
+  "Lidl": "02.11. – 18.11."
  },
  "fonti": [
   {
@@ -14,8 +14,8 @@
   {
    "nome": "Lidl",
    "ok": true,
-   "n": 8,
-   "periodo": "2/11 – 11/11 (inserite a mano)"
+   "n": 129,
+   "periodo": "02.11. – 18.11. (dal sito)"
   }
  ],
  "volantini": [
@@ -59,7 +59,7 @@
     51,
     55
    ],
-   "stato": "parziale"
+   "stato": "sito"
   },
   {
    "negozio": "Lidl",
@@ -103,7 +103,7 @@
     57,
     62
    ],
-   "stato": "da_leggere"
+   "stato": "sito"
   },
   {
    "negozio": "Lidl",
@@ -116,7 +116,7 @@
    "pdf": "https://assets.leaflets.schwarz/leaflets/pdfs/01a18d15-d37e-7863-ad6e-ff90afaf0e22/Offerte-valide-dal-5-11-al-11-11-Fresca-e-conveniente-00.pdf",
    "pagine": 6,
    "pagine_cibo": [],
-   "stato": "parziale"
+   "stato": "sito"
   },
   {
    "negozio": "Lidl",
@@ -134,7 +134,7 @@
     5,
     6
    ],
-   "stato": "da_leggere"
+   "stato": "sito"
   }
  ],
  "offerte": [
@@ -440,9 +440,548 @@
    "negozio": "MPreis"
   },
   {
+   "id": "11151119",
+   "prodotto": "Peperoni misti",
+   "dettagli": "1 kg = 3.58 € · Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "500 g confezione",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 28,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 28
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/peperoni-misti/p11151119",
+   "sezioni": [
+    "lidl-plus",
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11029707",
+   "prodotto": "Cetrioli snack",
+   "dettagli": "1 kg = 4.76 € · Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "250 g confezione",
+   "prezzo": 1.19,
+   "prezzo_precedente": 1.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/cetrioli-snack/p11029707",
+   "sezioni": [
+    "lidl-plus",
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11029600",
+   "prodotto": "Ryneczek Lidla Patate Selenella",
+   "dettagli": "1 kg = 1.46 € · Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "1500g rete",
+   "prezzo": 2.19,
+   "prezzo_precedente": 2.99,
+   "sconto_pct": 26,
+   "prezzo_effettivo": 2.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 26
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/patate-selenella/p11029600",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11150925",
+   "prodotto": "Kiwi",
+   "dettagli": "Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "1 kg confezione",
+   "prezzo": 2.79,
+   "prezzo_precedente": 3.69,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 2.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 24
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/kiwi/p11150925",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11030058",
+   "prodotto": "Pere dell'Emilia Romagna IGP",
+   "dettagli": "1 kg = 2.98 € · Con Lidl Plus · Dal 05.11. al 08.11.",
+   "formato": "600 g confezione",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 28,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 28
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "05.11.",
+   "valido_al": "08.11.",
+   "url": "https://www.lidl.it/p/pere-dell-emilia-romagna-igp/p11030058",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11151069",
+   "prodotto": "Spinaci",
+   "dettagli": "1 kg = 2.98 € · Con Lidl Plus · Dal 05.11. al 08.11.",
+   "formato": "500 g confezione",
+   "prezzo": 1.49,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 1.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "05.11.",
+   "valido_al": "08.11.",
+   "url": "https://www.lidl.it/p/spinaci/p11151069",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11030106",
+   "prodotto": "Mele Fuji Alto Adige IGP",
+   "dettagli": "1 kg = 1.85 € · Con Lidl Plus · Dal 09.11. al 11.11.",
+   "formato": "750 g confezione",
+   "prezzo": 1.39,
+   "prezzo_precedente": 1.79,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 1.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "09.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/mele-fuji-alto-adige-igp/p11030106",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11151128",
+   "prodotto": "Finocchio",
+   "dettagli": "Con Lidl Plus · Dal 09.11. al 11.11.",
+   "formato": "Al kg",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "09.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/finocchio/p11151128",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11144368",
+   "prodotto": "Rio Mare Tonno all'olio d'oliva",
+   "dettagli": "1 kg = 10.96 €, 1 kg (sgocc.) = 16.86 € · Dal 02.11. al 11.11.",
+   "formato": "9x 80 g confezione, 9x 52 g (sgocc.) confezione",
+   "prezzo": 7.89,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 7.89,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Scorte alimentari / Conserve di carne e pesce",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/rio-mare-tonno-all-olio-d-oliva/p11144368",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11146529",
+   "prodotto": "Mutti Polpa di pomodoro",
+   "dettagli": "1 kg = 1.50 € · Dal 02.11. al 11.11.",
+   "formato": "3x 300 g confezione",
+   "prezzo": 1.35,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.35,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Scorte alimentari / Conserve di frutta e verdura",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/mutti-polpa-di-pomodoro/p11146529",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "12283144",
+   "prodotto": "Dash Detersivo liquido salva colore",
+   "dettagli": "1 l = 3.33 € · Dal 02.11. al 11.11.",
+   "formato": "3x 900 ml confezione",
+   "prezzo": 8.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 8.99,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Bilancio / Detersivi e prodotti per la cura del bucato",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/dash-detersivo-liquido-salva-colore/p12283144",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11149244",
+   "prodotto": "Granarolo Latte senza lattosio parzialmente scremato",
+   "dettagli": "Dal 02.11. al 11.11.",
+   "formato": "1000 ml bottiglia",
+   "prezzo": 0.89,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 0.89,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Latte e panna",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/granarolo-latte-senza-lattosio-parzialmente-scremato/p11149244",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11006688",
+   "prodotto": "Coca-Cola",
+   "dettagli": "1 l = 0.64 € · Dal 02.11. al 11.11.",
+   "formato": "4x 1.75 l confezione",
+   "prezzo": 4.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.49,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Bevande / Bevande analcoliche",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/coca-cola-coca-cola/p11006688",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11148250",
+   "prodotto": "Peroni Birra",
+   "dettagli": "1 l = 1.50 € · Dal 02.11. al 11.11.",
+   "formato": "2x 330 ml confezione",
+   "prezzo": 0.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 0.99,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Birra e sidro",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/peroni-birra/p11148250",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "12283079",
+   "prodotto": "Caffè Borbone Capsule caffè Miscela Decisa",
+   "dettagli": "1 capsula = 0.12 € · Dal 02.11. al 11.11.",
+   "formato": "120 capsule",
+   "prezzo": 14.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Caffè, tè e cacao",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/caffe-borbone-capsule-caffe-miscela-decisa/p12283079",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11147159",
+   "prodotto": "Valfrutta Succo di frutta",
+   "dettagli": "1 l = 1.16 € · Dal 02.11. al 11.11.",
+   "formato": "8x 200 ml confezione",
+   "prezzo": 1.85,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.85,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Bevande / Succhi di frutta",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/valfrutta-succo-di-frutta/p11147159",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11149206",
+   "prodotto": "Palmolive Bagnodoccia cremoso",
+   "dettagli": "1 l = 2.41 € · Dal 02.11. al 11.11.",
+   "formato": "2x 600 ml confezione",
+   "prezzo": 2.89,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.89,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Prodotti per la cura della persona / Cura del corpo e del viso",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/palmolive-bagnodoccia-cremoso/p11149206",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11149149",
+   "prodotto": "Wc Net Candeggina gel per WC",
+   "dettagli": "1 l = 1.78 € · Dal 02.11. al 11.11.",
+   "formato": "2x 700 ml confezione",
+   "prezzo": 2.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Bilancio / Detergenti",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/wc-net-candeggina-gel-per-wc/p11149149",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "12321535",
+   "prodotto": "Pantene Pro-V Shampoo",
+   "dettagli": "1 l = 6.50 € · Dal 02.11. al 11.11.",
+   "formato": "500 ml confezione",
+   "prezzo": 3.25,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.25,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Prodotti per la cura della persona / Cura dei capelli",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/pantene-pro-v-shampoo/p12321535",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11000197002",
+   "prodotto": "SWIFFER Swiffer (Dry ricariche panni catturapolvere)",
+   "dettagli": "Dal 02.11. al 11.11.",
+   "formato": "Alla confezione",
+   "prezzo": 8.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 8.49,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Bilancio / Detergenti",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/swiffer-swiffer/p11000197002",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11000197003",
+   "prodotto": "SWIFFER Swiffer (Duster piumini)",
+   "dettagli": "Dal 02.11. al 11.11.",
+   "formato": "Alla confezione",
+   "prezzo": 8.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 8.49,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Bilancio / Detergenti",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/swiffer-swiffer/p11000197003",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11145063",
+   "prodotto": "Felce Azzurra Ammorbidente classico",
+   "dettagli": "1 l = 0.87 € · Dal 02.11. al 11.11.",
+   "formato": "4x 3000 ml confezione",
+   "prezzo": 10.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 10.49,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Bilancio / Detersivi e prodotti per la cura del bucato",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/felce-azzurra-ammorbidente-classico/p11145063",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11149258",
+   "prodotto": "Omino Bianco Additivo igienizzante liquido",
+   "dettagli": "1 l = 1.25 € · Dal 02.11. al 11.11.",
+   "formato": "2x 2400 ml confezione",
+   "prezzo": 5.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 5.99,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Bilancio / Detersivi e prodotti per la cura del bucato",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/omino-bianco-additivo-igienizzante-liquido/p11149258",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11149262",
+   "prodotto": "Tenderly Kilometrica Carta igienica \"Save The Children\"",
+   "dettagli": "Dal 02.11. al 11.11.",
+   "formato": "Alla confezione",
+   "prezzo": 4.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.49,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Bilancio / Carta igienica",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/tenderly-kilometrica-carta-igienica-save-the-children/p11149262",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11151157",
    "prodotto": "Broccoli",
-   "dettagli": "Dal 5/11 · 1 kg = 1,98 €",
-   "formato": "500 g",
+   "dettagli": "1 kg = 1.98 € · Dal 05.11. al 11.11.",
+   "formato": "500 g confezione",
    "prezzo": 0.99,
    "prezzo_precedente": 1.69,
    "sconto_pct": 41,
@@ -452,12 +991,20 @@
     "valore": 41
    },
    "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/broccoli/p11151157",
+   "sezioni": [
+    "frutta-e-verdura"
+   ],
    "negozio": "Lidl"
   },
   {
+   "id": "11115702",
    "prodotto": "Arance",
-   "dettagli": "Dal 5/11 · 1 kg = 1,40 €",
-   "formato": "2 kg, rete",
+   "dettagli": "1 kg = 1.40 € · Dal 05.11. al 11.11.",
+   "formato": "2 kg rete",
    "prezzo": 2.79,
    "prezzo_precedente": 3.99,
    "sconto_pct": 30,
@@ -467,12 +1014,412 @@
     "valore": 30
    },
    "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/arance/p11115702",
+   "sezioni": [
+    "frutta-e-verdura"
+   ],
    "negozio": "Lidl"
   },
   {
-   "prodotto": "Salmone norvegese affumicato Deluxe, con pistacchio",
-   "dettagli": "1 kg = 32,90 €",
-   "formato": "100 g",
+   "id": "11141571",
+   "prodotto": "- Fusi di pollo",
+   "dettagli": "1 kg = 3.99 € · Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "800 g confezione",
+   "prezzo": 3.19,
+   "prezzo_precedente": 3.99,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 3.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/fusi-di-pollo/p11141571",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11139917",
+   "prodotto": "- Fesa di tacchino a fette",
+   "dettagli": "1 kg = 10.20 € · Dal 05.11. al 11.11.",
+   "formato": "450 g confezione",
+   "prezzo": 4.59,
+   "prezzo_precedente": 5.79,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 4.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/fesa-di-tacchino-a-fette/p11139917",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11141570",
+   "prodotto": "- Sovracosce di pollo",
+   "dettagli": "Dal 05.11. al 11.11.",
+   "formato": "1000 g confezione",
+   "prezzo": 3.99,
+   "prezzo_precedente": 5.19,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 3.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/sovracosce-di-pollo/p11141570",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11140224",
+   "prodotto": "- Pollo intero",
+   "dettagli": "1 kg = 3.12 € · Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "1150 g confezione",
+   "prezzo": 3.59,
+   "prezzo_precedente": 4.59,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 3.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/pollo-intero/p11140224",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11142514",
+   "prodotto": "Ferrero Rocher",
+   "dettagli": "1 kg = 29.31 €",
+   "formato": "375 g confezione",
+   "prezzo": 10.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 10.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / prodotti al cioccolato",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/ferrero-rocher/p11142514",
+   "sezioni": [
+    "grandi-marche-speciale-natale"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11142520",
+   "prodotto": "Pocket Coffee Classico",
+   "dettagli": "1 kg = 22.48 €",
+   "formato": "400 g confezione",
+   "prezzo": 8.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 8.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / prodotti al cioccolato",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/pocket-coffee-classico/p11142520",
+   "sezioni": [
+    "grandi-marche-speciale-natale"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11147964",
+   "prodotto": "Kinder Maxi Mix con peluche",
+   "dettagli": "1 kg = 82.63 €",
+   "formato": "133 g confezione",
+   "prezzo": 10.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 10.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Giocattoli",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/kinder-maxi-mix-con-peluche/p11147964",
+   "sezioni": [
+    "grandi-marche-speciale-natale"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11142515",
+   "prodotto": "Ferrero Prestige",
+   "dettagli": "1 kg = 40.61 €",
+   "formato": "246 g confezione",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Moda donna",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/ferrero-prestige/p11142515",
+   "sezioni": [
+    "grandi-marche-speciale-natale"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11142812",
+   "prodotto": "- Sottilissime di lonza di suino",
+   "dettagli": "1 kg = 6.76 € · Dal 05.11. al 08.11.",
+   "formato": "250 g confezione",
+   "prezzo": 1.69,
+   "prezzo_precedente": 2.55,
+   "sconto_pct": 33,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 33
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Carne di maiale",
+   "valido_dal": "05.11.",
+   "valido_al": "08.11.",
+   "url": "https://www.lidl.it/p/sottilissime-di-lonza-di-suino/p11142812",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11141664",
+   "prodotto": "Dal Salumiere Speck light",
+   "dettagli": "1 kg = 18.63 € · Dal 05.11. al 08.11.",
+   "formato": "80 g confezione",
+   "prezzo": 1.49,
+   "prezzo_precedente": 2.19,
+   "sconto_pct": 31,
+   "prezzo_effettivo": 1.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 31
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Salumi e affettati",
+   "valido_dal": "05.11.",
+   "valido_al": "08.11.",
+   "url": "https://www.lidl.it/p/dal-salumiere-speck-light/p11141664",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11040794",
+   "prodotto": "Milbona Scamorza",
+   "dettagli": "1 kg = 5.63 € · Dal 05.11. al 08.11.",
+   "formato": "300 g confezione",
+   "prezzo": 1.69,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 32,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 32
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Formaggio",
+   "valido_dal": "05.11.",
+   "valido_al": "08.11.",
+   "url": "https://www.lidl.it/p/milbona-scamorza/p11040794",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11031076",
+   "prodotto": "Chef Select Pinsa alla romana",
+   "dettagli": "1 kg = 5.00 € · Dal 05.11. al 08.11.",
+   "formato": "230 g confezione",
+   "prezzo": 1.15,
+   "prezzo_precedente": 1.69,
+   "sconto_pct": 31,
+   "prezzo_effettivo": 1.15,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 31
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Piatti pronti refrigerati",
+   "valido_dal": "05.11.",
+   "valido_al": "08.11.",
+   "url": "https://www.lidl.it/p/chef-select-pinsa-alla-romana/p11031076",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11038969",
+   "prodotto": "Antichi Maestri Grana Padano DOP",
+   "dettagli": "1 kg = 14.60 € · Dal 05.11. al 11.11.",
+   "formato": "150 g confezione",
+   "prezzo": 2.19,
+   "prezzo_precedente": 2.89,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 2.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 24
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Formaggio",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/antichi-maestri-grana-padano-dop/p11038969",
+   "sezioni": [
+    "super-offerte"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11003872",
+   "prodotto": "Alesto Frutta secca",
+   "dettagli": "1 kg = 14.95€ · Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "Con Lidl Plus",
+   "prezzo": 2.99,
+   "prezzo_precedente": 3.49,
+   "sconto_pct": 14,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 14
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/alesto-frutta-secca/p11003872",
+   "sezioni": [
+    "super-offerte",
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11146907",
+   "prodotto": "Gastronomia Di Mare Filetti di alici marinate",
+   "dettagli": "1 kg (sgocc.) = 15.50 € · Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "180 g (sgocc.) confezione",
+   "prezzo": 2.79,
+   "prezzo_precedente": 3.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 2.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Pesce e frutti di mare",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/gastronomia-di-mare-filetti-di-alici-marinate/p11146907",
+   "sezioni": [
+    "super-offerte"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11147485",
+   "prodotto": "Dal Salumiere Spalla cotta",
+   "dettagli": "1 kg = 7.93 € · Dal 05.11. al 11.11.",
+   "formato": "150 g confezione",
+   "prezzo": 1.19,
+   "prezzo_precedente": 1.55,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 1.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Salumi e affettati",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/dal-salumiere-spalla-cotta/p11147485",
+   "sezioni": [
+    "super-offerte"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11007016",
+   "prodotto": "Carefree Salvaslip",
+   "dettagli": "Dal 05.11. al 11.11.",
+   "formato": "Alla confezione",
+   "prezzo": 2.29,
+   "prezzo_precedente": 2.99,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 2.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Prodotti per la cura della persona / Igiene femminile e dei neonati",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/carefree-salvaslip/p11007016",
+   "sezioni": [
+    "super-offerte"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11146101",
+   "prodotto": "Deluxe Salmone norvegese affumicato con pistacchio",
+   "dettagli": "1 kg = 32.90 €",
+   "formato": "100 g confezione",
    "prezzo": 3.29,
    "prezzo_precedente": 4.29,
    "sconto_pct": 23,
@@ -482,78 +1429,1972 @@
     "valore": 23
    },
    "scade_prima": null,
+   "categoria": "Pesce e frutti di mare",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-salmone-norvegese-affumicato-con-pistacchio/p11146101",
+   "sezioni": [
+    "deluxe"
+   ],
    "negozio": "Lidl"
   },
   {
-   "prodotto": "Pistacchi californiani Alesto, tostati",
-   "dettagli": "Con Lidl Plus · 1 kg = 13,00 €",
-   "formato": "250 g",
-   "prezzo": 3.25,
-   "prezzo_precedente": 4.25,
-   "sconto_pct": 23,
-   "prezzo_effettivo": 3.25,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 23
-   },
-   "scade_prima": "08.11.",
-   "negozio": "Lidl"
-  },
-  {
-   "prodotto": "Tonno Rio Mare all'olio d'oliva",
-   "dettagli": "Pescato a canna · 1 kg = 10,96 €",
-   "formato": "9 × 80 g",
-   "prezzo": 7.89,
+   "id": "11526064",
+   "prodotto": "Deluxe Pizza con porcini e tartufo",
+   "dettagli": "1 kg = 8.89 €",
+   "formato": "325 g confezione",
+   "prezzo": 2.89,
    "prezzo_precedente": null,
    "sconto_pct": null,
-   "prezzo_effettivo": 7.89,
-   "promo": {
-    "tipo": "sottocosto"
-   },
-   "scade_prima": null,
-   "negozio": "Lidl"
-  },
-  {
-   "prodotto": "Mutti polpa di pomodoro",
-   "dettagli": "1 kg = 1,50 €",
-   "formato": "3 × 300 g",
-   "prezzo": 1.35,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 1.35,
-   "promo": {
-    "tipo": "sottocosto"
-   },
-   "scade_prima": null,
-   "negozio": "Lidl"
-  },
-  {
-   "prodotto": "Dash detersivo liquido",
-   "dettagli": "1 l = 3,33 €",
-   "formato": "3 × 900 ml",
-   "prezzo": 8.99,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 8.99,
-   "promo": {
-    "tipo": "sottocosto"
-   },
-   "scade_prima": null,
-   "negozio": "Lidl"
-  },
-  {
-   "prodotto": "Cavolo rosso",
-   "dettagli": "Dal 5/11",
-   "formato": "al kg",
-   "prezzo": 0.98,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 0.98,
+   "prezzo_effettivo": 2.89,
    "promo": {
     "tipo": "altro",
     "testo": ""
    },
    "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Pizza e snack surgelati",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-pizza-con-porcini-e-tartufo/p11526064",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11006770",
+   "prodotto": "Deluxe Jamón Serrano Gran Reserva",
+   "dettagli": "1 kg = 28.43 €",
+   "formato": "70 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Salumi e affettati",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-jamon-serrano-gran-reserva/p11006770",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11008543",
+   "prodotto": "Deluxe Camembert",
+   "dettagli": "1 kg = 10.76 €",
+   "formato": "250 g confezione",
+   "prezzo": 2.69,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.69,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Formaggio",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-camembert/p11008543",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11142386",
+   "prodotto": "Deluxe Prosciutto di Parma DOP",
+   "dettagli": "1 kg = 33.27 €",
+   "formato": "150 g confezione",
+   "prezzo": 4.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Salumi e affettati",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-prosciutto-di-parma-dop/p11142386",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11031191",
+   "prodotto": "Deluxe Panzerotti ripieni",
+   "dettagli": "1 kg = 7.16 €",
+   "formato": "250 g confezione",
+   "prezzo": 1.79,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Pasta fresca e impasti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-panzerotti-ripieni/p11031191",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11146905",
+   "prodotto": "Deluxe Salmone norvegese alle 4 bacche",
+   "dettagli": "1 kg = 42.90 €",
+   "formato": "100 g confezione",
+   "prezzo": 4.29,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.29,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Pesce e frutti di mare",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-salmone-norvegese-alle-4-bacche/p11146905",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11143431",
+   "prodotto": "Deluxe Orecchiette al grano arso",
+   "dettagli": "1 kg = 3.23 €",
+   "formato": "400 g confezione",
+   "prezzo": 1.29,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.29,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Scorte alimentari / Riso, pasta e legumi",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-orecchiette-al-grano-arso/p11143431",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11147611",
+   "prodotto": "Deluxe Pesto al tonno con pistacchi e limone",
+   "dettagli": "1 kg = 10.47 €",
+   "formato": "190 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Oli, spezie e salse / Salse e condimenti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-pesto-al-tonno-con-pistacchi-e-limone/p11147611",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11144353",
+   "prodotto": "Deluxe Tartufi d'estate",
+   "dettagli": "100 g (sgocc.) = 27.72 €",
+   "formato": "18 g (sgocc.) confezione",
+   "prezzo": 4.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Oli, spezie e salse / Salse e condimenti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-tartufi-d-estate/p11144353",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11147360",
+   "prodotto": "Florentine",
+   "dettagli": "1 kg = 16.58 €",
+   "formato": "120 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Strumenti a batteria",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/florentine/p11147360",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11145350",
+   "prodotto": "Frutta secca pralinata",
+   "dettagli": "1 kg = 11.95 €",
+   "formato": "200 g confezione",
+   "prezzo": 2.39,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.39,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Frutta secca e noci",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/frutta-secca-pralinata/p11145350",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11142434",
+   "prodotto": "Deluxe Misto funghi con porcini e speck",
+   "dettagli": "1 kg = 7.11 €",
+   "formato": "350 g confezione",
+   "prezzo": 2.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Frutta e verdura surgelata",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-misto-funghi-con-porcini-e-speck/p11142434",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11100481",
+   "prodotto": "Deluxe Crème Brûlée",
+   "dettagli": "1 kg = 9.95 €",
+   "formato": "2x 100 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Dolci",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-creme-brulee/p11100481",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11140100",
+   "prodotto": "Deluxe Barretta croccante",
+   "dettagli": "1 kg = 14.90 €",
+   "formato": "100 g confezione",
+   "prezzo": 1.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-barretta-croccante/p11140100",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11146937",
+   "prodotto": "Deluxe Soufflè al cioccolato al cioccolato fondente con ripieno al pistacchio",
+   "dettagli": "1 kg = 12.45 €",
+   "formato": "2x 100 g confezione",
+   "prezzo": 2.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Pizza e snack surgelati",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-souffle-al-cioccolato-al-cioccolato-fondente-con-ripieno-al-pistacchio/p11146937",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11151501",
+   "prodotto": "Favorina Stollen con marzapane",
+   "dettagli": "1 kg = 4.65 € · Dal 05.11. al 11.11.",
+   "formato": "750 g confezione",
+   "prezzo": 3.49,
+   "prezzo_precedente": 4.49,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 3.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Panificio / Toast e prodotti da forno a lunga conservazione",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/favorina-stollen-con-marzapane/p11151501",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11147300",
+   "prodotto": "Favorina Marrons glacés in pezzi",
+   "dettagli": "1 kg = 11.96 € · Dal 05.11. al 11.11.",
+   "formato": "250 g confezione",
+   "prezzo": 2.99,
+   "prezzo_precedente": 3.79,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/favorina-marrons-glaces-in-pezzi/p11147300",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11661903",
+   "prodotto": "Favorina Praline al cioccolato al latte con caramello salato",
+   "dettagli": "1 kg = 9.95 €",
+   "formato": "200 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / prodotti al cioccolato",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/favorina-praline-al-cioccolato-al-latte-con-caramello-salato/p11661903",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11142344",
+   "prodotto": "Favorina Torroncini friabili alle mandorle e miele",
+   "dettagli": "1 kg = 10.95 €",
+   "formato": "200 g confezione",
+   "prezzo": 2.19,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.19,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/favorina-torroncini-friabili-alle-mandorle-e-miele/p11142344",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11000887",
+   "prodotto": "Eridanous Kalamaki",
+   "dettagli": "1 kg = 11.88 €",
+   "formato": "420 g confezione",
+   "prezzo": 4.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Carne e pollame surgelati",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/eridanous-kalamaki/p11000887",
+   "sezioni": [
+    "eridanous-lo-stile-greco-a-tavola"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11001917",
+   "prodotto": "Eridanous Polpette di carne",
+   "dettagli": "1 kg = 9.96 €",
+   "formato": "280 g confezione",
+   "prezzo": 2.79,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.79,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Salumi e affettati",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/eridanous-polpette-di-carne/p11001917",
+   "sezioni": [
+    "eridanous-lo-stile-greco-a-tavola"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11003545",
+   "prodotto": "Eridanous Feta DOP in salamoia",
+   "dettagli": "1 kg (sgocc.) = 13.73 €",
+   "formato": "400 g (sgocc.) conf.",
+   "prezzo": 5.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 5.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Formaggio",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/eridanous-feta-dop-in-salamoia/p11003545",
+   "sezioni": [
+    "eridanous-lo-stile-greco-a-tavola"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11235490",
+   "prodotto": "Eridanous Börek con semi di sesamo",
+   "dettagli": "1 kg = 6.24 €",
+   "formato": "800 g confezione",
+   "prezzo": 4.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Pizza e snack surgelati",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/eridanous-borek-con-semi-di-sesamo/p11235490",
+   "sezioni": [
+    "eridanous-lo-stile-greco-a-tavola"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11026548",
+   "prodotto": "Eridanous Peperoncini farciti",
+   "dettagli": "1 kg (sgocc.) = 16.60 €",
+   "formato": "150 g (sgocc.) conf.",
+   "prezzo": 2.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Oli, spezie e salse / Salse e condimenti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/eridanous-peperoncini-farciti/p11026548",
+   "sezioni": [
+    "eridanous-lo-stile-greco-a-tavola"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11151149",
+   "prodotto": "Zucca Butternut",
+   "dettagli": "Con Lidl Plus · Dal 12.11. al 15.11.",
+   "formato": "Al kg",
+   "prezzo": 1.11,
+   "prezzo_precedente": 1.49,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 1.11,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "12.11.",
+   "valido_al": "15.11.",
+   "url": "https://www.lidl.it/p/zucca-butternut/p11151149",
+   "sezioni": [
+    "lidl-plus",
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11029594",
+   "prodotto": "Patate",
+   "dettagli": "1 kg = 0.75 € · Con Lidl Plus · Dal 16.11. al 18.11.",
+   "formato": "4 kg confezione",
+   "prezzo": 2.99,
+   "prezzo_precedente": 3.99,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "16.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/patate/p11029594",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11150788",
+   "prodotto": "Arance",
+   "dettagli": "1 kg = 1.10 € · Con Lidl Plus · Dal 16.11. al 18.11.",
+   "formato": "3 kg rete",
+   "prezzo": 3.29,
+   "prezzo_precedente": 4.49,
+   "sconto_pct": 26,
+   "prezzo_effettivo": 3.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 26
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "16.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/arance/p11150788",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11150773",
+   "prodotto": "Pompelmo",
+   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "Sfuso al kg",
+   "prezzo": 1.55,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 1.55,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/pompelmo/p11150773",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11151055",
+   "prodotto": "Cetrioli lunghi",
+   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "Al pezzo",
+   "prezzo": 0.95,
+   "prezzo_precedente": 1.19,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 0.95,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/cetrioli-lunghi/p11151055",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11029915",
+   "prodotto": "Pere Abate",
+   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "Sfuso al kg",
+   "prezzo": 2.79,
+   "prezzo_precedente": 3.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 2.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/pere-abate/p11029915",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11029953",
+   "prodotto": "Susine",
+   "dettagli": "Con Lidl Plus · Dal 16.11. al 18.11.",
+   "formato": "Sfuse al kg",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.29,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "16.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/susine/p11029953",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11145649",
+   "prodotto": "- Picanha di bovino adulto scottona",
+   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "Al kg",
+   "prezzo": 19.99,
+   "prezzo_precedente": 22.99,
+   "sconto_pct": 13,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 13
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Carne di manzo",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/picanha-di-bovino-adulto-scottona/p11145649",
+   "sezioni": [
+    "lidl-plus",
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11141688",
+   "prodotto": "Salumeo Bastone di salame",
+   "dettagli": "1 kg = 7.96 € · Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "250 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Salumi e affettati",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/salumeo-bastone-di-salame/p11141688",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11141625",
+   "prodotto": "Certossa Pane per tramezzini",
+   "dettagli": "1 kg = 3.17 € · Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "350 g confezione",
+   "prezzo": 1.11,
+   "prezzo_precedente": 1.65,
+   "sconto_pct": 32,
+   "prezzo_effettivo": 1.11,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 32
+   },
+   "scade_prima": null,
+   "categoria": "Panificio / Toast e prodotti da forno a lunga conservazione",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/certossa-pane-per-tramezzini/p11141625",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11146405",
+   "prodotto": "Italiamo Stick di guanciale",
+   "dettagli": "1 kg = 11.27 € · Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "2x 75 g confezione",
+   "prezzo": 1.69,
+   "prezzo_precedente": 2.19,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Salumi e affettati",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/italiamo-stick-di-guanciale/p11146405",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11031151",
+   "prodotto": "Italiamo Pecorino Romano DOP",
+   "dettagli": "1 kg = 13.45 € · Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "200 g confezione",
+   "prezzo": 2.69,
+   "prezzo_precedente": 3.49,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 2.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Formaggio",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/italiamo-pecorino-romano-dop/p11031151",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11143258",
+   "prodotto": "Taverna Giuseppe Pizza Margherita",
+   "dettagli": "1 kg = 3.53 € · Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "3x 320 g confezione",
+   "prezzo": 3.39,
+   "prezzo_precedente": 4.35,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 3.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Pizza e snack surgelati",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/taverna-giuseppe-pizza-margherita/p11143258",
+   "sezioni": [
+    "lidl-plus",
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11500155",
+   "prodotto": "Voiello Pasta",
+   "dettagli": "1 kg = 1.98 € · Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "500 g confezione",
+   "prezzo": 0.99,
+   "prezzo_precedente": 1.39,
+   "sconto_pct": 28,
+   "prezzo_effettivo": 0.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 28
+   },
+   "scade_prima": null,
+   "categoria": "Scorte alimentari / Riso, pasta e legumi",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/voiello-pasta/p11500155",
+   "sezioni": [
+    "lidl-plus",
+    "grandi-marche"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11141165",
+   "prodotto": "Select & Go Tramezzini",
+   "dettagli": "1 kg = 7.93 € · Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "140 g confezione",
+   "prezzo": 1.11,
+   "prezzo_precedente": 1.39,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.11,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Piatti pronti refrigerati",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/select-go-tramezzini/p11141165",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11140221",
+   "prodotto": "- Petto di pollo intero",
+   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "Al kg",
+   "prezzo": 5.99,
+   "prezzo_precedente": 7.99,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 5.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/petto-di-pollo-intero/p11140221",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11140008",
+   "prodotto": "Favorina Panettone classico",
+   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "1 kg confezione",
+   "prezzo": 3.29,
+   "prezzo_precedente": 4.29,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 3.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/favorina-panettone-classico/p11140008",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11141572",
+   "prodotto": "Favorina Panettone senza canditi",
+   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "1 kg confezione",
+   "prezzo": 3.29,
+   "prezzo_precedente": 4.29,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 3.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/favorina-panettone-senza-canditi/p11141572",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11137671",
+   "prodotto": "Ocean Sea Anelli di totano in pastella",
+   "dettagli": "1 kg = 4.78 € · Dal 12.11. al 18.11.",
+   "formato": "500 g confezione",
+   "prezzo": 2.39,
+   "prezzo_precedente": 2.99,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 2.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Pesce e frutti di mare surgelati",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/ocean-sea-anelli-di-totano-in-pastella/p11137671",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11140757",
+   "prodotto": "Freshona Erbette campagnole",
+   "dettagli": "1 kg = 2.11 € · Dal 12.11. al 18.11.",
+   "formato": "450 g confezione",
+   "prezzo": 0.95,
+   "prezzo_precedente": 1.19,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 0.95,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Frutta e verdura surgelata",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/freshona-erbette-campagnole/p11140757",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11534539",
+   "prodotto": "Chef Select Olive verdi giganti",
+   "dettagli": "1 kg = 4.98 € · Dal 12.11. al 18.11.",
+   "formato": "400 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Insalate, frutta e antipasti da asporto",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/chef-select-olive-verdi-giganti/p11534539",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11140265",
+   "prodotto": "Snack Day Cornetti di mais al formaggio",
+   "dettagli": "1 kg = 3.75 € · Dal 12.11. al 18.11.",
+   "formato": "200 g confezione",
+   "prezzo": 0.75,
+   "prezzo_precedente": 0.95,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 0.75,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Prodotti per la cura della persona / Igiene femminile e dei neonati",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/snack-day-cornetti-di-mais-al-formaggio/p11140265",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11006798",
+   "prodotto": "- Donut al gusto di fragola e marshmallow",
+   "dettagli": "1 kg = 11.61 € · Dal 12.11. al 18.11.",
+   "formato": "56 g confezione",
+   "prezzo": 0.65,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 0.65,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Panificio / Pasticcini",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/donut-al-gusto-di-fragola-e-marshmallow/p11006798",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11149170",
+   "prodotto": "Latteria Latte parzialmente scremato XXL",
+   "dettagli": "1 l = 1.19/0.78 € · Dal 12.11. al 18.11.",
+   "formato": "6x 1 l confezione",
+   "prezzo": 4.69,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.69,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Latte e panna",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/latteria-latte-parzialmente-scremato-xxl/p11149170",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11151557",
+   "prodotto": "Bellarom Caffè macinato Rosso",
+   "dettagli": "1 kg = 9.96 € · Dal 12.11. al 18.11.",
+   "formato": "250 g confezione",
+   "prezzo": 2.49,
+   "prezzo_precedente": 3.29,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 24
+   },
+   "scade_prima": null,
+   "categoria": "Caffè, tè e cacao",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/bellarom-caffe-macinato-rosso/p11151557",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11315779",
+   "prodotto": "Maia 24 uova fresche medie",
+   "dettagli": "1 uovo = 0.21 € · Dal 12.11. al 18.11.",
+   "formato": "Alla confezione",
+   "prezzo": 4.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Uova",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/maia-24-uova-fresche-medie/p11315779",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11151153",
+   "prodotto": "Qualité Suisse Cavolfiore",
+   "dettagli": "Dal 12.11. al 18.11.",
+   "formato": "Al kg",
+   "prezzo": 1.29,
+   "prezzo_precedente": 1.89,
+   "sconto_pct": 31,
+   "prezzo_effettivo": 1.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 31
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/cavolfiore/p11151153",
+   "sezioni": [
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11029927",
+   "prodotto": "Castagne",
+   "dettagli": "1 kg = 3.50 € · Dal 12.11. al 15.11.",
+   "formato": "2 kg rete",
+   "prezzo": 6.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 6.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": "12.11.",
+   "valido_al": "15.11.",
+   "url": "https://www.lidl.it/p/castagne/p11029927",
+   "sezioni": [
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11150820",
+   "prodotto": "Mele Gala Alto Adige/ del Trentino IGP",
+   "dettagli": "1 kg = 1.10 € · Dal 12.11. al 15.11.",
+   "formato": "2 kg confezione",
+   "prezzo": 2.19,
+   "prezzo_precedente": 2.99,
+   "sconto_pct": 26,
+   "prezzo_effettivo": 2.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 26
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "12.11.",
+   "valido_al": "15.11.",
+   "url": "https://www.lidl.it/p/mele-gala-alto-adige-del-trentino-igp/p11150820",
+   "sezioni": [
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11140037",
+   "prodotto": "- Fettine di lonza di suino",
+   "dettagli": "1 kg = 7.48 € · Dal 12.11. al 18.11.",
+   "formato": "400 g confezione",
+   "prezzo": 2.99,
+   "prezzo_precedente": 3.79,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Carne di maiale",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/fettine-di-lonza-di-suino/p11140037",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11141726",
+   "prodotto": "- Fettine di vitello",
+   "dettagli": "Dal 12.11. al 18.11.",
+   "formato": "Al kg",
+   "prezzo": 18.99,
+   "prezzo_precedente": 20.99,
+   "sconto_pct": 10,
+   "prezzo_effettivo": 18.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 10
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Carne di manzo",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/fettine-di-vitello/p11141726",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11143816",
+   "prodotto": "- Tagliata di petto di pollo",
+   "dettagli": "1 kg = 9.11 € · Dal 12.11. al 18.11.",
+   "formato": "350 g confezione",
+   "prezzo": 3.19,
+   "prezzo_precedente": 3.99,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 3.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/tagliata-di-petto-di-pollo/p11143816",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11140011",
+   "prodotto": "- Salsiccia di suino alla mantovana",
+   "dettagli": "1 kg = 6.63 € · Dal 12.11. al 15.11.",
+   "formato": "300 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.99,
+   "sconto_pct": 33,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 33
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Carne di maiale",
+   "valido_dal": "12.11.",
+   "valido_al": "15.11.",
+   "url": "https://www.lidl.it/p/salsiccia-di-suino-alla-mantovana/p11140011",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11143894",
+   "prodotto": "Dal Salumiere Affettato di manzo",
+   "dettagli": "1 kg = 22.53 € · Dal 12.11. al 15.11.",
+   "formato": "75 g confezione",
+   "prezzo": 1.69,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 32,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 32
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Salumi e affettati",
+   "valido_dal": "12.11.",
+   "valido_al": "15.11.",
+   "url": "https://www.lidl.it/p/dal-salumiere-affettato-di-manzo/p11143894",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11024577",
+   "prodotto": "Milbona Formaggio grattugiato",
+   "dettagli": "1 kg = 5.96 € · Dal 12.11. al 15.11.",
+   "formato": "250 g confezione",
+   "prezzo": 1.49,
+   "prezzo_precedente": 2.99,
+   "sconto_pct": 50,
+   "prezzo_effettivo": 1.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 50
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Formaggio",
+   "valido_dal": "12.11.",
+   "valido_al": "15.11.",
+   "url": "https://www.lidl.it/p/milbona-formaggio-grattugiato/p11024577",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11007282",
+   "prodotto": "Philadelphia",
+   "dettagli": "1 kg = 7.68 € · Dal 12.11. al 15.11.",
+   "formato": "220 g confezione",
+   "prezzo": 1.69,
+   "prezzo_precedente": 2.35,
+   "sconto_pct": 28,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 28
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Formaggio",
+   "valido_dal": "12.11.",
+   "valido_al": "15.11.",
+   "url": "https://www.lidl.it/p/philadelphia-philadelphia/p11007282",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11146873",
+   "prodotto": "Aia Aequilibrium Petto di tacchino",
+   "dettagli": "1 kg = 14.74 € · Dal 12.11. al 18.11.",
+   "formato": "135 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.89,
+   "sconto_pct": 31,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 31
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Salumi e affettati",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/aia-aequilibrium-petto-di-tacchino/p11146873",
+   "sezioni": [
+    "grandi-marche"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "12178750",
+   "prodotto": "Ferrari Grana Padano",
+   "dettagli": "1 kg = 18.60 € · Dal 12.11. al 18.11.",
+   "formato": "150 g confezione",
+   "prezzo": 2.79,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.79,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Formaggio",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/ferrari-grana-padano/p12178750",
+   "sezioni": [
+    "grandi-marche"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11031226",
+   "prodotto": "Star Pesto Tigullio",
+   "dettagli": "1 kg = 9.68 € · Dal 12.11. al 18.11.",
+   "formato": "185 g confezione",
+   "prezzo": 1.79,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Oli, spezie e salse / Salse e condimenti",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/star-pesto-tigullio/p11031226",
+   "sezioni": [
+    "grandi-marche"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11811769",
+   "prodotto": "Chanteclair Detersivo lavatrice al muschio bianco",
+   "dettagli": "1 l = 1.82 € · Dal 12.11. al 18.11.",
+   "formato": "3.3 l flacone",
+   "prezzo": 5.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 5.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Bilancio / Detersivi e prodotti per la cura del bucato",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/chanteclair-detersivo-lavatrice-al-muschio-bianco/p11811769",
+   "sezioni": [
+    "grandi-marche"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11007414",
+   "prodotto": "Sunsilk Shampoo o balsamo",
+   "dettagli": "1 l = 13.83/9.96 € · Dal 12.11. al 18.11.",
+   "formato": "180/250 ml confezione",
+   "prezzo": 2.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Prodotti per la cura della persona / Cura dei capelli",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/sunsilk-shampoo-o-balsamo/p11007414",
+   "sezioni": [
+    "grandi-marche"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11141415",
+   "prodotto": "Chilly Detergente intimo",
+   "dettagli": "1 l = 11.30 € · Dal 12.11. al 18.11.",
+   "formato": "300 ml confezione",
+   "prezzo": 3.39,
+   "prezzo_precedente": 4.89,
+   "sconto_pct": 30,
+   "prezzo_effettivo": 3.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 30
+   },
+   "scade_prima": null,
+   "categoria": "Prodotti per la cura della persona / Cura del corpo e del viso",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/chilly-detergente-intimo/p11141415",
+   "sezioni": [
+    "grandi-marche"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11147500",
+   "prodotto": "Ace Candeggina Gentile",
+   "dettagli": "1 l = 1.13 € · Dal 12.11. al 18.11.",
+   "formato": "3.1 l flacone",
+   "prezzo": 3.49,
+   "prezzo_precedente": 4.99,
+   "sconto_pct": 30,
+   "prezzo_effettivo": 3.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 30
+   },
+   "scade_prima": null,
+   "categoria": "Bilancio / Detersivi e prodotti per la cura del bucato",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/ace-candeggina-gentile/p11147500",
+   "sezioni": [
+    "grandi-marche"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11149261",
+   "prodotto": "Bauli Pandoro panna e cioccolato",
+   "dettagli": "1 kg = 9.32 €",
+   "formato": "750 g confezione",
+   "prezzo": 6.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 6.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Panificio / Pasticcini",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/bauli-pandoro-panna-e-cioccolato/p11149261",
+   "sezioni": [
+    "grandi-marche"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11142517",
+   "prodotto": "Ferrero Collection",
+   "dettagli": "1 kg = 40.64 €",
+   "formato": "172 g confezione",
+   "prezzo": 6.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 6.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Moda donna",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/ferrero-collection/p11142517",
+   "sezioni": [
+    "grandi-marche"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "12283690",
+   "prodotto": "Bergi Strenna \"Natale Italiano\"",
+   "dettagli": null,
+   "formato": "Alla confezione",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Champagne, spumante & Co. / Prosecco",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/bergi-strenna-natale-italiano/p12283690",
+   "sezioni": [
+    "grandi-marche"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11149259",
+   "prodotto": "Bauli Free Pandoro senza lattosio",
+   "dettagli": "1 kg = 9.84 €",
+   "formato": "700 g confezione",
+   "prezzo": 6.89,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 6.89,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Panificio / Pasticcini",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/bauli-free-pandoro-senza-lattosio/p11149259",
+   "sezioni": [
+    "grandi-marche"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11039827",
+   "prodotto": "Deluxe Formaggio Mature Blue Stilton DOP",
+   "dettagli": "1 kg = 31.07 €",
+   "formato": "225 g confezione",
+   "prezzo": 6.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 6.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Formaggio",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-formaggio-mature-blue-stilton-dop/p11039827",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11145804",
+   "prodotto": "Deluxe Culurgiones ai funghi porcini, patate e pecorino",
+   "dettagli": "1 kg = 6.63 €",
+   "formato": "300 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Pasta fresca e impasti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-culurgiones-ai-funghi-porcini-patate-e-pecorino/p11145804",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11146384",
+   "prodotto": "Deluxe Gnocchi di patate con zucca e amaretto",
+   "dettagli": "1 kg = 4.23 €",
+   "formato": "400 g confezione",
+   "prezzo": 1.69,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Pasta fresca e impasti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-gnocchi-di-patate-con-zucca-e-amaretto/p11146384",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11147602",
+   "prodotto": "Deluxe Ravioli alla zucca e castagne",
+   "dettagli": "1 kg = 7.16 €",
+   "formato": "250 g confezione",
+   "prezzo": 1.79,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Pasta fresca e impasti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-ravioli-alla-zucca-e-castagne/p11147602",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11525799",
+   "prodotto": "Deluxe Cannoli assortiti",
+   "dettagli": "1 kg = 14.54 €",
+   "formato": "240 g confezione",
+   "prezzo": 3.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Pesce e frutti di mare surgelati",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-cannoli-assortiti/p11525799",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11149135",
+   "prodotto": "Deluxe Crema alle nocciole",
+   "dettagli": "1 kg = 13.11 €",
+   "formato": "190 g confezione",
+   "prezzo": 2.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Muesli e creme spalmabili / Marmellate, creme spalmabili e miele",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-crema-alle-nocciole/p11149135",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11148185",
+   "prodotto": "Deluxe Tartufi di cioccolato bianco con nocciole",
+   "dettagli": "1 kg = 16.61 €",
+   "formato": "180 g confezione",
+   "prezzo": 2.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / prodotti al cioccolato",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-tartufi-di-cioccolato-bianco-con-nocciole/p11148185",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11039878",
+   "prodotto": "Deluxe Datteri Medjoul",
+   "dettagli": null,
+   "formato": "1 kg confezione",
+   "prezzo": 7.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-datteri-medjoul/p11039878",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11141043",
+   "prodotto": "Deluxe Croccante",
+   "dettagli": "1 kg = 14.21 €",
+   "formato": "140 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Snack salati",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-croccante/p11141043",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11142524",
+   "prodotto": "Deluxe Cesto natalizio con panettone",
+   "dettagli": null,
+   "formato": "Alla confezione",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-cesto-natalizio-con-panettone/p11142524",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11001812",
+   "prodotto": "Favorina Biscotti speziati",
+   "dettagli": "1 kg = 3.32 €",
+   "formato": "600 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/favorina-biscotti-speziati/p11001812",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11029360",
+   "prodotto": "Favorina Biscotti al cioccolato",
+   "dettagli": "1 kg = 14.60 €",
+   "formato": "150 g confezione",
+   "prezzo": 2.19,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.19,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/favorina-biscotti-al-cioccolato/p11029360",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11000943",
+   "prodotto": "Favorina Frutta secca",
+   "dettagli": "1 kg = 14.95 €",
+   "formato": "200 g confezione",
+   "prezzo": 2.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Frutta secca e noci",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/favorina-frutta-secca/p11000943",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl"
+  },
+  {
+   "id": "11000041",
+   "prodotto": "Favorina Giochino in legno con caramelle gommose e cioccolato al latte",
+   "dettagli": null,
+   "formato": "Alla confezione",
+   "prezzo": 5.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 5.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Giocattoli",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/favorina-giochino-in-legno-con-caramelle-gommose-e-cioccolato-al-latte/p11000041",
+   "sezioni": [
+    "favorina"
+   ],
    "negozio": "Lidl"
   }
  ]
