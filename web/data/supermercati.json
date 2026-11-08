@@ -42,7 +42,7 @@
  {
   "nome": "Lidl",
   "negozio": "Varna",
-  "fonte": "Volantino (inserito a mano, prova)",
+  "fonte": "Volantini trovati in automatico, offerte lette a mano (prova)",
   "frequenza": "ogni settimana, il lunedì",
   "attivo": true,
   "ini": "LI",

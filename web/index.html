@@ -19,13 +19,15 @@ h1{margin:0;font-size:26px}.mu{color:#5C5A52;font-size:13px;margin:4px 0 0}
 #tabs{position:fixed;left:0;right:0;bottom:0;display:flex;background:#fff;border-top:1px solid #E4E1D6;padding-bottom:env(safe-area-inset-bottom)}
 #tabs a{flex:1;min-height:56px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:12px;color:#5C5A52;text-decoration:none}
 #tabs a[aria-current=page]{color:#1F6B4A;font-weight:700}
+.lnk{min-height:44px;box-sizing:border-box;display:inline-flex;align-items:center;padding:0 14px;border-radius:10px;border:1px solid #C9C6B8;background:#fff;color:#1B1B18;font-size:14px;font-weight:600;text-decoration:none}
 </style></head><body><main>
 <section id="v-offerte"><div><h1>Offerte della settimana</h1><p class="mu" id="agg">Caricamento…</p></div>
 <div id="chips" role="group" aria-label="Categorie"></div>
 <div id="list" style="display:flex;flex-direction:column;gap:12px"></div></section>
 <section id="v-volantini" hidden><div><h1>Volantini</h1><p class="mu">Letti in automatico, nessuna azione richiesta</p></div>
 <div class="card info"><b style="color:#17543A;font-size:15px">Lettura automatica attiva</b><span>Ogni giorno l'app legge le offerte dalle pagine dei supermercati.</span><span id="agg2"></span></div>
-<h2 style="margin:2px 0 0;font-size:16px">Stato delle fonti</h2><div id="vol" style="display:flex;flex-direction:column;gap:12px"></div></section>
+<h2 style="margin:2px 0 0;font-size:16px">Stato delle fonti</h2><div id="vol" style="display:flex;flex-direction:column;gap:12px"></div>
+<h2 style="margin:2px 0 0;font-size:16px">Volantini trovati</h2><div id="vlist" style="display:flex;flex-direction:column;gap:12px"></div></section>
 <section id="v-supermercati" hidden><div><h1>Supermercati</h1><p class="mu">Le catene da cui leggere le offerte</p></div>
 <div id="sup" style="display:flex;flex-direction:column;gap:12px"></div>
 <p class="mu">Per aggiungere o cambiare una catena si modifica il file web/data/supermercati.json.</p></section>
@@ -35,8 +37,8 @@ h1{margin:0;font-size:26px}.mu{color:#5C5A52;font-size:13px;margin:4px 0 0}
 <script>
 const I={latticini:'<path d="M8 3h8l2 4v14H6V7l2-4z"/><path d="M6 7h12M10 13h4"/>',dispensa:'<path d="M3 12h18a9 9 0 0 1-18 0z"/><path d="M8 12c0-3 2-4 2-7M13 12c0-3 2-4 2-7"/>',bevande:'<path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5V9z"/><path d="M16 10h2a2 2 0 0 1 0 4h-2M8 3v3M12 3v3"/>',frutta:'<path d="M12 7c-2-2-7-1-7 5 0 4 3 8 5 8 1 0 1.5-.5 2-.5s1 .5 2 .5c2 0 5-4 5-8 0-6-5-7-7-5z"/><path d="M12 7c0-2 1-3 3-4"/>',altro:'<path d="M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/>'};
 const COL={latticini:['#E4EEF9','#1F4E8C'],dispensa:['#FBEFD9','#7A4B00'],bevande:['#F1E6DD','#5A3A22'],frutta:['#E3F0E8','#17543A'],altro:['#EDE6F5','#4B2C7A']};
-const CAT={latticini:/latte|yogurt|burro|mozzarella|formaggio/i,bevande:/caff|vino|lagrein|sciroppo|acqua|birra/i,frutta:/mela|mele|arance|broccoli|cavolo|frutta|verdura|insalata/i,dispensa:/salmone|tonno|polpa|pomodor|pistacch|pasta|rag[uù]|sugo|olio|mais|fagiolini|ketchup|nutella|pandoro|panettone|cioccolato|pizza/i};
-const cat=n=>Object.keys(CAT).find(k=>CAT[k].test(n))||'altro';
+const CAT={latticini:/latte|yogurt|burro|mozzarella|formaggio/i,bevande:/caff|vino|lagrein|sciroppo|acqua|birra/i,frutta:/mela|mele|arance|broccoli|cavolo|frutta|verdura|insalata/i,dispensa:/carn|pesce|salum|conserv|scorte|salmone|tonno|polpa|pomodor|pistacch|pasta|rag[uù]|sugo|olio|mais|fagiolini|ketchup|nutella|pandoro|panettone|cioccolato|pizza/i};
+const cat=o=>{const n=o.prodotto+' '+(o.categoria||'');return Object.keys(CAT).find(k=>CAT[k].test(n))||'altro'};
 const pct=o=>o.promo.tipo==='1+1'?50:(o.sconto_pct||0);
 const eur=n=>n==null?'':n.toFixed(2).replace('.',',')+' €';
 const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
@@ -44,9 +46,9 @@ let all=[],sel='tutte';
 function chips(){const box=document.getElementById('chips');box.replaceChildren();for(const k of ['tutte','frutta','latticini','dispensa','bevande','altro']){const b=el('button','',k[0].toUpperCase()+k.slice(1));b.type='button';b.setAttribute('aria-pressed',k===sel);b.onclick=()=>{sel=k;chips();draw()};box.append(b)}}
 function badge(o){const p=o.promo;return p.tipo==='1+1'?'1+1 gratis':p.tipo==='sottocosto'?'Sottocosto':p.tipo==='multi'?'da '+p.quantita+' '+(p.unita||''):pct(o)?'-'+pct(o)+'%':''}
 function draw(){const L=document.getElementById('list');L.replaceChildren();
-const rows=all.filter(o=>sel==='tutte'||cat(o.prodotto)===sel).sort((a,b)=>pct(b)-pct(a));
+const rows=all.filter(o=>sel==='tutte'||cat(o)===sel).sort((a,b)=>pct(b)-pct(a));
 if(!rows.length)L.append(el('p','mu','Nessuna offerta in questa categoria.'));
-for(const o of rows){const k=cat(o.prodotto),c=el('div','card'),t=el('div','tile');t.style.background=COL[k][0];t.style.color=COL[k][1];
+for(const o of rows){const k=cat(o),c=el('div','card'),t=el('div','tile');t.style.background=COL[k][0];t.style.color=COL[k][1];
 t.innerHTML='<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+I[k]+'</svg>';
 const m=el('div','mid');m.append(el('div','nm',o.prodotto),el('div','sub',[o.negozio,o.formato].filter(Boolean).join(' · ')));
 if(o.dettagli)m.append(el('div','sub',o.dettagli));if(o.scade_prima)m.append(el('div','warn','valido fino al '+o.scade_prima));
@@ -70,6 +72,14 @@ else if(f){det='Errore nell\'ultima lettura';st=pill('Errore','#F9E3DE','#8C2A14
 else if(s.attivo){det='In attesa della prima lettura';st=pill('In attesa','#FBEFD9','#7A3E00')}
 else{det='Non ancora configurata';st=pill('Non attivo','#ECEAE2','#5C5A52')}
 V.append(row(s,det,st));
-G.append(row(s,s.fonte+' · '+s.frequenza,s.attivo?pill('Attivo','#E3F0E8','#17543A'):pill('Da configurare','#ECEAE2','#5C5A52')))}});
+G.append(row(s,s.fonte+' · '+s.frequenza,s.attivo?pill('Attivo','#E3F0E8','#17543A'):pill('Da configurare','#ECEAE2','#5C5A52')))}const VL=document.getElementById('vlist');const dm=x=>new Date(x).toLocaleDateString('it-IT',{day:'numeric',month:'numeric'});
+const lidl=S.find(x=>x.nome==='Lidl');
+for(const v of ((d&&d.volantini)||[])){const c=el('div','card'),m=el('div','mid');c.style.flexWrap='wrap';
+m.append(el('div','nm',v.titolo||v.nome),el('div','sub',v.negozio+' · '+dm(v.dal)+' – '+dm(v.al)),el('div','sub',v.pagine_cibo.length+' pagine con alimentari su '+v.pagine));
+const row=el('div','');row.style.cssText='width:100%;display:flex;gap:8px';
+for(const [l,u] of [['Apri volantino',v.url],['PDF',v.pdf]]){if(!u)continue;const a=el('a','lnk',l);a.href=u;a.target='_blank';a.rel='noopener';row.append(a)}
+c.append(lidl?avatar(lidl):el('span'),m,v.stato==='sito'?pill('Offerte dal sito','#E3F0E8','#17543A'):v.stato==='parziale'?pill('Letto in parte','#FBEFD9','#7A3E00'):pill('Da leggere','#ECEAE2','#5C5A52'),row);VL.append(c)}
+if(!VL.children.length)VL.append(el('p','mu','Nessun volantino trovato: succede dopo il primo aggiornamento.'));
+});
 if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
 </script></body></html>
