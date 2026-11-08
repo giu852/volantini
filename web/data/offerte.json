@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-08T19:02:19.791470+00:00",
+ "aggiornato": "2026-11-08T19:17:07.774366+00:00",
  "periodi": {
   "MPreis": "VEN 30.10. – VEN 13.11.",
   "Lidl": "02.11. – 18.11."
@@ -14,7 +14,7 @@
   {
    "nome": "Lidl",
    "ok": true,
-   "n": 129,
+   "n": 132,
    "periodo": "02.11. – 18.11. (dal sito)"
   }
  ],
@@ -152,7 +152,9 @@
     "unita": "conf."
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Mila yogurt intero",
@@ -168,7 +170,9 @@
     "unita": "conf."
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Brimi mozzarella",
@@ -182,7 +186,9 @@
     "tipo": "1+1"
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "filetto di suino",
@@ -197,7 +203,9 @@
     "valore": 23
    },
    "scade_prima": "04.11.",
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Mila formaggio da taglio Dolomitenkönig",
@@ -212,7 +220,9 @@
     "valore": 41
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "De Cecco pasta",
@@ -228,7 +238,9 @@
     "unita": "conf."
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Barilla ragù o sugo amatriciana",
@@ -244,7 +256,9 @@
     "unita": "vas."
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Bonduelle mais dolce o fagiolini",
@@ -258,7 +272,9 @@
     "tipo": "1+1"
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Pizza A Mano pizza",
@@ -274,7 +290,9 @@
     "unita": "conf."
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Felix ketchup",
@@ -288,7 +306,9 @@
     "tipo": "1+1"
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Milka cioccolato a tavoletta",
@@ -302,7 +322,9 @@
     "tipo": "1+1"
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Nutella",
@@ -318,7 +340,9 @@
     "unita": "vas."
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Balocco pandoro o panettone",
@@ -332,7 +356,9 @@
     "tipo": "1+1"
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Kronen olio di colza",
@@ -346,7 +372,9 @@
     "tipo": "1+1"
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Monini olio d‘oliva extra vergine",
@@ -362,7 +390,9 @@
     "unita": "bott."
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Nescafé Gold",
@@ -376,7 +406,9 @@
     "tipo": "1+1"
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Mautner Markhof sciroppo di frutta",
@@ -390,7 +422,9 @@
     "tipo": "1+1"
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Cantina Cortaccia Lagrein DOC",
@@ -406,7 +440,9 @@
     "unita": "bott."
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Whiskas Pranzetti",
@@ -421,7 +457,9 @@
     "valore": 45
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "prodotto": "Zewa carta igienica",
@@ -437,7 +475,9 @@
     "unita": "conf."
    },
    "scade_prima": null,
-   "negozio": "MPreis"
+   "negozio": "MPreis",
+   "inizio": "2026-10-30",
+   "fine": "2026-11-13"
   },
   {
    "id": "11151119",
@@ -461,7 +501,9 @@
     "lidl-plus",
     "frutta-e-verdura"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11029707",
@@ -485,7 +527,9 @@
     "lidl-plus",
     "frutta-e-verdura"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11029600",
@@ -508,7 +552,9 @@
    "sezioni": [
     "lidl-plus"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11150925",
@@ -531,7 +577,9 @@
    "sezioni": [
     "lidl-plus"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11030058",
@@ -554,7 +602,9 @@
    "sezioni": [
     "lidl-plus"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-08"
   },
   {
    "id": "11151069",
@@ -577,7 +627,9 @@
    "sezioni": [
     "lidl-plus"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-08"
   },
   {
    "id": "11030106",
@@ -600,7 +652,9 @@
    "sezioni": [
     "lidl-plus"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-09",
+   "fine": "2026-11-11"
   },
   {
    "id": "11151128",
@@ -623,7 +677,9 @@
    "sezioni": [
     "lidl-plus"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-09",
+   "fine": "2026-11-11"
   },
   {
    "id": "11144368",
@@ -645,7 +701,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "11146529",
@@ -667,7 +725,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "12283144",
@@ -689,7 +749,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "11149244",
@@ -711,7 +773,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "11006688",
@@ -733,7 +797,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "11148250",
@@ -755,7 +821,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "12283079",
@@ -777,7 +845,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "11147159",
@@ -799,7 +869,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "11149206",
@@ -821,7 +893,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "11149149",
@@ -843,7 +917,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "12321535",
@@ -865,7 +941,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "11000197002",
@@ -887,7 +965,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "11000197003",
@@ -909,7 +989,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "11145063",
@@ -931,7 +1013,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "11149258",
@@ -953,7 +1037,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "11149262",
@@ -975,7 +1061,9 @@
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
   },
   {
    "id": "11151157",
@@ -998,7 +1086,9 @@
    "sezioni": [
     "frutta-e-verdura"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11115702",
@@ -1021,7 +1111,9 @@
    "sezioni": [
     "frutta-e-verdura"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11141571",
@@ -1044,7 +1136,9 @@
    "sezioni": [
     "carne-e-pesce"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11139917",
@@ -1067,7 +1161,9 @@
    "sezioni": [
     "carne-e-pesce"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11141570",
@@ -1090,7 +1186,9 @@
    "sezioni": [
     "carne-e-pesce"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11140224",
@@ -1113,7 +1211,9 @@
    "sezioni": [
     "carne-e-pesce"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11142514",
@@ -1136,7 +1236,9 @@
    "sezioni": [
     "grandi-marche-speciale-natale"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11142520",
@@ -1159,7 +1261,9 @@
    "sezioni": [
     "grandi-marche-speciale-natale"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11147964",
@@ -1182,7 +1286,9 @@
    "sezioni": [
     "grandi-marche-speciale-natale"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11142515",
@@ -1205,7 +1311,9 @@
    "sezioni": [
     "grandi-marche-speciale-natale"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11142812",
@@ -1228,7 +1336,9 @@
    "sezioni": [
     "lidl-mega-offerte"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-08"
   },
   {
    "id": "11141664",
@@ -1251,7 +1361,9 @@
    "sezioni": [
     "lidl-mega-offerte"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-08"
   },
   {
    "id": "11040794",
@@ -1274,7 +1386,9 @@
    "sezioni": [
     "lidl-mega-offerte"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-08"
   },
   {
    "id": "11031076",
@@ -1297,7 +1411,9 @@
    "sezioni": [
     "lidl-mega-offerte"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-08"
   },
   {
    "id": "11038969",
@@ -1320,7 +1436,9 @@
    "sezioni": [
     "super-offerte"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11003872",
@@ -1344,7 +1462,9 @@
     "super-offerte",
     "super-offerte-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11146907",
@@ -1367,7 +1487,9 @@
    "sezioni": [
     "super-offerte"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11147485",
@@ -1390,7 +1512,9 @@
    "sezioni": [
     "super-offerte"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11007016",
@@ -1413,7 +1537,9 @@
    "sezioni": [
     "super-offerte"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11146101",
@@ -1436,7 +1562,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11526064",
@@ -1459,7 +1587,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11006770",
@@ -1482,7 +1612,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11008543",
@@ -1505,7 +1637,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11142386",
@@ -1528,7 +1662,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11031191",
@@ -1551,7 +1687,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11146905",
@@ -1574,7 +1712,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11143431",
@@ -1597,7 +1737,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11147611",
@@ -1620,7 +1762,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11144353",
@@ -1643,7 +1787,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11147360",
@@ -1666,7 +1812,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11145350",
@@ -1689,7 +1837,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11142434",
@@ -1712,7 +1862,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11100481",
@@ -1735,7 +1887,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11140100",
@@ -1758,7 +1912,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11146937",
@@ -1781,7 +1937,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11151501",
@@ -1804,7 +1962,9 @@
    "sezioni": [
     "favorina"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11147300",
@@ -1827,7 +1987,9 @@
    "sezioni": [
     "favorina"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
   },
   {
    "id": "11661903",
@@ -1850,7 +2012,9 @@
    "sezioni": [
     "favorina"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11142344",
@@ -1873,7 +2037,9 @@
    "sezioni": [
     "favorina"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11000887",
@@ -1896,7 +2062,9 @@
    "sezioni": [
     "eridanous-lo-stile-greco-a-tavola"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11001917",
@@ -1919,7 +2087,9 @@
    "sezioni": [
     "eridanous-lo-stile-greco-a-tavola"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11003545",
@@ -1942,7 +2112,9 @@
    "sezioni": [
     "eridanous-lo-stile-greco-a-tavola"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11235490",
@@ -1965,7 +2137,9 @@
    "sezioni": [
     "eridanous-lo-stile-greco-a-tavola"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11026548",
@@ -1988,7 +2162,9 @@
    "sezioni": [
     "eridanous-lo-stile-greco-a-tavola"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11151149",
@@ -2012,7 +2188,9 @@
     "lidl-plus",
     "frutta-e-verdura"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-15"
   },
   {
    "id": "11029594",
@@ -2033,9 +2211,12 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/patate/p11029594",
    "sezioni": [
-    "lidl-plus"
+    "lidl-plus",
+    "frutta-e-verdura"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-16",
+   "fine": "2026-11-18"
   },
   {
    "id": "11150788",
@@ -2056,9 +2237,12 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/arance/p11150788",
    "sezioni": [
-    "lidl-plus"
+    "lidl-plus",
+    "frutta-e-verdura"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-16",
+   "fine": "2026-11-18"
   },
   {
    "id": "11150773",
@@ -2081,100 +2265,9 @@
    "sezioni": [
     "lidl-plus"
    ],
-   "negozio": "Lidl"
-  },
-  {
-   "id": "11151055",
-   "prodotto": "Cetrioli lunghi",
-   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
-   "formato": "Al pezzo",
-   "prezzo": 0.95,
-   "prezzo_precedente": 1.19,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 0.95,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / Verdure",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/cetrioli-lunghi/p11151055",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl"
-  },
-  {
-   "id": "11029915",
-   "prodotto": "Pere Abate",
-   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
-   "formato": "Sfuso al kg",
-   "prezzo": 2.79,
-   "prezzo_precedente": 3.49,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 2.79,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / La frutta",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/pere-abate/p11029915",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl"
-  },
-  {
-   "id": "11029953",
-   "prodotto": "Susine",
-   "dettagli": "Con Lidl Plus · Dal 16.11. al 18.11.",
-   "formato": "Sfuse al kg",
-   "prezzo": 1.79,
-   "prezzo_precedente": 2.29,
-   "sconto_pct": 21,
-   "prezzo_effettivo": 1.79,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 21
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / La frutta",
-   "valido_dal": "16.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/susine/p11029953",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl"
-  },
-  {
-   "id": "11145649",
-   "prodotto": "- Picanha di bovino adulto scottona",
-   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
-   "formato": "Al kg",
-   "prezzo": 19.99,
-   "prezzo_precedente": 22.99,
-   "sconto_pct": 13,
-   "prezzo_effettivo": 19.99,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 13
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Carne di manzo",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/picanha-di-bovino-adulto-scottona/p11145649",
-   "sezioni": [
-    "lidl-plus",
-    "carne-e-pesce"
-   ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11141688",
@@ -2197,7 +2290,9 @@
    "sezioni": [
     "lidl-plus"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11141625",
@@ -2220,7 +2315,9 @@
    "sezioni": [
     "lidl-plus"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11146405",
@@ -2243,7 +2340,9 @@
    "sezioni": [
     "lidl-plus"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11031151",
@@ -2266,7 +2365,9 @@
    "sezioni": [
     "lidl-plus"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11143258",
@@ -2290,7 +2391,9 @@
     "lidl-plus",
     "super-offerte-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11500155",
@@ -2314,7 +2417,9 @@
     "lidl-plus",
     "grandi-marche"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11141165",
@@ -2337,7 +2442,9 @@
    "sezioni": [
     "lidl-plus"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11140221",
@@ -2360,7 +2467,9 @@
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11140008",
@@ -2383,7 +2492,9 @@
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11141572",
@@ -2406,7 +2517,9 @@
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11137671",
@@ -2429,7 +2542,9 @@
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11140757",
@@ -2452,7 +2567,9 @@
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11534539",
@@ -2475,7 +2592,9 @@
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11140265",
@@ -2498,7 +2617,9 @@
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11006798",
@@ -2521,7 +2642,9 @@
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11149170",
@@ -2544,7 +2667,9 @@
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11151557",
@@ -2567,7 +2692,9 @@
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11315779",
@@ -2590,7 +2717,9 @@
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11151153",
@@ -2613,7 +2742,9 @@
    "sezioni": [
     "frutta-e-verdura"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11029927",
@@ -2636,7 +2767,9 @@
    "sezioni": [
     "frutta-e-verdura"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-15"
   },
   {
    "id": "11150820",
@@ -2659,7 +2792,59 @@
    "sezioni": [
     "frutta-e-verdura"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-15"
+  },
+  {
+   "id": "11150799",
+   "prodotto": "Limoni",
+   "dettagli": "Dal 16.11. al 18.11.",
+   "formato": "1 kg rete",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 28,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 28
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "16.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/limoni/p11150799",
+   "sezioni": [
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-16",
+   "fine": "2026-11-18"
+  },
+  {
+   "id": "11151073",
+   "prodotto": "Zucchine",
+   "dettagli": "Dal 16.11. al 18.11.",
+   "formato": "Al kg",
+   "prezzo": 1.29,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 35,
+   "prezzo_effettivo": 1.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 35
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "16.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/zucchine/p11151073",
+   "sezioni": [
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-16",
+   "fine": "2026-11-18"
   },
   {
    "id": "11140037",
@@ -2682,7 +2867,9 @@
    "sezioni": [
     "carne-e-pesce"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11141726",
@@ -2705,7 +2892,9 @@
    "sezioni": [
     "carne-e-pesce"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11143816",
@@ -2728,7 +2917,34 @@
    "sezioni": [
     "carne-e-pesce"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
+  },
+  {
+   "id": "11145649",
+   "prodotto": "- Picanha di bovino adulto scottona",
+   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "Al kg",
+   "prezzo": 19.99,
+   "prezzo_precedente": 22.99,
+   "sconto_pct": 13,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 13
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Carne di manzo",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/picanha-di-bovino-adulto-scottona/p11145649",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11140011",
@@ -2751,7 +2967,9 @@
    "sezioni": [
     "lidl-mega-offerte"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-15"
   },
   {
    "id": "11143894",
@@ -2774,7 +2992,9 @@
    "sezioni": [
     "lidl-mega-offerte"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-15"
   },
   {
    "id": "11024577",
@@ -2797,7 +3017,9 @@
    "sezioni": [
     "lidl-mega-offerte"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-15"
   },
   {
    "id": "11007282",
@@ -2820,7 +3042,9 @@
    "sezioni": [
     "lidl-mega-offerte"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-15"
   },
   {
    "id": "11146873",
@@ -2843,7 +3067,9 @@
    "sezioni": [
     "grandi-marche"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "12178750",
@@ -2866,7 +3092,9 @@
    "sezioni": [
     "grandi-marche"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11031226",
@@ -2889,7 +3117,9 @@
    "sezioni": [
     "grandi-marche"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11811769",
@@ -2912,7 +3142,9 @@
    "sezioni": [
     "grandi-marche"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11007414",
@@ -2935,7 +3167,9 @@
    "sezioni": [
     "grandi-marche"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11141415",
@@ -2958,7 +3192,9 @@
    "sezioni": [
     "grandi-marche"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11147500",
@@ -2981,7 +3217,9 @@
    "sezioni": [
     "grandi-marche"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
   },
   {
    "id": "11149261",
@@ -3004,7 +3242,9 @@
    "sezioni": [
     "grandi-marche"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11142517",
@@ -3027,7 +3267,9 @@
    "sezioni": [
     "grandi-marche"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "12283690",
@@ -3050,7 +3292,9 @@
    "sezioni": [
     "grandi-marche"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11149259",
@@ -3073,7 +3317,9 @@
    "sezioni": [
     "grandi-marche"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11039827",
@@ -3096,7 +3342,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11145804",
@@ -3119,7 +3367,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11146384",
@@ -3142,7 +3392,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11147602",
@@ -3165,7 +3417,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11525799",
@@ -3188,7 +3442,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11149135",
@@ -3211,7 +3467,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11148185",
@@ -3234,7 +3492,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11039878",
@@ -3257,7 +3517,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11141043",
@@ -3280,7 +3542,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11142524",
@@ -3303,7 +3567,9 @@
    "sezioni": [
     "deluxe"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11001812",
@@ -3326,7 +3592,9 @@
    "sezioni": [
     "favorina"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11029360",
@@ -3349,7 +3617,9 @@
    "sezioni": [
     "favorina"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11000943",
@@ -3372,7 +3642,9 @@
    "sezioni": [
     "favorina"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11000041",
@@ -3395,7 +3667,109 @@
    "sezioni": [
     "favorina"
    ],
-   "negozio": "Lidl"
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11000033",
+   "prodotto": "Favorina Tazza di Natale con cioccolato al latte e caramelle gommose",
+   "dettagli": null,
+   "formato": "Alla confezione",
+   "prezzo": 4.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / prodotti al cioccolato",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/favorina-tazza-di-natale-con-cioccolato-al-latte-e-caramelle-gommose/p11000033",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11007580",
+   "prodotto": "Favorina Calendario dell'Avvento",
+   "dettagli": "1 kg = 19.87 €",
+   "formato": "75 g confezione",
+   "prezzo": 1.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / prodotti al cioccolato",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/favorina-calendario-dell-avvento/p11007580",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11527262",
+   "prodotto": "Favorina Torroncini alle mandorle ricoperti di cioccolato",
+   "dettagli": "1 kg = 10.95 €",
+   "formato": "200 g confezione",
+   "prezzo": 2.19,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.19,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / prodotti al cioccolato",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/favorina-torroncini-alle-mandorle-ricoperti-di-cioccolato/p11527262",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11662963",
+   "prodotto": "Favorina Torrone friabile alle mandorle e miele",
+   "dettagli": "1 kg = 11.45 €",
+   "formato": "200 g confezione",
+   "prezzo": 2.29,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.29,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / prodotti al cioccolato",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/favorina-torrone-friabile-alle-mandorle-e-miele/p11662963",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   }
  ]
 }
