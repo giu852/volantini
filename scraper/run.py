@@ -9,6 +9,15 @@ import lidl_offerte
 
 DATA = Path(__file__).resolve().parent.parent / "web" / "data"
 
+def _iso(gm):
+    """'05.11.' -> '2026-11-05' (anno corrente; a cavallo d'anno sposta l'anno)."""
+    if not gm:
+        return None
+    g, m = int(gm[:2]), int(gm[3:5])
+    oggi = datetime.now(timezone.utc)
+    anno = oggi.year + (1 if (oggi.month >= 11 and m <= 2) else 0)
+    return f"{anno}-{m:02d}-{g:02d}"
+
 def carica_manuali(cartella):
     """Ogni file in manuale/ ha: negozio, periodo, offerte."""
     return [json.loads(f.read_text()) for f in sorted((cartella / "manuale").glob("*.json"))]
@@ -18,7 +27,7 @@ def main():
     d = parse(html)
     if not d["offerte"]:
         sys.exit("Nessuna offerta trovata: la pagina è cambiata?")
-    offerte = [dict(o, negozio="MPreis") for o in d["offerte"]]
+    offerte = [dict(o, negozio="MPreis", inizio=d["dal"], fine=d["al"]) for o in d["offerte"]]
     periodi = {"MPreis": d["periodo"]}
     fonti = [{"nome": "MPreis", "ok": True, "n": len(offerte), "periodo": d["periodo"]}]
     lidl_off = []
@@ -26,7 +35,7 @@ def main():
         lidl_off = lidl_offerte.scarica_offerte()
         date = sorted({o["valido_dal"] for o in lidl_off if o["valido_dal"]}) + sorted({o["valido_al"] for o in lidl_off if o["valido_al"]})
         per = f"{min(date)} – {max(date)}" if date else "settimana"
-        offerte += [dict(o, negozio="Lidl") for o in lidl_off]
+        offerte += [dict(o, negozio="Lidl", inizio=_iso(o["valido_dal"]), fine=_iso(o["valido_al"])) for o in lidl_off]
         periodi["Lidl"] = per
         fonti.append({"nome": "Lidl", "ok": True, "n": len(lidl_off), "periodo": per + " (dal sito)"})
         print(f"Lidl: {len(lidl_off)} offerte dal sito")
