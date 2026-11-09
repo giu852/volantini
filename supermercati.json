@@ -52,9 +52,9 @@
  {
   "nome": "Eurospin",
   "negozio": "Varna",
-  "fonte": "Volantino digitale",
-  "frequenza": "ogni settimana",
-  "attivo": false,
+  "fonte": "Volantino digitale Eurospin (dal sito)",
+  "frequenza": "ogni 2 settimane circa",
+  "attivo": true,
   "ini": "EN",
   "bg": "#FBEFD9",
   "fg": "#7A4B00"
