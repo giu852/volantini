@@ -1,0 +1,88 @@
+name: Test Eurospin
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright
+      - run: playwright install --with-deps chromium
+      - run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          from playwright.sync_api import sync_playwright
+
+          URL = "https://www.eurospin.it/volantino-nazionale-/"
+          OUT = Path("out"); OUT.mkdir(exist_ok=True)
+          LOG = open(OUT / "log.txt", "w", encoding="utf-8")
+          CHIAVI = ("price", "prezzo", "product", "prodott", "offer", "flyer", "volantino", "page", "pagina", "pdf")
+          IGNORA = ("google", "doubleclick", "facebook", "onetrust", "cookielaw", "analytics", "clarity", "hotjar", "tiktok", "linkedin", "gtm")
+
+          def say(*a):
+              s = " ".join(str(x) for x in a)
+              print(s, flush=True); LOG.write(s + "\n"); LOG.flush()
+
+          def esplora(ctx, url, nome):
+              say(f"\n===== {nome}: {url}")
+              page = ctx.new_page(); risp = []
+              def on_resp(r):
+                  try:
+                      ct = r.headers.get("content-type", "")
+                      corpo = r.text()[:600] if ("json" in ct or "text/plain" in ct) else ""
+                      risp.append((r.url, r.status, ct, corpo))
+                  except Exception:
+                      risp.append((r.url, r.status, "?", ""))
+              page.on("response", on_resp)
+              m = page.goto(url, wait_until="domcontentloaded", timeout=60000)
+              say("Stato:", m.status if m else "?", "| titolo:", page.title())
+              page.wait_for_timeout(6000)
+              for et in ("Accetta tutti", "Accetta", "Accetto", "Consenti tutti"):
+                  try:
+                      page.get_by_role("button", name=et).first.click(timeout=1500); say("Cookie: cliccato", et); break
+                  except Exception:
+                      pass
+              for _ in range(4):
+                  page.mouse.wheel(0, 2000); page.wait_for_timeout(1500)
+              page.wait_for_timeout(6000)
+              page.screenshot(path=str(OUT / f"{nome}.png"), full_page=False)
+              say("Iframe nella pagina:")
+              iframes = [f.url for f in page.frames if f.url and f.url != "about:blank" and f.url != page.url]
+              for u in iframes: say("   ", u[:250])
+              links = page.eval_on_selector_all("a[href]", "els=>els.map(e=>[e.href,(e.innerText||'').trim().slice(0,50)])")
+              say("Link utili (pdf / scarica / volantino):")
+              for h, t in links:
+                  if re.search(r"\.pdf|scarica|download|volantino|sfoglia", h + " " + t, re.I): say("   ", h[:200], "|", t)
+              utili = [x for x in risp if not any(b in x[0] for b in IGNORA)]
+              say(f"Richieste totali: {len(risp)} | non pubblicitarie: {len(utili)}")
+              tipi = {}
+              for u, st, ct, _ in utili:
+                  k = ct.split(";")[0] or "?"; tipi[k] = tipi.get(k, 0) + 1
+              say("Tipi di risposta:", tipi)
+              say("Risposte JSON/testo con parole chiave:")
+              for u, st, ct, corpo in utili:
+                  if corpo and any(c in (u + corpo).lower() for c in CHIAVI):
+                      say(f"  {st} {u[:200]}\n     anteprima: {corpo[:500]!r}")
+              say("Immagini e PDF non pubblicitari (primi 15):")
+              for u, st, ct, _ in [x for x in utili if x[2].startswith("image/") or "pdf" in x[2]][:15]:
+                  say("  ", ct.split(";")[0], u[:200])
+              page.close()
+              return iframes
+
+          with sync_playwright() as p:
+              br = p.chromium.launch()
+              ctx = br.new_context(locale="it-IT", viewport={"width": 1280, "height": 900})
+              frames = esplora(ctx, URL, "pagina")
+              viewer = next((f for f in frames if "flyer" in f.lower() or "volantino" in f.lower()), None)
+              if viewer:
+                  esplora(ctx, viewer, "visualizzatore")
+              br.close()
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eurospin-test
+          path: out/
