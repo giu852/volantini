@@ -1,0 +1,95 @@
+name: Test Eurospin API
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright requests
+      - run: playwright install --with-deps chromium
+      - run: |
+          python - <<'PY'
+          import json, re, requests
+          from pathlib import Path
+          from playwright.sync_api import sync_playwright
+
+          VIEW = "https://www.eurospin.it/smt-digitalflyer/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
+          API = "https://digitalflyer.eurospin.it/api/eurospin/eurospin-italia"
+          OUT = Path("out"); OUT.mkdir(exist_ok=True)
+          LOG = open(OUT / "log.txt", "w", encoding="utf-8")
+          def say(*a):
+              s = " ".join(str(x) for x in a)
+              print(s, flush=True); LOG.write(s + "\n"); LOG.flush()
+
+          # 1) la chiave temporanea che il sito assegna a ogni visitatore (non viene mai stampata)
+          token = {}
+          with sync_playwright() as p:
+              br = p.chromium.launch(); page = br.new_context(locale="it-IT").new_page()
+              def on_req(r):
+                  a = r.headers.get("authorization")
+                  if a and "digitalflyer.eurospin.it/api" in r.url:
+                      token["h"] = a
+              page.on("request", on_req)
+              page.goto(VIEW, wait_until="domcontentloaded", timeout=60000); page.wait_for_timeout(9000)
+              br.close()
+          say("Chiave ottenuta dal browser:", "sì" if token else "NO")
+          if not token:
+              raise SystemExit("Nessuna chiave: il sito è cambiato?")
+          H = {"Authorization": token["h"], "Accept": "application/json", "User-Agent": "Mozilla/5.0"}
+          def get(u):
+              r = requests.get(u, headers=H, timeout=30)
+              return r.status_code, r.text
+
+          # 2) promozioni attive
+          st, tx = get(f"{API}/stores/eurospin-italia/promotions")
+          say("Promozioni:", st)
+          promos = json.loads(tx) if st == 200 else []
+          for pr in promos:
+              say(f"  {pr['code']} | {pr['alias']} | {pr['description']} | {pr['startDate'][:8]} - {pr['endDate'][:8]}")
+          alias = promos[0]["alias"]
+          B = f"{API}/promotions/{alias}/stores/eurospin-italia"
+          st, tx = get(f"{B}/products-id"); ids = json.loads(tx) if st == 200 else []
+          say(f"\nproducts-id: {st}, {len(ids)} identificativi")
+
+          # 3) indirizzi candidati che potrebbero dare tutti i prodotti insieme
+          say("\n--- Indirizzi candidati")
+          u0 = ids[0] if ids else "x"
+          cand = [f"{B}/products", f"{B}/products?page=0&size=500", f"{B}/products?size=500", f"{B}/products/{u0}", f"{B}/products-by-id/{u0}",
+                  f"{B}/products-by-ids?ids={','.join(ids[:3])}", f"{API}/promotions/{alias}/products?size=500", f"{API}/products/{u0}",
+                  f"{B}/products-light?size=500", f"{B}/products/search?size=500"]
+          for u in cand:
+              try:
+                  st, tx = get(u)
+              except Exception as e:
+                  st, tx = "errore", str(e)
+              n = ""
+              try:
+                  j = json.loads(tx); n = f" | lista di {len(j)}" if isinstance(j, list) else (f" | chiavi {list(j)[:8]}" if isinstance(j, dict) else "")
+              except Exception:
+                  pass
+              say(f"  {st} {u.replace(API, '…')[:150]}{n}\n      {tx[:250]!r}")
+
+          # 4) struttura di alcuni prodotti
+          say("\n--- Schede prodotto (4 codici noti)")
+          for code in ("3590701", "9440001", "11171001", "80016001"):
+              st, tx = get(f"{B}/products-by-code/COD-{code}")
+              say(f"\nCOD-{code}: {st}")
+              if st != 200:
+                  continue
+              pr = json.loads(tx)
+              say("  chiavi:", [k for k in pr.keys() if k != "area"])
+              for k in pr:
+                  if k not in ("area", "properties") and not isinstance(pr[k], (dict, list)):
+                      say(f"  {k} = {pr[k]!r}")
+              for pp in pr.get("properties", []):
+                  if pp.get("type") != "FILE":
+                      say(f"  [{pp.get('type')}] {pp.get('code')} = {str(pp.get('values'))[:160]}")
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eurospin-api
+          path: out/
