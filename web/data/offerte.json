@@ -1,8 +1,9 @@
 {
- "aggiornato": "2026-11-09T14:16:43.797315+00:00",
+ "aggiornato": "2026-11-09T15:17:27.017979+00:00",
  "periodi": {
   "MPreis": "VEN 30.10. – VEN 13.11.",
-  "Lidl": "02.11. – 18.11."
+  "Lidl": "02.11. – 18.11.",
+  "Eurospin": "05.11. – 15.11."
  },
  "fonti": [
   {
@@ -14,8 +15,14 @@
   {
    "nome": "Lidl",
    "ok": true,
-   "n": 133,
+   "n": 131,
    "periodo": "02.11. – 18.11. (dal sito)"
+  },
+  {
+   "nome": "Eurospin",
+   "ok": true,
+   "n": 253,
+   "periodo": "05.11. – 15.11. (dal sito)"
   }
  ],
  "volantini": [
@@ -134,6 +141,20 @@
     5,
     6
    ],
+   "stato": "sito"
+  },
+  {
+   "negozio": "Eurospin",
+   "id": "p26-2026-sapori-in-festa-speciale-cioccolato",
+   "titolo": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "nome": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "dal": "2026-11-05",
+   "al": "2026-11-15",
+   "url": "https://www.eurospin.it/smt-digitalflyer/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato",
+   "pdf": null,
+   "pagine": null,
+   "pagine_cibo": [],
+   "n_offerte": 253,
    "stato": "sito"
   }
  ],
@@ -582,6 +603,108 @@
    "fine": "2026-11-11"
   },
   {
+   "id": "11030106",
+   "prodotto": "Mele Fuji Alto Adige IGP",
+   "dettagli": "1 kg = 1.85 € · Con Lidl Plus · Dal 09.11. al 11.11.",
+   "formato": "750 g confezione",
+   "prezzo": 1.39,
+   "prezzo_precedente": 1.79,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 1.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "09.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/mele-fuji-alto-adige-igp/p11030106",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-09",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11151128",
+   "prodotto": "Finocchio",
+   "dettagli": "Con Lidl Plus · Dal 09.11. al 11.11.",
+   "formato": "Al kg",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "09.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/finocchio/p11151128",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-09",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11141571",
+   "prodotto": "- Fusi di pollo",
+   "dettagli": "1 kg = 3.99 € · Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "800 g confezione",
+   "prezzo": 3.19,
+   "prezzo_precedente": 3.99,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 3.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/fusi-di-pollo/p11141571",
+   "sezioni": [
+    "lidl-plus",
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11140224",
+   "prodotto": "- Pollo intero",
+   "dettagli": "1 kg = 3.12 € · Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "1150 g confezione",
+   "prezzo": 3.59,
+   "prezzo_precedente": 4.59,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 3.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/pollo-intero/p11140224",
+   "sezioni": [
+    "lidl-plus",
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
+  },
+  {
    "id": "11144368",
    "prodotto": "Rio Mare Tonno all'olio d'oliva",
    "dettagli": "1 kg = 10.96 €, 1 kg (sgocc.) = 16.86 € · Dal 02.11. al 11.11.",
@@ -670,102 +793,6 @@
    "valido_dal": "02.11.",
    "valido_al": "11.11.",
    "url": "https://www.lidl.it/p/granarolo-latte-senza-lattosio-parzialmente-scremato/p11149244",
-   "sezioni": [
-    "sottocosto-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-02",
-   "fine": "2026-11-11"
-  },
-  {
-   "id": "11149209",
-   "prodotto": "Rovagnati Prosciutto cotto alta qualità",
-   "dettagli": "1 kg = 12.16 € · Dal 02.11. al 11.11.",
-   "formato": "2x 160 g confezione",
-   "prezzo": 3.89,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 3.89,
-   "promo": {
-    "tipo": "sottocosto"
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Salumi e affettati",
-   "valido_dal": "02.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/rovagnati-prosciutto-cotto-alta-qualita/p11149209",
-   "sezioni": [
-    "sottocosto-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-02",
-   "fine": "2026-11-11"
-  },
-  {
-   "id": "11147346",
-   "prodotto": "Grattugiato fresco Gran Biraghi",
-   "dettagli": "1 kg = 11.56 € · Dal 02.11. al 11.11.",
-   "formato": "250 g confezione",
-   "prezzo": 2.89,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 2.89,
-   "promo": {
-    "tipo": "sottocosto"
-   },
-   "scade_prima": null,
-   "categoria": "Formaggi, latticini e uova / Formaggio",
-   "valido_dal": "02.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/biraghi-grattugiato-fresco-gran-biraghi/p11147346",
-   "sezioni": [
-    "sottocosto-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-02",
-   "fine": "2026-11-11"
-  },
-  {
-   "id": "11147089",
-   "prodotto": "Fini Le paste fresche di Telesforo - Tortellini al prosciutto crudo",
-   "dettagli": "1 kg = 3.98 € · Dal 02.11. al 11.11.",
-   "formato": "400 g confezione",
-   "prezzo": 1.59,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 1.59,
-   "promo": {
-    "tipo": "sottocosto"
-   },
-   "scade_prima": null,
-   "categoria": "Piatti pronti / Pasta fresca e impasti",
-   "valido_dal": "02.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/fini-le-paste-fresche-di-telesforo-tortellini-al-prosciutto-crudo/p11147089",
-   "sezioni": [
-    "sottocosto-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-02",
-   "fine": "2026-11-11"
-  },
-  {
-   "id": "11149233",
-   "prodotto": "Aia Hamburger di pollo",
-   "dettagli": "1 kg = 7.48 € · Dal 02.11. al 11.11.",
-   "formato": "400 g confezione",
-   "prezzo": 2.99,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 2.99,
-   "promo": {
-    "tipo": "sottocosto"
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Pollame",
-   "valido_dal": "02.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/aia-hamburger-di-pollo/p11149233",
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
@@ -1112,31 +1139,6 @@
    "fine": "2026-11-11"
   },
   {
-   "id": "11141571",
-   "prodotto": "- Fusi di pollo",
-   "dettagli": "1 kg = 3.99 € · Con Lidl Plus · Dal 05.11. al 11.11.",
-   "formato": "800 g confezione",
-   "prezzo": 3.19,
-   "prezzo_precedente": 3.99,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 3.19,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Pollame",
-   "valido_dal": "05.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/fusi-di-pollo/p11141571",
-   "sezioni": [
-    "carne-e-pesce"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-05",
-   "fine": "2026-11-11"
-  },
-  {
    "id": "11139917",
    "prodotto": "- Fesa di tacchino a fette",
    "dettagli": "1 kg = 10.20 € · Dal 05.11. al 11.11.",
@@ -1179,31 +1181,6 @@
    "valido_dal": "05.11.",
    "valido_al": "11.11.",
    "url": "https://www.lidl.it/p/sovracosce-di-pollo/p11141570",
-   "sezioni": [
-    "carne-e-pesce"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-05",
-   "fine": "2026-11-11"
-  },
-  {
-   "id": "11140224",
-   "prodotto": "- Pollo intero",
-   "dettagli": "1 kg = 3.12 € · Con Lidl Plus · Dal 05.11. al 11.11.",
-   "formato": "1150 g confezione",
-   "prezzo": 3.59,
-   "prezzo_precedente": 4.59,
-   "sconto_pct": 21,
-   "prezzo_effettivo": 3.59,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 21
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Pollame",
-   "valido_dal": "05.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/pollo-intero/p11140224",
    "sezioni": [
     "carne-e-pesce"
    ],
@@ -2038,6 +2015,106 @@
    "fine": null
   },
   {
+   "id": "11150013",
+   "prodotto": "Eridanous Pita in pasta fillo",
+   "dettagli": "1 kg = 7.05 €",
+   "formato": "850 g confezione",
+   "prezzo": 5.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 5.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Pizza e snack surgelati",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/eridanous-pita-in-pasta-fillo/p11150013",
+   "sezioni": [
+    "eridanous-lo-stile-greco-a-tavola"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11149996",
+   "prodotto": "Eridanous Foglie di vite ripiene di riso",
+   "dettagli": "1 kg = 7.11 €",
+   "formato": "280 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Scorte alimentari / Conserve",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/eridanous-foglie-di-vite-ripiene-di-riso/p11149996",
+   "sezioni": [
+    "eridanous-lo-stile-greco-a-tavola"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11150461",
+   "prodotto": "Eridanous Fogli di pasta fillo",
+   "dettagli": "1 kg = 3.38 €",
+   "formato": "500 g confezione",
+   "prezzo": 1.69,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Pasta fresca e impasti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/eridanous-fogli-di-pasta-fillo/p11150461",
+   "sezioni": [
+    "eridanous-lo-stile-greco-a-tavola"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11041134",
+   "prodotto": "Eridanous Tahini",
+   "dettagli": "1 kg = 9.97 €",
+   "formato": "300 g confezione",
+   "prezzo": 2.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Muesli e creme spalmabili / Marmellate, creme spalmabili e miele",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/tahini/p11041134",
+   "sezioni": [
+    "eridanous-lo-stile-greco-a-tavola"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
    "id": "11026548",
    "prodotto": "Eridanous Peperoncini farciti",
    "dettagli": "1 kg (sgocc.) = 16.60 €",
@@ -2133,8 +2210,7 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/patate/p11029594",
    "sezioni": [
-    "lidl-plus",
-    "frutta-e-verdura"
+    "lidl-plus"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-16",
@@ -2166,106 +2242,6 @@
    "fine": "2026-11-18"
   },
   {
-   "id": "11150773",
-   "prodotto": "Pompelmo",
-   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
-   "formato": "Sfuso al kg",
-   "prezzo": 1.55,
-   "prezzo_precedente": 1.99,
-   "sconto_pct": 22,
-   "prezzo_effettivo": 1.55,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 22
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / La frutta",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/pompelmo/p11150773",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11151055",
-   "prodotto": "Cetrioli lunghi",
-   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
-   "formato": "Al pezzo",
-   "prezzo": 0.95,
-   "prezzo_precedente": 1.19,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 0.95,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / Verdure",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/cetrioli-lunghi/p11151055",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11029915",
-   "prodotto": "Pere Abate",
-   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
-   "formato": "Sfuso al kg",
-   "prezzo": 2.79,
-   "prezzo_precedente": 3.49,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 2.79,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / La frutta",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/pere-abate/p11029915",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11029953",
-   "prodotto": "Susine",
-   "dettagli": "Con Lidl Plus · Dal 16.11. al 18.11.",
-   "formato": "Sfuse al kg",
-   "prezzo": 1.79,
-   "prezzo_precedente": 2.29,
-   "sconto_pct": 21,
-   "prezzo_effettivo": 1.79,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 21
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / La frutta",
-   "valido_dal": "16.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/susine/p11029953",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-16",
-   "fine": "2026-11-18"
-  },
-  {
    "id": "11151591",
    "prodotto": "Allini Prosecco DOC",
    "dettagli": "1 l = 3.99 € · Con Lidl Plus · Dal 12.11. al 18.11.",
@@ -2284,7 +2260,8 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/allini-prosecco-doc/p11151591",
    "sezioni": [
-    "lidl-plus"
+    "lidl-plus",
+    "super-offerte-lidl-black-days"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-12",
@@ -2309,7 +2286,8 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/salumeo-bastone-di-salame/p11141688",
    "sezioni": [
-    "lidl-plus"
+    "lidl-plus",
+    "super-offerte-lidl-black-days"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-12",
@@ -2334,7 +2312,8 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/certossa-pane-per-tramezzini/p11141625",
    "sezioni": [
-    "lidl-plus"
+    "lidl-plus",
+    "super-offerte-lidl-black-days"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-12",
@@ -2384,7 +2363,8 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/italiamo-pecorino-romano-dop/p11031151",
    "sezioni": [
-    "lidl-plus"
+    "lidl-plus",
+    "super-offerte-lidl-black-days"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-12",
@@ -2461,7 +2441,8 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/select-go-tramezzini/p11141165",
    "sezioni": [
-    "lidl-plus"
+    "lidl-plus",
+    "super-offerte-lidl-black-days"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-12",
@@ -2536,6 +2517,81 @@
    "valido_dal": "12.11.",
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/favorina-panettone-senza-canditi/p11141572",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
+  },
+  {
+   "id": "11003555",
+   "prodotto": "Dal Salumiere Affettato di pollo affumicato",
+   "dettagli": "1 kg = 9.27 € · Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "150 g confezione",
+   "prezzo": 1.39,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 30,
+   "prezzo_effettivo": 1.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 30
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Salumi e affettati",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/dal-salumiere-affettato-di-pollo-affumicato/p11003555",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
+  },
+  {
+   "id": "11031410",
+   "prodotto": "Italiamo Trecce di mozzarella",
+   "dettagli": "1 kg = 7.95 € · Dal 12.11. al 18.11.",
+   "formato": "200 g confezione",
+   "prezzo": 1.59,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Formaggio",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/italiamo-trecce-di-mozzarella/p11031410",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
+  },
+  {
+   "id": "11141991",
+   "prodotto": "Vallericca Lattughino Bio",
+   "dettagli": "1 kg = 7.90 € · Dal 12.11. al 18.11.",
+   "formato": "100 g confezione",
+   "prezzo": 0.79,
+   "prezzo_precedente": 0.99,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 0.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Insalate, frutta e antipasti da asporto",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/vallericca-lattughino-bio/p11141991",
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
@@ -2792,81 +2848,6 @@
    "negozio": "Lidl",
    "inizio": "2026-11-12",
    "fine": "2026-11-15"
-  },
-  {
-   "id": "11150820",
-   "prodotto": "Mele Gala Alto Adige/ del Trentino IGP",
-   "dettagli": "1 kg = 1.10 € · Dal 12.11. al 15.11.",
-   "formato": "2 kg confezione",
-   "prezzo": 2.19,
-   "prezzo_precedente": 2.99,
-   "sconto_pct": 26,
-   "prezzo_effettivo": 2.19,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 26
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / La frutta",
-   "valido_dal": "12.11.",
-   "valido_al": "15.11.",
-   "url": "https://www.lidl.it/p/mele-gala-alto-adige-del-trentino-igp/p11150820",
-   "sezioni": [
-    "frutta-e-verdura"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-15"
-  },
-  {
-   "id": "11150799",
-   "prodotto": "Limoni",
-   "dettagli": "Dal 16.11. al 18.11.",
-   "formato": "1 kg rete",
-   "prezzo": 1.79,
-   "prezzo_precedente": 2.49,
-   "sconto_pct": 28,
-   "prezzo_effettivo": 1.79,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 28
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / La frutta",
-   "valido_dal": "16.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/limoni/p11150799",
-   "sezioni": [
-    "frutta-e-verdura"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-16",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11151073",
-   "prodotto": "Zucchine",
-   "dettagli": "Dal 16.11. al 18.11.",
-   "formato": "Al kg",
-   "prezzo": 1.29,
-   "prezzo_precedente": 1.99,
-   "sconto_pct": 35,
-   "prezzo_effettivo": 1.29,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 35
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / Verdure",
-   "valido_dal": "16.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/zucchine/p11151073",
-   "sezioni": [
-    "frutta-e-verdura"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-16",
-   "fine": "2026-11-18"
   },
   {
    "id": "11140037",
@@ -3792,6 +3773,5319 @@
    "negozio": "Lidl",
    "inizio": null,
    "fine": null
+  },
+  {
+   "id": "202626IT-3590701",
+   "prodotto": "Ondina Code di mazzancolla tropicale",
+   "dettagli": "14,26 € al kg · Dal 05.11. al 15.11.",
+   "formato": "350 g",
+   "prezzo": 4.99,
+   "prezzo_precedente": 6.99,
+   "sconto_pct": 28,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 28
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=3590701&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-9440001",
+   "prodotto": "Pascoli Italiani Grana padano DOP grattugiato",
+   "dettagli": "10,75 € al kg · Dal 05.11. al 15.11.",
+   "formato": "200 g",
+   "prezzo": 2.15,
+   "prezzo_precedente": 2.89,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 2.15,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=9440001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11171001",
+   "prodotto": "Delizie Dal Sole Passata di pomodoro",
+   "dettagli": "0,85 € al kg · Dal 05.11. al 15.11.",
+   "formato": "1 kg",
+   "prezzo": 0.85,
+   "prezzo_precedente": 0.99,
+   "sconto_pct": 14,
+   "prezzo_effettivo": 0.85,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 14
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11171001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-80016001",
+   "prodotto": "Clementine",
+   "dettagli": "1,29 € al kg · Dal 05.11. al 15.11.",
+   "formato": "2 kg",
+   "prezzo": 2.58,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.58,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Frutta E Verdura",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=80016001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-12037501",
+   "prodotto": "Amo Essere Eccellente Salame strolghino",
+   "dettagli": "13,00 € al kg · Dal 05.11. al 15.11.",
+   "formato": "230 g",
+   "prezzo": 2.99,
+   "prezzo_precedente": 3.49,
+   "sconto_pct": 14,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 14
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=12037501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16338601",
+   "prodotto": "Amo Essere Eccellente Tagliere italiano",
+   "dettagli": "32,45 € al kg · Dal 05.11. al 15.11.",
+   "formato": "200 g",
+   "prezzo": 6.49,
+   "prezzo_precedente": 6.49,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 6.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16338601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16632101",
+   "prodotto": "Amo Essere Eccellente Prosciutto toscano DOP",
+   "dettagli": "34,90 € al kg · Dal 05.11. al 15.11.",
+   "formato": "100 g",
+   "prezzo": 3.49,
+   "prezzo_precedente": 3.49,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 3.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16632101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17036001",
+   "prodotto": "Formaggio pasta dura 100% italiano",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "al kg",
+   "prezzo": 7.99,
+   "prezzo_precedente": 7.99,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17036001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14567601",
+   "prodotto": "Pascoli Italiani Pecorino sardo DOP maturo",
+   "dettagli": "14,30 € al kg · Dal 05.11. al 15.11.",
+   "formato": "300 g",
+   "prezzo": 4.29,
+   "prezzo_precedente": 5.19,
+   "sconto_pct": 17,
+   "prezzo_effettivo": 4.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 17
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14567601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18321501",
+   "prodotto": "Amo Essere Eccellente Burro da creme di latte di parma e reggio emilia",
+   "dettagli": "7,96 € al kg · Dal 05.11. al 15.11.",
+   "formato": "250 g",
+   "prezzo": 1.99,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18321501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18642501",
+   "prodotto": "Land Petit carré",
+   "dettagli": "10,57 € al kg · Dal 05.11. al 15.11.",
+   "formato": "160 g",
+   "prezzo": 1.69,
+   "prezzo_precedente": 1.69,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18642501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-12540601",
+   "prodotto": "Salmone scozzese affumicato",
+   "dettagli": "29,90 € al kg · Dal 05.11. al 15.11.",
+   "formato": "100 g",
+   "prezzo": 2.99,
+   "prezzo_precedente": 3.99,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=12540601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17126601",
+   "prodotto": "Amo Essere Eccellente Tortellini bolognesi",
+   "dettagli": "7,96 € al kg · Dal 05.11. al 15.11.",
+   "formato": "250 g",
+   "prezzo": 1.99,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17126601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-15359901",
+   "prodotto": "Amo Essere Eccellente Mezzelune caciocavallo e friarielli",
+   "dettagli": "7,96 € al kg · Dal 05.11. al 15.11.",
+   "formato": "250 g",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=15359901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18105301",
+   "prodotto": "Dolciando Tiramisù al gusto gianduia",
+   "dettagli": "9,97 € al kg · Dal 05.11. al 15.11.",
+   "formato": "300 g",
+   "prezzo": 2.99,
+   "prezzo_precedente": 2.99,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Latticini E Uova",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18105301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14410801",
+   "prodotto": "Amo Essere Eccellente Salsa di pomodoro ciliegino",
+   "dettagli": "2,40 € al kg · Dal 05.11. al 15.11.",
+   "formato": "330 g",
+   "prezzo": 0.79,
+   "prezzo_precedente": 0.99,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 0.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14410801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18557801",
+   "prodotto": "Delizie Dal Sole Maionese",
+   "dettagli": "2,98 € al l · Dal 05.11. al 15.11.",
+   "formato": "500 ml",
+   "prezzo": 1.49,
+   "prezzo_precedente": 1.89,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 1.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18557801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-12051601",
+   "prodotto": "Amo Essere Eccellente Olio extra vergine \ndi oliva val di mazara DOP",
+   "dettagli": "11,99 € al l · Dal 05.11. al 15.11.",
+   "formato": "750 ml",
+   "prezzo": 8.99,
+   "prezzo_precedente": 9.99,
+   "sconto_pct": 10,
+   "prezzo_effettivo": 8.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 10
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=12051601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-12079501",
+   "prodotto": "Amo Essere Eccellente Olive taggiasche denocciolate",
+   "dettagli": "10,50 € al kg · Dal 05.11. al 15.11.",
+   "formato": "180 g",
+   "prezzo": 1.89,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 1.89,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 24
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=12079501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-8831001",
+   "prodotto": "Delizie Dal Sole Pomodori secchi",
+   "dettagli": "3,90 € al kg · Dal 05.11. al 15.11.",
+   "formato": "280 g",
+   "prezzo": 1.09,
+   "prezzo_precedente": 1.45,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 1.09,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 24
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=8831001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14761801",
+   "prodotto": "Variagusto Olive verdi giganti denocciolate",
+   "dettagli": "6,89 € al kg · Dal 05.11. al 15.11.",
+   "formato": "560 g/sgocc. 260 g",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.29,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14761801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-12067501",
+   "prodotto": "Amo Essere Eccellente Filetti di tonno bianco \nall'olio d'oliva",
+   "dettagli": "14,95 € al kg · Dal 05.11. al 15.11.",
+   "formato": "200 g",
+   "prezzo": 2.99,
+   "prezzo_precedente": 3.99,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=12067501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18044901",
+   "prodotto": "Ondina Filetti di salmone \nal naturale",
+   "dettagli": "23,90 € al kg · Dal 05.11. al 15.11.",
+   "formato": "150 g/\nsgocc. 100 g",
+   "prezzo": 2.39,
+   "prezzo_precedente": 3.19,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 2.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18044901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18994501",
+   "prodotto": "Tre Mulini Pinsa",
+   "dettagli": "4,98 € al kg · Dal 05.11. al 15.11.",
+   "formato": "2 x 230 g",
+   "prezzo": 2.29,
+   "prezzo_precedente": 2.99,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 2.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18994501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18520101",
+   "prodotto": "Tre Mulini Taralli \ncon olio \nextra vergine\nd'oliva 5%",
+   "dettagli": "2,58 € al kg · Dal 05.11. al 15.11.",
+   "formato": "500 g",
+   "prezzo": 1.29,
+   "prezzo_precedente": 1.75,
+   "sconto_pct": 26,
+   "prezzo_effettivo": 1.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 26
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18520101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-8170601",
+   "prodotto": "Don Jerez Caffè classico",
+   "dettagli": "8,98 € al kg · Dal 05.11. al 15.11.",
+   "formato": "2 x 250 g",
+   "prezzo": 4.49,
+   "prezzo_precedente": 5.69,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 4.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=8170601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-13816201",
+   "prodotto": "Dolciando Pasticcini assortiti",
+   "dettagli": "6,30 € al kg · Dal 05.11. al 15.11.",
+   "formato": "300 g",
+   "prezzo": 1.89,
+   "prezzo_precedente": 1.89,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 1.89,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=13816201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16310601",
+   "prodotto": "Biscotti danesi in latta",
+   "dettagli": "6,66 € al kg · Dal 05.11. al 15.11.",
+   "formato": "750 g",
+   "prezzo": 4.99,
+   "prezzo_precedente": 4.99,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16310601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11857601",
+   "prodotto": "Dolciando Savoiardi",
+   "dettagli": "3,23 € al kg · Dal 05.11. al 15.11.",
+   "formato": "400 g",
+   "prezzo": 1.29,
+   "prezzo_precedente": 1.69,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 1.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11857601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-13403201",
+   "prodotto": "Duca Moscati Torroncini \nassortiti",
+   "dettagli": "13,18 € al kg · Dal 05.11. al 15.11.",
+   "formato": "280 g",
+   "prezzo": 3.69,
+   "prezzo_precedente": 3.69,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 3.69,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Specialità",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=13403201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18156501",
+   "prodotto": "Lester House Calendario dell'avvento del tè",
+   "dettagli": "122,91 € al kg · Dal 05.11. al 15.11.",
+   "formato": "40,6 g",
+   "prezzo": 4.99,
+   "prezzo_precedente": 4.99,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Specialità",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18156501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-13138001",
+   "prodotto": "Blues Cola",
+   "dettagli": "0,83 € al l · Dal 05.11. al 15.11.",
+   "formato": "4 x 330 ml",
+   "prezzo": 1.09,
+   "prezzo_precedente": 1.39,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 1.09,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=13138001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-8759001",
+   "prodotto": "Prosecco doc frizzante",
+   "dettagli": "3,86 € al l · Dal 05.11. al 15.11.",
+   "formato": "750 ml",
+   "prezzo": 2.89,
+   "prezzo_precedente": 3.89,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 2.89,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=8759001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-12914501",
+   "prodotto": "Spumante prince castell brut",
+   "dettagli": "2,26 € al l · Dal 05.11. al 15.11.",
+   "formato": "750 ml",
+   "prezzo": 1.69,
+   "prezzo_precedente": 2.29,
+   "sconto_pct": 26,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 26
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=12914501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18904501",
+   "prodotto": "Sistema Casa Carta forno in fogli, 33x38 cm, 25 pz",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 0.69,
+   "prezzo_precedente": 0.99,
+   "sconto_pct": 30,
+   "prezzo_effettivo": 0.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 30
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18904501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14343601",
+   "prodotto": "Soft Dream Tovagliette 33x45 cm, \n2 veli, \n80 strappi",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 28,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 28
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14343601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17619002",
+   "prodotto": "Blues Bitter analcolico rosso",
+   "dettagli": "1,99 € al l · Dal 05.11. al 15.11.",
+   "formato": "10 x 100 ml",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.39,
+   "sconto_pct": 16,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 16
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17619002&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17618902",
+   "prodotto": "Blues Bitter analcolico biondo",
+   "dettagli": "1,99 € al l · Dal 05.11. al 15.11.",
+   "formato": "10 x 100 ml",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.39,
+   "sconto_pct": 16,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 16
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17618902&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11298601",
+   "prodotto": "Dolciando Profiteroles",
+   "dettagli": "8,98 € al kg · Dal 05.11. al 15.11.",
+   "formato": "500 g",
+   "prezzo": 4.49,
+   "prezzo_precedente": 4.49,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 4.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11298601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-15059801",
+   "prodotto": "Dolciando Tartufo",
+   "dettagli": "9,39 € al kg · Dal 05.11. al 15.11.",
+   "formato": "2 x 90 g",
+   "prezzo": 1.69,
+   "prezzo_precedente": 1.69,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Latticini E Uova",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=15059801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19112601",
+   "prodotto": "Dolciando Tortino di cioccolato",
+   "dettagli": "12,44 € al kg · Dal 05.11. al 15.11.",
+   "formato": "2 x 80 g",
+   "prezzo": 1.99,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Latticini E Uova",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19112601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19202001",
+   "prodotto": "Dolciando Barrette di cioccolato al latte",
+   "dettagli": "9,45 € al kg · Dal 05.11. al 15.11.",
+   "formato": "200 g",
+   "prezzo": 1.89,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 1.89,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 24
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19202001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16982801",
+   "prodotto": "Dolciando Ciocciolato gianduia con nocciole intere italiane",
+   "dettagli": "14,54 € al kg · Dal 05.11. al 15.11.",
+   "formato": "130 g",
+   "prezzo": 1.89,
+   "prezzo_precedente": 2.39,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.89,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16982801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19154401",
+   "prodotto": "Duca Moscati Gianduiotti",
+   "dettagli": "7,99 € al kg · Dal 05.11. al 15.11.",
+   "formato": "1 kg",
+   "prezzo": 7.99,
+   "prezzo_precedente": 7.99,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19154401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16542001",
+   "prodotto": "Dolciando Snack mini mix",
+   "dettagli": "6,98 € al kg · Dal 05.11. al 15.11.",
+   "formato": "500 g",
+   "prezzo": 3.49,
+   "prezzo_precedente": 4.49,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 3.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16542001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18344401",
+   "prodotto": "Dolciando Cioccolato fondente",
+   "dettagli": "8,95 € al kg · Dal 05.11. al 15.11.",
+   "formato": "200 g",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.39,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18344401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-15227101",
+   "prodotto": "Dolciando Cioccolato svizzero al latte",
+   "dettagli": "8,64 € al kg · Dal 05.11. al 15.11.",
+   "formato": "300 g",
+   "prezzo": 2.59,
+   "prezzo_precedente": 3.49,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 2.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=15227101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-15217201",
+   "prodotto": "Dolciando Cioccolato svizzero al latte con nocciole intere",
+   "dettagli": "9,30 € al kg · Dal 05.11. al 15.11.",
+   "formato": "300 g",
+   "prezzo": 2.79,
+   "prezzo_precedente": 3.79,
+   "sconto_pct": 26,
+   "prezzo_effettivo": 2.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 26
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=15217201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19144601",
+   "prodotto": "Dolciando Cioccolato bianco",
+   "dettagli": "7,90 € al kg · Dal 05.11. al 15.11.",
+   "formato": "100 g",
+   "prezzo": 0.79,
+   "prezzo_precedente": 0.99,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 0.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19144601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18504301",
+   "prodotto": "Dolciando Cioccolato fondente",
+   "dettagli": "6,90 € al kg · Dal 05.11. al 15.11.",
+   "formato": "100 g",
+   "prezzo": 0.69,
+   "prezzo_precedente": 0.89,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 0.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18504301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-12112101",
+   "prodotto": "Dolciando Praline assortite",
+   "dettagli": "5,49 € al kg · Dal 05.11. al 15.11.",
+   "formato": "1 kg",
+   "prezzo": 5.49,
+   "prezzo_precedente": 6.99,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 5.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=12112101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-13386401",
+   "prodotto": "Dolciando Boeri alla nocciola",
+   "dettagli": "10,50 € al kg · Dal 05.11. al 15.11.",
+   "formato": "180 g",
+   "prezzo": 1.89,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 1.89,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 24
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=13386401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16960501",
+   "prodotto": "Dolciando Cremini gusto classico",
+   "dettagli": "12,17 € al kg · Dal 05.11. al 15.11.",
+   "formato": "180 g",
+   "prezzo": 2.19,
+   "prezzo_precedente": 2.79,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 2.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16960501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14422101",
+   "prodotto": "Grappa riserva barrique 18 mesi, \n40% vol.",
+   "dettagli": "9,98 € al l · Dal 05.11. al 15.11.",
+   "formato": "500 ml",
+   "prezzo": 4.99,
+   "prezzo_precedente": 6.29,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14422101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14414101",
+   "prodotto": "Rum superior, \n40% vol.",
+   "dettagli": "8,13 € al l · Dal 05.11. al 15.11.",
+   "formato": "700 ml",
+   "prezzo": 5.69,
+   "prezzo_precedente": 6.99,
+   "sconto_pct": 18,
+   "prezzo_effettivo": 5.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 18
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14414101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11916501",
+   "prodotto": "Fresche Fette Prosciutto cotto \nalta qualità \nsolo 2% \ndi grassi",
+   "dettagli": "11,25 € al kg · Dal 05.11. al 15.11.",
+   "formato": "120 g",
+   "prezzo": 1.35,
+   "prezzo_precedente": 1.69,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.35,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11916501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11382101",
+   "prodotto": "La Bottega Del Gusto Salame ungherese",
+   "dettagli": "7,94 € al kg · Dal 05.11. al 15.11.",
+   "formato": "150 g",
+   "prezzo": 1.19,
+   "prezzo_precedente": 1.55,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 1.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11382101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-8063201",
+   "prodotto": "Tobias Würstel di pollo, suino e tacchino,\n12 pz",
+   "dettagli": "2,29 € al kg · Dal 05.11. al 15.11.",
+   "formato": "1 kg",
+   "prezzo": 2.29,
+   "prezzo_precedente": 2.99,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 2.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=8063201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17332801",
+   "prodotto": "La Bottega Del Gusto Pancetta premium a cubetti affumicata",
+   "dettagli": "8,73 € al kg · Dal 05.11. al 15.11.",
+   "formato": "4  x 100 g",
+   "prezzo": 3.49,
+   "prezzo_precedente": 3.49,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 3.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17332801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11984301",
+   "prodotto": "Land Gouda",
+   "dettagli": "6,48 € al kg · Dal 05.11. al 15.11.",
+   "formato": "400 g",
+   "prezzo": 2.59,
+   "prezzo_precedente": 3.49,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 2.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11984301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14278801",
+   "prodotto": "Land Scamorza affumicata",
+   "dettagli": "6,64 € al kg · Dal 05.11. al 15.11.",
+   "formato": "300 g",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14278801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14278802",
+   "prodotto": "Land Scamorza bianca",
+   "dettagli": "6,64 € al kg · Dal 05.11. al 15.11.",
+   "formato": "300 g",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14278802&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14557601",
+   "prodotto": "Tre Mulini Pasta sfoglia fresca rotonda",
+   "dettagli": "3,27 € al kg · Dal 05.11. al 15.11.",
+   "formato": "230 g",
+   "prezzo": 0.75,
+   "prezzo_precedente": 0.95,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 0.75,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14557601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16167401",
+   "prodotto": "Tre Mulini Piadina integrale",
+   "dettagli": "2,64 € al kg · Dal 05.11. al 15.11.",
+   "formato": "300 g",
+   "prezzo": 0.79,
+   "prezzo_precedente": 0.99,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 0.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16167401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-15770301",
+   "prodotto": "Tre Mulini Ravioli \ndi magro",
+   "dettagli": "4,99 € al kg · Dal 05.11. al 15.11.",
+   "formato": "1 kg",
+   "prezzo": 4.99,
+   "prezzo_precedente": 4.99,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=15770301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14523201",
+   "prodotto": "Land Yogurt intero \nalla frutta",
+   "dettagli": "1,99 € al kg · Dal 05.11. al 15.11.",
+   "formato": "8 x 125 g",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Latticini E Uova",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14523201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17599301",
+   "prodotto": "Land Latte intero UHT",
+   "dettagli": "0,69 € al l · Dal 05.11. al 15.11.",
+   "formato": "1 l",
+   "prezzo": 0.69,
+   "prezzo_precedente": 0.85,
+   "sconto_pct": 18,
+   "prezzo_effettivo": 0.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 18
+   },
+   "scade_prima": null,
+   "categoria": "Latticini E Uova",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17599301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-13518601",
+   "prodotto": "Tre Mulini Penne rigate",
+   "dettagli": "0,75 € al kg · Dal 05.11. al 15.11.",
+   "formato": "1 kg",
+   "prezzo": 0.75,
+   "prezzo_precedente": 0.89,
+   "sconto_pct": 15,
+   "prezzo_effettivo": 0.75,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 15
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=13518601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-13529201",
+   "prodotto": "Tre Mulini Spaghetti",
+   "dettagli": "0,75 € al kg · Dal 05.11. al 15.11.",
+   "formato": "1 kg",
+   "prezzo": 0.75,
+   "prezzo_precedente": 0.89,
+   "sconto_pct": 15,
+   "prezzo_effettivo": 0.75,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 15
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=13529201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-7032901",
+   "prodotto": "Tre Mulini Tortiglioni",
+   "dettagli": "0,75 € al kg · Dal 05.11. al 15.11.",
+   "formato": "1 kg",
+   "prezzo": 0.75,
+   "prezzo_precedente": 0.89,
+   "sconto_pct": 15,
+   "prezzo_effettivo": 0.75,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 15
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=7032901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-13529501",
+   "prodotto": "Tre Mulini Fusilli",
+   "dettagli": "0,75 € al kg · Dal 05.11. al 15.11.",
+   "formato": "1 kg",
+   "prezzo": 0.75,
+   "prezzo_precedente": 0.89,
+   "sconto_pct": 15,
+   "prezzo_effettivo": 0.75,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 15
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=13529501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-10325401",
+   "prodotto": "Delizie Dal Sole Riso arborio",
+   "dettagli": "1,65 € al kg · Dal 05.11. al 15.11.",
+   "formato": "2 kg",
+   "prezzo": 3.29,
+   "prezzo_precedente": 4.49,
+   "sconto_pct": 26,
+   "prezzo_effettivo": 3.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 26
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=10325401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-13107203",
+   "prodotto": "Delizie Dal Sole Pesto di pistacchio",
+   "dettagli": "13,11 € al kg · Dal 05.11. al 15.11.",
+   "formato": "190 g",
+   "prezzo": 2.49,
+   "prezzo_precedente": 3.29,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 24
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=13107203&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-8380201",
+   "prodotto": "Antica Badia Olio extra vergine di oliva",
+   "dettagli": "4,29 € al l · Dal 05.11. al 15.11.",
+   "formato": "1 l",
+   "prezzo": 4.29,
+   "prezzo_precedente": 4.99,
+   "sconto_pct": 14,
+   "prezzo_effettivo": 4.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 14
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=8380201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18896301",
+   "prodotto": "Ondina Tonno al naturale",
+   "dettagli": "11,95 € al kg · Dal 05.11. al 15.11.",
+   "formato": "200 g",
+   "prezzo": 2.39,
+   "prezzo_precedente": 3.19,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 2.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18896301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-10429501",
+   "prodotto": "Delizie Dal Sole Ceci",
+   "dettagli": "1,63 € al kg · Dal 05.11. al 15.11.",
+   "formato": "400 g/\nsgocc. 240 g",
+   "prezzo": 0.39,
+   "prezzo_precedente": 0.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 0.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Frutta E Verdura",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=10429501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16275201",
+   "prodotto": "Delizie Dal Sole Piselli medi",
+   "dettagli": "2,41 € al kg · Dal 05.11. al 15.11.",
+   "formato": "400 g/\nsgocc. 270 g",
+   "prezzo": 0.65,
+   "prezzo_precedente": 0.89,
+   "sconto_pct": 26,
+   "prezzo_effettivo": 0.65,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 26
+   },
+   "scade_prima": null,
+   "categoria": "Frutta E Verdura",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16275201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11693601",
+   "prodotto": "Mambo Kids Snack salato gusto paprika",
+   "dettagli": "8,18 € al kg · Dal 05.11. al 15.11.",
+   "formato": "170 g",
+   "prezzo": 1.39,
+   "prezzo_precedente": 1.79,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 1.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11693601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14591301",
+   "prodotto": "Amo Essere Bio Fiocchi d'avena \nal naturale",
+   "dettagli": "2,18 € al kg · Dal 05.11. al 15.11.",
+   "formato": "500 g",
+   "prezzo": 1.09,
+   "prezzo_precedente": 1.39,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 1.09,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14591301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-10770901",
+   "prodotto": "Dolciando Frollini \ncon cacao \ne nocciole",
+   "dettagli": "2,42 € al kg · Dal 05.11. al 15.11.",
+   "formato": "700 g",
+   "prezzo": 1.69,
+   "prezzo_precedente": 2.19,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=10770901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18670601",
+   "prodotto": "Dolciando Pain au chocolat",
+   "dettagli": "5,52 € al kg · Dal 05.11. al 15.11.",
+   "formato": "270 g",
+   "prezzo": 1.49,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 1.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18670601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11709301",
+   "prodotto": "Dolciando Plum cake \ncon yogurt,\n10 pz",
+   "dettagli": "3,69 € al kg · Dal 05.11. al 15.11.",
+   "formato": "350 g",
+   "prezzo": 1.29,
+   "prezzo_precedente": 1.69,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 1.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11709301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18556901",
+   "prodotto": "Blues Cola lemon",
+   "dettagli": "0,40 € al l · Dal 05.11. al 15.11.",
+   "formato": "1,5 l",
+   "prezzo": 0.59,
+   "prezzo_precedente": 0.79,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 0.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18556901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18557101",
+   "prodotto": "Blues Cola senza caffeina",
+   "dettagli": "0,40 € al l · Dal 05.11. al 15.11.",
+   "formato": "1,5 l",
+   "prezzo": 0.59,
+   "prezzo_precedente": 0.79,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 0.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18557101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-10339501",
+   "prodotto": "Puertosol Succo e polpa pesca",
+   "dettagli": "1,13 € al l · Dal 05.11. al 15.11.",
+   "formato": "6 x 200 ml",
+   "prezzo": 1.35,
+   "prezzo_precedente": 1.75,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 1.35,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=10339501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14568601",
+   "prodotto": "Best Brau Birra",
+   "dettagli": "1,19 € al l · Dal 05.11. al 15.11.",
+   "formato": "330 ml",
+   "prezzo": 0.39,
+   "prezzo_precedente": 0.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 0.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14568601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-10906101",
+   "prodotto": "Montepulciano d'abruzzo doc",
+   "dettagli": "1,50 € al l · Dal 05.11. al 15.11.",
+   "formato": "5 l",
+   "prezzo": 7.49,
+   "prezzo_precedente": 8.99,
+   "sconto_pct": 16,
+   "prezzo_effettivo": 7.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 16
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=10906101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16882301",
+   "prodotto": "Soft Dream Fazzoletti delicati, \n4 veli, \n30 pacchetti, \n10 pz",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.79,
+   "sconto_pct": 28,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 28
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16882301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17030301",
+   "prodotto": "Amo Essere Eco Tovaglioli ecolabel, \n100 pz",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 1.49,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 1.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17030301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18918301",
+   "prodotto": "Soft Dream Asciugatutto extra \n2 rotoli, \n3 veli, \n100 strappi",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 28,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 28
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18918301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18775901",
+   "prodotto": "Soft Dream Carta igienica\n\"la fiorita\",\n6 rotoli, \n4 veli, \n150 strappi",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 28,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 28
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18775901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16764401",
+   "prodotto": "Soft Dream Carta igienica \nla setosa,\n12 rotoli, \n2 veli,\n150 strappi",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 2.49,
+   "prezzo_precedente": 3.79,
+   "sconto_pct": 34,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 34
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16764401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19010601",
+   "prodotto": "Dexal Liquido lavatrice aloe/lavanda, \n50 lavaggi",
+   "dettagli": "1,13 € al l · Dal 05.11. al 15.11.",
+   "formato": "4 l",
+   "prezzo": 4.49,
+   "prezzo_precedente": 5.69,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 4.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19010601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18063201",
+   "prodotto": "Dexal Ammorbidente concentrato profumo di brezza marina/vaniglia e oro liquido",
+   "dettagli": "1,06 € al l · Dal 05.11. al 15.11.",
+   "formato": "750 ml",
+   "prezzo": 0.79,
+   "prezzo_precedente": 0.99,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 0.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18063201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18908701",
+   "prodotto": "Dexal Ammorbidente concentrato gelsomino/gardenia",
+   "dettagli": "1,06 € al l · Dal 05.11. al 15.11.",
+   "formato": "750 ml",
+   "prezzo": 0.79,
+   "prezzo_precedente": 0.99,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 0.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18908701&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18870201",
+   "prodotto": "Dexal Detergente piatti \naceto/limone",
+   "dettagli": "0,80 € al l · Dal 05.11. al 15.11.",
+   "formato": "1,25 l",
+   "prezzo": 0.99,
+   "prezzo_precedente": 1.29,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 0.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18870201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-12997101",
+   "prodotto": "Dexal Gel lavastoviglie tutto in 1",
+   "dettagli": "3,59 € al l · Dal 05.11. al 15.11.",
+   "formato": "750 ml",
+   "prezzo": 2.69,
+   "prezzo_precedente": 3.29,
+   "sconto_pct": 18,
+   "prezzo_effettivo": 2.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 18
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=12997101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14891201",
+   "prodotto": "Dexal Candeggina densoattiva",
+   "dettagli": "0,60 € al l · Dal 05.11. al 15.11.",
+   "formato": "3 l",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.35,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14891201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11339801",
+   "prodotto": "Radames Crocchette premium per cane taglia m/l, gusti assortiti",
+   "dettagli": "1,26 € al kg · Dal 05.11. al 15.11.",
+   "formato": "5 kg",
+   "prezzo": 6.29,
+   "prezzo_precedente": 7.99,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 6.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Animali",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11339801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17302901",
+   "prodotto": "Radames Croccantini per gatti adulti con pollo, tacchino e verdure",
+   "dettagli": "1,25 € al kg · Dal 05.11. al 15.11.",
+   "formato": "2 kg",
+   "prezzo": 2.49,
+   "prezzo_precedente": 3.15,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Animali",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17302901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18760601",
+   "prodotto": "Delizie Dal Sole Patate vortice speziate",
+   "dettagli": "3,99 € al kg · Dal 05.11. al 15.11.",
+   "formato": "600 g",
+   "prezzo": 2.39,
+   "prezzo_precedente": 2.39,
+   "sconto_pct": 0,
+   "prezzo_effettivo": 2.39,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18760601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14271801",
+   "prodotto": "Delizie Dal Sole Spinaci fogliolina",
+   "dettagli": "2,20 € al kg · Dal 05.11. al 15.11.",
+   "formato": "450 g",
+   "prezzo": 0.99,
+   "prezzo_precedente": 1.19,
+   "sconto_pct": 16,
+   "prezzo_effettivo": 0.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 16
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14271801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-9028301",
+   "prodotto": "Delizie Dal Sole Funghi misti con porcini",
+   "dettagli": "4,20 € al kg · Dal 05.11. al 15.11.",
+   "formato": "450 g",
+   "prezzo": 1.89,
+   "prezzo_precedente": 2.39,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.89,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=9028301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-9053801",
+   "prodotto": "Delizie Dal Sole Minestrone 14 verdure",
+   "dettagli": "1,13 € al kg · Dal 05.11. al 15.11.",
+   "formato": "1,5 kg",
+   "prezzo": 1.69,
+   "prezzo_precedente": 2.19,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=9053801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17374701",
+   "prodotto": "Athena Sugo alle cozze",
+   "dettagli": "6,26 € al kg · Dal 05.11. al 15.11.",
+   "formato": "350 g",
+   "prezzo": 2.19,
+   "prezzo_precedente": 2.79,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 2.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17374701&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-3272201",
+   "prodotto": "Ondina Filetti di merluzzo atlantico",
+   "dettagli": "5,99 € al kg · Dal 05.11. al 15.11.",
+   "formato": "1 kg",
+   "prezzo": 5.99,
+   "prezzo_precedente": 7.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 5.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=3272201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-5003901",
+   "prodotto": "Athena Chele di surimi impanate",
+   "dettagli": "5,96 € al kg · Dal 05.11. al 15.11.",
+   "formato": "250 g",
+   "prezzo": 1.49,
+   "prezzo_precedente": 1.89,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 1.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=5003901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18730001",
+   "prodotto": "Tre Mulini Pizza\n4 formaggi",
+   "dettagli": "6,11 € al kg · Dal 05.11. al 15.11.",
+   "formato": "375 g",
+   "prezzo": 2.29,
+   "prezzo_precedente": 2.89,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 2.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18730001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-15760901",
+   "prodotto": "Variagusto Panzerottini pomodoro e mozzarella, \n10 pz",
+   "dettagli": "3,96 € al kg · Dal 05.11. al 15.11.",
+   "formato": "250 g",
+   "prezzo": 0.99,
+   "prezzo_precedente": 1.35,
+   "sconto_pct": 26,
+   "prezzo_effettivo": 0.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 26
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=15760901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14593801",
+   "prodotto": "La Collina Delle Bonta' Cotolette agli spinaci, 3 pz",
+   "dettagli": "5,97 € al kg · Dal 05.11. al 15.11.",
+   "formato": "300 g",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.19,
+   "sconto_pct": 18,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 18
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14593801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14605501",
+   "prodotto": "La Collina Delle Bonta' Cotolette di pollo, 3 pz",
+   "dettagli": "6,40 € al kg · Dal 05.11. al 15.11.",
+   "formato": "280 g",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.19,
+   "sconto_pct": 18,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 18
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14605501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14594501",
+   "prodotto": "La Collina Delle Bonta' Cordon bleu di pollo, 2 pz",
+   "dettagli": "7,46 € al kg · Dal 05.11. al 15.11.",
+   "formato": "240 g",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.19,
+   "sconto_pct": 18,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 18
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14594501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11448601",
+   "prodotto": "Tre Mulini Orecchiette alle cime di rapa",
+   "dettagli": "3,18 € al kg · Dal 05.11. al 15.11.",
+   "formato": "500 g",
+   "prezzo": 1.59,
+   "prezzo_precedente": 2.19,
+   "sconto_pct": 27,
+   "prezzo_effettivo": 1.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 27
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11448601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16574901",
+   "prodotto": "Dolciando Croissant senza \nfarcitura, 6 pz",
+   "dettagli": "4,98 € al kg · Dal 05.11. al 15.11.",
+   "formato": "360 g",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.15,
+   "sconto_pct": 16,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 16
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16574901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-12210701",
+   "prodotto": "Tre Mulini Gnocchi alla sorrentina",
+   "dettagli": "3,08 € al kg · Dal 05.11. al 15.11.",
+   "formato": "550 g",
+   "prezzo": 1.69,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 15,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 15
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=12210701&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-4361201",
+   "prodotto": "Collina D'Oro Olio \ndi semi \ndi mais",
+   "dettagli": "1,49 € al l · Dal 05.11. al 15.11.",
+   "formato": "1 l",
+   "prezzo": 1.49,
+   "prezzo_precedente": 1.89,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 1.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=4361201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-12323201",
+   "prodotto": "Dolciando Caramelle dure senza zucchero anice e liquirizia",
+   "dettagli": "9,38 € al kg · Dal 05.11. al 15.11.",
+   "formato": "80 g",
+   "prezzo": 0.75,
+   "prezzo_precedente": 0.99,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 0.75,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 24
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=12323201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-12323101",
+   "prodotto": "Dolciando Caramelle dure zucchero menta",
+   "dettagli": "9,38 € al kg · Dal 05.11. al 15.11.",
+   "formato": "80 g",
+   "prezzo": 0.75,
+   "prezzo_precedente": 0.99,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 0.75,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 24
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=12323101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16825601",
+   "prodotto": "Tre Mulini Tagliatelle paglia e fieno all'uovo",
+   "dettagli": "3,00 € al kg · Dal 05.11. al 15.11.",
+   "formato": "250 g",
+   "prezzo": 0.75,
+   "prezzo_precedente": 0.95,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 0.75,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16825601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16773301",
+   "prodotto": "Tre Mulini Taglierini all'uovo",
+   "dettagli": "3,00 € al kg · Dal 05.11. al 15.11.",
+   "formato": "250 g",
+   "prezzo": 0.75,
+   "prezzo_precedente": 0.95,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 0.75,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16773301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-10306901",
+   "prodotto": "Blues Thè al limone",
+   "dettagli": "0,83 € al l · Dal 05.11. al 15.11.",
+   "formato": "6 x 200 ml",
+   "prezzo": 0.99,
+   "prezzo_precedente": 1.19,
+   "sconto_pct": 16,
+   "prezzo_effettivo": 0.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 16
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=10306901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-10311101",
+   "prodotto": "Blues Thè alla pesca",
+   "dettagli": "0,83 € al l · Dal 05.11. al 15.11.",
+   "formato": "6 x 200 ml",
+   "prezzo": 0.99,
+   "prezzo_precedente": 1.19,
+   "sconto_pct": 16,
+   "prezzo_effettivo": 0.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 16
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=10311101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-1249201",
+   "prodotto": "Variagusto Giardiniera",
+   "dettagli": "2,62 € al kg · Dal 05.11. al 15.11.",
+   "formato": "565 g/\nsgocc. 340 g",
+   "prezzo": 0.89,
+   "prezzo_precedente": 1.19,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 0.89,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=1249201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16657001",
+   "prodotto": "Land La merenda con formaggio e grissini",
+   "dettagli": "12,08 € al kg · Dal 05.11. al 15.11.",
+   "formato": "4 x 35 g",
+   "prezzo": 1.69,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 15,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 15
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16657001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18329901",
+   "prodotto": "Tre Mulini Pane gran tramezzino integrale",
+   "dettagli": "4,48 € al kg · Dal 05.11. al 15.11.",
+   "formato": "400 g",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.19,
+   "sconto_pct": 18,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 18
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18329901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16656501",
+   "prodotto": "Dolciando Frollini integrali con cioccolato",
+   "dettagli": "4,55 € al kg · Dal 05.11. al 15.11.",
+   "formato": "350 g",
+   "prezzo": 1.59,
+   "prezzo_precedente": 1.89,
+   "sconto_pct": 15,
+   "prezzo_effettivo": 1.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 15
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16656501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17253301",
+   "prodotto": "Spritz aperitivo",
+   "dettagli": "1,99 € al l · Dal 05.11. al 15.11.",
+   "formato": "750 ml",
+   "prezzo": 1.49,
+   "prezzo_precedente": 1.95,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 1.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Bevande",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17253301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17648801",
+   "prodotto": "Vicino A Te Candele profumate assortite, 30h",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 1.29,
+   "prezzo_precedente": 1.79,
+   "sconto_pct": 27,
+   "prezzo_effettivo": 1.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 27
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17648801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18105901",
+   "prodotto": "Near Sapone liquido iris/frutti rossi",
+   "dettagli": "1,29 € al l · Dal 05.11. al 15.11.",
+   "formato": "1 l",
+   "prezzo": 1.29,
+   "prezzo_precedente": 1.69,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 1.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Igiene E Cura Personale",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18105901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17524902",
+   "prodotto": "Delizie Dal Sole Spinaci filanti",
+   "dettagli": "3,98 € al kg · Dal 05.11. al 15.11.",
+   "formato": "450 g",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.15,
+   "sconto_pct": 16,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 16
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17524902&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-4714201",
+   "prodotto": "Athena Bistecchine di mare impanate",
+   "dettagli": "5,64 € al kg · Dal 05.11. al 15.11.",
+   "formato": "300 g",
+   "prezzo": 1.69,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 15,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 15
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=4714201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-8170301",
+   "prodotto": "Athena Spaghettata di mare",
+   "dettagli": "6,30 € al kg · Dal 05.11. al 15.11.",
+   "formato": "300 g",
+   "prezzo": 1.89,
+   "prezzo_precedente": 2.29,
+   "sconto_pct": 17,
+   "prezzo_effettivo": 1.89,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 17
+   },
+   "scade_prima": null,
+   "categoria": "Surgelati E Gelati",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=8170301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17295701",
+   "prodotto": "La Bottega Del Gusto Pancetta arrotolata",
+   "dettagli": "9,90 € al kg · Dal 05.11. al 15.11.",
+   "formato": "100 g",
+   "prezzo": 0.99,
+   "prezzo_precedente": 1.29,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 0.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17295701&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-5808102",
+   "prodotto": "Tre Mulini Farina di grano duro",
+   "dettagli": "0,99 € al kg · Dal 05.11. al 15.11.",
+   "formato": "1 kg",
+   "prezzo": 0.99,
+   "prezzo_precedente": 1.29,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 0.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=5808102&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11699801",
+   "prodotto": "Tre Mulini Filini all'uovo",
+   "dettagli": "2,20 € al kg · Dal 05.11. al 15.11.",
+   "formato": "250 g",
+   "prezzo": 0.55,
+   "prezzo_precedente": 0.65,
+   "sconto_pct": 15,
+   "prezzo_effettivo": 0.55,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 15
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11699801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16722201",
+   "prodotto": "Tre Mulini Farfalline all'uovo",
+   "dettagli": "2,20 € al kg · Dal 05.11. al 15.11.",
+   "formato": "250 g",
+   "prezzo": 0.55,
+   "prezzo_precedente": 0.65,
+   "sconto_pct": 15,
+   "prezzo_effettivo": 0.55,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 15
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16722201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11693701",
+   "prodotto": "Tre Mulini Grattini all'uovo",
+   "dettagli": "2,20 € al kg · Dal 05.11. al 15.11.",
+   "formato": "250 g",
+   "prezzo": 0.55,
+   "prezzo_precedente": 0.65,
+   "sconto_pct": 15,
+   "prezzo_effettivo": 0.55,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 15
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11693701&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16778101",
+   "prodotto": "Tre Mulini Sorprese all'uovo",
+   "dettagli": "2,20 € al kg · Dal 05.11. al 15.11.",
+   "formato": "250 g",
+   "prezzo": 0.55,
+   "prezzo_precedente": 0.65,
+   "sconto_pct": 15,
+   "prezzo_effettivo": 0.55,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 15
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16778101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19093901",
+   "prodotto": "Amo Essere Eccellente Polpa di datterino",
+   "dettagli": "2,59 € al kg · Dal 05.11. al 15.11.",
+   "formato": "2 x 230 g",
+   "prezzo": 1.19,
+   "prezzo_precedente": 1.39,
+   "sconto_pct": 14,
+   "prezzo_effettivo": 1.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 14
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19093901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-10429601",
+   "prodotto": "Delizie Dal Sole Fagioli bianchi \ndi spagna",
+   "dettagli": "2,05 € al kg · Dal 05.11. al 15.11.",
+   "formato": "400 g/ \nsgocc. 240 g",
+   "prezzo": 0.49,
+   "prezzo_precedente": 0.59,
+   "sconto_pct": 16,
+   "prezzo_effettivo": 0.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 16
+   },
+   "scade_prima": null,
+   "categoria": "Frutta E Verdura",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=10429601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18936401",
+   "prodotto": "Ondina Filetti di acciughe",
+   "dettagli": "19,54 € al kg · Dal 05.11. al 15.11.",
+   "formato": "235 g",
+   "prezzo": 4.59,
+   "prezzo_precedente": 5.49,
+   "sconto_pct": 16,
+   "prezzo_effettivo": 4.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 16
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18936401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18201601",
+   "prodotto": "Dolciando Mini croissant crema al cioccolato con nocciola",
+   "dettagli": "5,45 € al kg · Dal 05.11. al 15.11.",
+   "formato": "200 g",
+   "prezzo": 1.09,
+   "prezzo_precedente": 1.39,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 1.09,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18201601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17076201",
+   "prodotto": "Dolciando Panini \nal latte, \n10 pz",
+   "dettagli": "3,48 € al kg · Dal 05.11. al 15.11.",
+   "formato": "400 g",
+   "prezzo": 1.39,
+   "prezzo_precedente": 1.89,
+   "sconto_pct": 26,
+   "prezzo_effettivo": 1.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 26
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17076201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-13628001",
+   "prodotto": "Dexal Tabs \nlavastoviglie\nmultifunzione, \n100 pz",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 6.99,
+   "prezzo_precedente": 8.99,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 6.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=13628001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18930301",
+   "prodotto": "Dexal Detergente multisuperficie profumato",
+   "dettagli": "1,59 € al l · Dal 05.11. al 15.11.",
+   "formato": "750 ml",
+   "prezzo": 1.19,
+   "prezzo_precedente": 1.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18930301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14106101",
+   "prodotto": "Dexal Detergente vetri e specchi",
+   "dettagli": "1,19 € al l · Dal 05.11. al 15.11.",
+   "formato": "1 l",
+   "prezzo": 1.19,
+   "prezzo_precedente": 1.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14106101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14629201",
+   "prodotto": "Radames Lettiera igienica agglomerante per gatti",
+   "dettagli": "0,20 € al kg · Dal 05.11. al 15.11.",
+   "formato": "5 kg",
+   "prezzo": 0.99,
+   "prezzo_precedente": 1.19,
+   "sconto_pct": 16,
+   "prezzo_effettivo": 0.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 16
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Animali",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14629201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18332401",
+   "prodotto": "Enkho Professional Bidone aspiraliquidi \ne solidi",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Capacità di aspirazione \n19 Kpa, capacità: bidone \n35 L, liquidi 25 L, potenza \n1600 W.",
+   "prezzo": 49.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 49.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18332401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18694501",
+   "prodotto": "Berretto \ncon luce led",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Con attacco USB e sensore accensione \nmani libere, \ncolori assortiti.",
+   "prezzo": 5.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 5.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18694501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18730401",
+   "prodotto": "Keiros On The Road Aspiratore ricaricabile",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Con filtro HEPA lavabile. Aspirazione: 4000 pa, pressione di gonfiaggio: 3500 pa.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18730401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18911101",
+   "prodotto": "Professional Keiros Carrello pieghevole",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Con capacità di carico a \n4 ruote 150 kg e 75 kg a due ruote. Misure: a 4 ruote \n453x765x950 mm, \na 2 ruote 453x417x1365 mm, \nchiuso 630x385x122 mm.",
+   "prezzo": 59.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 59.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18911101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11550301",
+   "prodotto": "Keiros On The Road Set coprisedili per auto",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Si adattano a quasi tutti i tipi di vettura, proteggono la tappezzeria da sporco e usura.",
+   "prezzo": 14.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11550301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11639701",
+   "prodotto": "Professional Keiros Scala 4 gradini",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In ferro e PP, portata massima 150 kg, misure: 40,3x75,3xh124,9 cm.",
+   "prezzo": 29.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 29.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11639701&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-15733301",
+   "prodotto": "Keiros On The Road Coprisedile auto",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Facile da montare, misure: 104x45 cm, fantasie assortite.",
+   "prezzo": 4.99,
+   "prezzo_precedente": 6.99,
+   "sconto_pct": 29,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 29
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=15733301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-15822101",
+   "prodotto": "Keiros On The Road Coprivolante",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Misura Ø 37-39 per auto/44-46 cm \nper camion.",
+   "prezzo": 3.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=15822101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16688801",
+   "prodotto": "Keiros On The Road Carrello/seduta \nda lavoro 2 in 1",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Telaio in acciaio con superficie imbottita, per lavorare sotto ai veicoli, \n6 ruote piroettanti, portata: carrello 150 kg, seduta 120 kg.",
+   "prezzo": 22.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 22.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16688801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16925601",
+   "prodotto": "Keiros On The Road Set 4 tappetini auto in moquette",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Antiscivolo, misure anteriori: 64,5x47 cm, posteriori: 47x30 cm.",
+   "prezzo": 6.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 6.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16925601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17932001",
+   "prodotto": "Keiros On The Road Profumatore auto",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Profumazioni e soggetti assortiti.",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17932001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18041601",
+   "prodotto": "Keiros On The Road Organizer per sedile auto",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Misura 60x40 cm, modelli assortiti.",
+   "prezzo": 4.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18041601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18041901",
+   "prodotto": "Keiros On The Road Cavi batterie auto",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Tipo 25 mm², lunghezza 3,5 m, resistenti ad olio, gas e acido, per vetture con motori a benzina fino a 5,5 dm³ e diesel fino a 3 dm³ .",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18041901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18044101",
+   "prodotto": "Keiros On The Road Set 4 tappetini auto in tpe",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Resistenti alle alte e basse temperature, misure: \nanteriore 68x45 cm, posteriore 45x35 cm.",
+   "prezzo": 7.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18044101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18150801",
+   "prodotto": "Keiros On The Road Lavavetro -10°c 2 l",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Detergente per vaschette tergicristalli, protegge dal gelo fino a -10°C.",
+   "prezzo": 2.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18150801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18151001",
+   "prodotto": "Keiros On The Road Liquido radiatore -20°c 2 l",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Protegge il circuito da incrostazioni, corrosione e dal gelo fino a -20°C.",
+   "prezzo": 3.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18151001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-P32962",
+   "prodotto": "Pentola a pressione 5 l 'lagostina' 'amica eco'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In acciaio inox , sistema di apertura brevettato LAGOEASY'UP®, triplo fondo Irradial® plus adatto a tutte le fonti \ndi calore, con valvola a rilascio controllato di vapore e 6 sistemi di sicurezza integrati.",
+   "prezzo": 49.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 49.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=P32962&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18390801",
+   "prodotto": "Sistema Casa Grattuggia con contenitore e \n3 lame",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Lame in acciaio inox, contenitore e coperchio in plastica, con base antiscivolo, dimensioni: \n18x9x6 cm.",
+   "prezzo": 3.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18390801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18487401",
+   "prodotto": "Friggitrice ad aria 6,5 l 'frittosnella - termozeta",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Con: ampia finestra di controllo trasparente, griglia removibile antiaderente, temperatura regolabile 80°-200°C, timer 60min. Potenza 1600 W.",
+   "prezzo": 39.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 39.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18487401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-14500901",
+   "prodotto": "Grati' 'ariete'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Grattugia elettrica senza fili con rullo in acciaio inox, completamente smontabile per una pulizia facile e completa, tappo di chiusura laterale, batteria ricaricabile.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=14500901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-15259501",
+   "prodotto": "Sistema Casa Set 3 colini",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In acciaio inox.",
+   "prezzo": 7.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=15259501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18508501",
+   "prodotto": "Sistema Casa Set 3 posate con contenitore",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Posate in acciaio inox e contenitore in plastica.",
+   "prezzo": 2.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18508501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-15454701",
+   "prodotto": "Sistema Casa Setaccio \nper farina e zucchero in acciaio inox",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 3.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=15454701&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16490001",
+   "prodotto": "Sistema Casa Pentola cuoci \ne scola",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Capacità 4,5 l, in acciaio inox, coperchio forato ad incastro, adatto anche ai piani ad induzione.",
+   "prezzo": 17.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 17.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16490001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16563001",
+   "prodotto": "Sistema Casa Grattugia 4 lati",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In acciaio inox, misura altezza 21 cm circa.",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16563001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18929501",
+   "prodotto": "Pentole in acciaio inox con fondo induzione diametro 14/12 cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Assortite tra pentola \n14 cm, casseruola \n2 manici 14 cm, casseruola 1 manico \n14 cm, bollilatte \n1 manico 12 cm.",
+   "prezzo": 7.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18929501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18929601",
+   "prodotto": "Pentole in acciaio inox con fondo induzione diametro da 1",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Assortite tra pentola 16 cm, pentola 18 cm, pentola 20 cm, casseruola 2 manici 16 cm, casseruola  2 manici 18 - casseruola 2 manici 20 cm, casseruola 2 manici 22 cm.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18929601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17672001",
+   "prodotto": "Sistema Casa Borsa termica \ncon contenitori",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Con maniglia e tracolla removibile, 4 contenitori con chiusura a scatto. Dimensioni: borsa termica 20,5x18x20 h cm, \n2 contenitori grandi \n19x15x7,2 h cm, 2 contenitori piccoli 14,6x8,8x4,6 h cm.",
+   "prezzo": 7.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17672001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18331401",
+   "prodotto": "Spruzzino per olio e condimenti 90 ml",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In vetro e acciaio con contenitore trasparente graduato.",
+   "prezzo": 3.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18331401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17567101",
+   "prodotto": "Sistema Casa Casseruola con coperchio 2,4 l",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In ghisa, dimensioni 26,5x20,5 cm.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17567101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17567201",
+   "prodotto": "Sistema Casa Casseruola ovale con coperchio 3,9 l",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In ghisa, dimensioni 35,5x21,5 cm.",
+   "prezzo": 29.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 29.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17567201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17565201",
+   "prodotto": "Sistema Casa Teglia da forno con paletta",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Teglia in acciaio al carbonio con rivestimento antiaderente ILAG, misure: 40x28x8 cm, utilizzabile in forno e lavabile in lavastoviglie.",
+   "prezzo": 13.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 13.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17565201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17998201",
+   "prodotto": "Sistema Casa Padella 28 cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In alluminio, rivestimento interno antiaderente ILAG GRANITEC, manico effetto legno.",
+   "prezzo": 14.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17998201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17998101",
+   "prodotto": "Sistema Casa Padella 24 cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In alluminio, rivestimento interno antiaderente ILAG GRANITEC, manico effetto legno.",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17998101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17998001",
+   "prodotto": "Sistema Casa Padella 20 cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In alluminio, rivestimento interno antiaderente ILAG GRANITEC, manico effetto legno, fondo full induction.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17998001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18679501",
+   "prodotto": "Set 6 coltelli  tavola inox",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Con manico in polipropilene, colori: rosso, bianco e nero.",
+   "prezzo": 3.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18679501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18956801",
+   "prodotto": "Sistema Casa Taglieri natalizi in acacia",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "forme assortite.",
+   "prezzo": 7.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18956801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18956901",
+   "prodotto": "Sistema Casa Set 4 cucchiaini con pupazzo natalizio",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 3.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18956901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18425501",
+   "prodotto": "Set contenitori \nfrigo con clip",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In plastica, set disponibili: 4x0,4 L, 3x1 L, 2x2 L, colori assortiti.",
+   "prezzo": 4.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18425501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18176901",
+   "prodotto": "Sistema Casa Set 3 contenitori \nin vetro",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Con coperchio in plastica, misure: 185 ml, 630 ml, 1480 ml.",
+   "prezzo": 7.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18176901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18853201",
+   "prodotto": "Vicino A Te Mobiletto multiuso",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Ideale come appoggio per microonde, con 2 vani e 2 ante, con un ripiano interno, con 4 ruote di cui 2 con fermo, misure: 76x39,50x h.84,5 cm.\n.",
+   "prezzo": 49.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 49.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18853201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17346501",
+   "prodotto": "Vicino A Te Cassetto porta capsule",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Dimensioni: 31x30x10 h cm, \nportata max 10 kg.",
+   "prezzo": 16.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 16.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17346501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19186301",
+   "prodotto": "Completo letto/ parure copripiumino 'kpop' ' demon hunters'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "100% cotone, fantasie assortite.",
+   "prezzo": 22.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 22.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19186301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18261501",
+   "prodotto": "Principesse disney 'frozen'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Assortite, con abiti e accessori esclusivi.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18261501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17035401",
+   "prodotto": "Action figure 'avengers - marvel'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Assortiti, misura 25 cm.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17035401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-17369701",
+   "prodotto": "Il Giocoliere Baby sedia \nin metallo",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Seduta imbottita stampata.",
+   "prezzo": 6.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 6.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=17369701&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18674601",
+   "prodotto": "Set 3 mini cassetti contenitori",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In plastica, con frontale stampato, licenze assortite Stitch, Toy Story, Frozen.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18674601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18686501",
+   "prodotto": "Scaffale per libri \ne giocattoli",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Con 2 tasche e 4 contenitori, Misura 48x29x60 cm, licenze assortite Stitch, \nToy Story, Frozen.",
+   "prezzo": 29.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 29.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18686501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18686601",
+   "prodotto": "Panchetta contenitore",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Misura 49x31x31 cm, licenze assortite Stitch, Toy Story, Frozen.",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18686601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18835101",
+   "prodotto": "Il Giocoliere Set 20 auto giocattolo",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Con funzione retrocarica, in metallo e plastica.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18835101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18835301",
+   "prodotto": "Auto da corsa radiocomandata",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Scala 1:16, con 7 funzioni, \nluci e suoni integrati, \n2 modelli assortiti.",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18835301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18835401",
+   "prodotto": "Il Giocoliere Banco da lavoro/ carrello con attrezzi",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Con più di 50 pezzi inclusi.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18835401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19198401",
+   "prodotto": "Coperta con cappuccio 100x130 cm 'frozen'/ mickey'/ 'minnie'/ 'stitch'/ ' spiderman",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 14.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19198401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19198501",
+   "prodotto": "Sacco nanna 'mickey'/ 'minnie'/ 'stitch'/ 'spiderman'\n200 gsm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Misure 128x51 cm.",
+   "prezzo": 32.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 32.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19198501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19198601",
+   "prodotto": "Plaid/cuscino 'kpop' 'idol'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 5.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 5.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19198601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-P32680",
+   "prodotto": "Set 2 fermacoda , set accessori capelli, cerchiet",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 1.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=P32680&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-P32681",
+   "prodotto": "Spazzole",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 2.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=P32681&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-P32682",
+   "prodotto": "Mini bag stitch e frozen o lotso",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 3.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=P32682&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-P32688",
+   "prodotto": "Borraccia termica 665 ml 'kpop' 'demon hunters'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 8.99,
+   "prezzo_precedente": 12.99,
+   "sconto_pct": 31,
+   "prezzo_effettivo": 8.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 31
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=P32688&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-P32689",
+   "prodotto": "Porta merenda multi scomparto 'kpop' 'demon hunters",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 4.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=P32689&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19214201",
+   "prodotto": "Costruzioni 'lego'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Assortite.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19214201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18892401",
+   "prodotto": "Magia Di Natale Base per albero",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Assortiti tra cavallo a dondolo, regalo con orsetto.",
+   "prezzo": 32.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 32.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18892401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18941501",
+   "prodotto": "Globo di neve 11 cm 'grinch'/ 'mickey'/ 'minnie'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 8.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 8.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18941501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19183401",
+   "prodotto": "Cuscino sagomato/ plaid 100x140 cm 'grinch' o 'minions'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 5.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 5.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19183401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-P32728",
+   "prodotto": "Completo letto/parure copripiumino 'minions'/ 'grinch'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=P32728&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19183301",
+   "prodotto": "Ciabatta/calze antiscivolo uomo \ne donna 'grinch' o 'minions'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Taglie ciabatte: donna  35/36, 37/38, 39/40; uomo 41/42, 43/44, 45/46. Calze antiscivolo taglia unica. Fantasie assortite.",
+   "prezzo": 6.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 6.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19183301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19198201",
+   "prodotto": "Tuta intera \ncon cappuccio 'stitch'/ \n'grinch'/\n'minnie'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Taglie S/M e L/XL.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19198201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19198701",
+   "prodotto": "Set 7 palline diametro 6 cm disney",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Licenze assortite.",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19198701&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19198801",
+   "prodotto": "Albero in  ceramica disney con luci",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Altezza 15 cm. Licenze assortite.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19198801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19198901",
+   "prodotto": "Vetrofanie disney",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Formato A3, soggetti assortiti.",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19198901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-P32685",
+   "prodotto": "Tovaglietta in pp",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=P32685&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-P32686",
+   "prodotto": "Set 3 bicchieri 25 cl,  posamestolo, vassoio",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 5.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 5.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=P32686&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-P32687",
+   "prodotto": "Set 2 mug in vetro 31 cl, piatto panettone, botti",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=P32687&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19214401",
+   "prodotto": "Peluche 'grinch' 30 cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Assortito.",
+   "prezzo": 7.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19214401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-P32726",
+   "prodotto": "Pigiama adulto e kids natale 'minions' e 'grinch'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "100% cotone. Taglie: \nUomo M/XXL, Donna S/XL, \nKids  3/4 5/6 7/8 9/10 anni.",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=P32726&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-P32771",
+   "prodotto": "Cuccia tana",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Licenze assortite.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=P32771&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19197501",
+   "prodotto": "Bijoux disney assortiti",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Orecchini, collana, set bracciali.",
+   "prezzo": 6.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 6.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19197501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-11361301",
+   "prodotto": "Magia Di Natale Pino cortina verde 180 cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Verde, 640 rami, base in metallo.",
+   "prezzo": 26.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 26.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=11361301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19208701",
+   "prodotto": "Banco scuola e tavolino 2 in 1 bing",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Ripiegabile, misure \n78x50x62 cm, età +24 mesi.",
+   "prezzo": 29.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 29.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19208701&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19207401",
+   "prodotto": "Peluche baby unicorn 50 cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "2 modelli assortiti: rosa o azzurro.",
+   "prezzo": 29.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 29.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19207401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19194901",
+   "prodotto": "Cavallo a dondolo",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In peluches, misura: 74x28x72h cm, età: +10 mesi.",
+   "prezzo": 54.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 54.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19194901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19196201",
+   "prodotto": "Parure copripiumino per culla",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Misura copripiumino: 100x40 cm + federa 40x60 cm, 100% cotone, 4 fantasie assortite.",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19196201&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19196401",
+   "prodotto": "Completo letto neonato disney",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Misura lenzuolo piano: 110x185 cm + lenzuolo con angoli 60x130+15 cm, 100% cotone, 3 fantasie assortite.",
+   "prezzo": 14.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19196401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19196501",
+   "prodotto": "Sacco nanna disney 0-9 mesi",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Misura: 40x75 / 55x90 cm, 100% cotone, 3 fantastie assortite.",
+   "prezzo": 14.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19196501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19196801",
+   "prodotto": "Sacco nanna disney 9-18 mesi",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Misura: 40x75 / 55x90 cm, 100% cotone, 3 fantastie assortite.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19196801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19197001",
+   "prodotto": "Coperta winnie pooh",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Misura: 100x150 cm, 100% cotone.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19197001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19189901",
+   "prodotto": "Gnomo maxi 80h cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "3 colori assortiti.",
+   "prezzo": 8.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 8.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19189901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19189701",
+   "prodotto": "Orsetto gambe estendibili 95h cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "2 modelli assortiti.",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19189701&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19190101",
+   "prodotto": "Cassetta delle poste \"merry christmas\"",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In latta, misura: 27X20X45 cm.",
+   "prezzo": 34.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 34.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19190101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19189601",
+   "prodotto": "Abete pop up luminoso 180h cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Con 200 LED.",
+   "prezzo": 46.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 46.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19189601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19190301",
+   "prodotto": "Albero di natale  90h cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In PVC, con neve e bacche rosse.",
+   "prezzo": 17.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 17.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19190301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19190601",
+   "prodotto": "Albero con luci led 100h cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "In PVC, 200 LED di colore bianco caldo.",
+   "prezzo": 24.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 24.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19190601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19195901",
+   "prodotto": "Decorazione renna con slitta",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "LED di colore bianco, misura renna: 50x11x60h cm, slitta: 30x60x30 cm.",
+   "prezzo": 64.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 64.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19195901&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19196001",
+   "prodotto": "Decorazione renna 105h cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "500 gocce di LED bianco caldo.",
+   "prezzo": 64.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 64.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19196001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18892601",
+   "prodotto": "Magia Di Natale Base per albero - sacco con orsetto",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Misure: 35x32x32 cm",
+   "prezzo": 32.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 32.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18892601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18894001",
+   "prodotto": "Magia Di Natale Base per albero - pacco con cane",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Misure: 44x27x27 cm",
+   "prezzo": 32.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 32.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18894001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18940501",
+   "prodotto": "Magia Di Natale Base per albero - casetta rosa",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Misure: 46x32x27.5 cm",
+   "prezzo": 32.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 32.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18940501&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18940601",
+   "prodotto": "Magia Di Natale Base per albero - slitta con orsetto",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Misure: 34x36x26 cm",
+   "prezzo": 32.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 32.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18940601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-19167801",
+   "prodotto": "Set tavolo e \n4 sedie",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Tavolo rettangolare in metallo grigio chiaro,  piano in vetro grigio scuro: 135x80x75h cm; sedie in poliestere colore talpa con struttura in metallo: 41x40x98h cm.",
+   "prezzo": 179.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 179.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=19167801&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-80415001",
+   "prodotto": "Amo Essere Eccellente Marroni",
+   "dettagli": "5,32 € al kg · Dal 13.11. al 15.11.",
+   "formato": "750 g",
+   "prezzo": 3.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Frutta E Verdura",
+   "inizio": "2026-11-13",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=80415001&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-70010401",
+   "prodotto": "Macinato per ragù di bovino adulto",
+   "dettagli": "Dal 13.11. al 15.11.",
+   "formato": "al kg",
+   "prezzo": 8.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 8.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Carne E Pesce",
+   "inizio": "2026-11-13",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=70010401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-10349101",
+   "prodotto": "Land Mozzarella",
+   "dettagli": "4,72 € al kg · Dal 13.11. al 15.11.",
+   "formato": "125 g",
+   "prezzo": 0.59,
+   "prezzo_precedente": 0.85,
+   "sconto_pct": 30,
+   "prezzo_effettivo": 0.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 30
+   },
+   "scade_prima": null,
+   "categoria": "Gastronomia, Salumi E Formaggi",
+   "inizio": "2026-11-13",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=10349101&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-16068401",
+   "prodotto": "Ondina Tonno pinna gialla all'olio di oliva",
+   "dettagli": "11,06 € al kg · Dal 13.11. al 15.11.",
+   "formato": "3 x 60 g",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.99,
+   "sconto_pct": 33,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 33
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-13",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=16068401&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-18963301",
+   "prodotto": "Dolciando Crema spalmabile bigusto",
+   "dettagli": "3,32 € al kg · Dal 13.11. al 15.11.",
+   "formato": "750 g",
+   "prezzo": 2.49,
+   "prezzo_precedente": 3.59,
+   "sconto_pct": 30,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 30
+   },
+   "scade_prima": null,
+   "categoria": "Dispensa",
+   "inizio": "2026-11-13",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=18963301&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-P32772",
+   "prodotto": "Sveglia digitale radiocontrollata 'majestic'",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Ora e data automatiche, display LCD, temperatura ambiente, colori assortiti.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=P32772&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "202626IT-13175601",
+   "prodotto": "Magia Di Natale Albero di natale 'cortina' 210 cm",
+   "dettagli": "Dal 05.11. al 15.11.",
+   "formato": "Verde, 942 rami, con base in metallo.",
+   "prezzo": 39.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 39.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-15",
+   "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
+   "url": "https://www.eurospin.it/volantino/product?code=13175601&promotion=202626IT",
+   "negozio": "Eurospin"
   }
  ]
 }
