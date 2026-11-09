@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-09T15:17:27.017979+00:00",
+ "aggiornato": "2026-11-09T16:22:43.642013+00:00",
  "periodi": {
   "MPreis": "VEN 30.10. – VEN 13.11.",
   "Lidl": "02.11. – 18.11.",
@@ -15,7 +15,7 @@
   {
    "nome": "Lidl",
    "ok": true,
-   "n": 131,
+   "n": 120,
    "periodo": "02.11. – 18.11. (dal sito)"
   },
   {
@@ -2015,106 +2015,6 @@
    "fine": null
   },
   {
-   "id": "11150013",
-   "prodotto": "Eridanous Pita in pasta fillo",
-   "dettagli": "1 kg = 7.05 €",
-   "formato": "850 g confezione",
-   "prezzo": 5.99,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 5.99,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Cibo congelato (Cibo congelato) / Pizza e snack surgelati",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/eridanous-pita-in-pasta-fillo/p11150013",
-   "sezioni": [
-    "eridanous-lo-stile-greco-a-tavola"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11149996",
-   "prodotto": "Eridanous Foglie di vite ripiene di riso",
-   "dettagli": "1 kg = 7.11 €",
-   "formato": "280 g confezione",
-   "prezzo": 1.99,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 1.99,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Scorte alimentari / Conserve",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/eridanous-foglie-di-vite-ripiene-di-riso/p11149996",
-   "sezioni": [
-    "eridanous-lo-stile-greco-a-tavola"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11150461",
-   "prodotto": "Eridanous Fogli di pasta fillo",
-   "dettagli": "1 kg = 3.38 €",
-   "formato": "500 g confezione",
-   "prezzo": 1.69,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 1.69,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Piatti pronti / Pasta fresca e impasti",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/eridanous-fogli-di-pasta-fillo/p11150461",
-   "sezioni": [
-    "eridanous-lo-stile-greco-a-tavola"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11041134",
-   "prodotto": "Eridanous Tahini",
-   "dettagli": "1 kg = 9.97 €",
-   "formato": "300 g confezione",
-   "prezzo": 2.99,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 2.99,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Muesli e creme spalmabili / Marmellate, creme spalmabili e miele",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/tahini/p11041134",
-   "sezioni": [
-    "eridanous-lo-stile-greco-a-tavola"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
    "id": "11026548",
    "prodotto": "Eridanous Peperoncini farciti",
    "dettagli": "1 kg (sgocc.) = 16.60 €",
@@ -2260,8 +2160,7 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/allini-prosecco-doc/p11151591",
    "sezioni": [
-    "lidl-plus",
-    "super-offerte-lidl-black-days"
+    "lidl-plus"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-12",
@@ -2286,8 +2185,7 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/salumeo-bastone-di-salame/p11141688",
    "sezioni": [
-    "lidl-plus",
-    "super-offerte-lidl-black-days"
+    "lidl-plus"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-12",
@@ -2312,8 +2210,7 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/certossa-pane-per-tramezzini/p11141625",
    "sezioni": [
-    "lidl-plus",
-    "super-offerte-lidl-black-days"
+    "lidl-plus"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-12",
@@ -2363,8 +2260,7 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/italiamo-pecorino-romano-dop/p11031151",
    "sezioni": [
-    "lidl-plus",
-    "super-offerte-lidl-black-days"
+    "lidl-plus"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-12",
@@ -2441,8 +2337,7 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/select-go-tramezzini/p11141165",
    "sezioni": [
-    "lidl-plus",
-    "super-offerte-lidl-black-days"
+    "lidl-plus"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-12",
@@ -2517,81 +2412,6 @@
    "valido_dal": "12.11.",
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/favorina-panettone-senza-canditi/p11141572",
-   "sezioni": [
-    "super-offerte-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11003555",
-   "prodotto": "Dal Salumiere Affettato di pollo affumicato",
-   "dettagli": "1 kg = 9.27 € · Con Lidl Plus · Dal 12.11. al 18.11.",
-   "formato": "150 g confezione",
-   "prezzo": 1.39,
-   "prezzo_precedente": 1.99,
-   "sconto_pct": 30,
-   "prezzo_effettivo": 1.39,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 30
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Salumi e affettati",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/dal-salumiere-affettato-di-pollo-affumicato/p11003555",
-   "sezioni": [
-    "super-offerte-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11031410",
-   "prodotto": "Italiamo Trecce di mozzarella",
-   "dettagli": "1 kg = 7.95 € · Dal 12.11. al 18.11.",
-   "formato": "200 g confezione",
-   "prezzo": 1.59,
-   "prezzo_precedente": 1.99,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 1.59,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Formaggi, latticini e uova / Formaggio",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/italiamo-trecce-di-mozzarella/p11031410",
-   "sezioni": [
-    "super-offerte-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11141991",
-   "prodotto": "Vallericca Lattughino Bio",
-   "dettagli": "1 kg = 7.90 € · Dal 12.11. al 18.11.",
-   "formato": "100 g confezione",
-   "prezzo": 0.79,
-   "prezzo_precedente": 0.99,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 0.79,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Piatti pronti / Insalate, frutta e antipasti da asporto",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/vallericca-lattughino-bio/p11141991",
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
@@ -3092,106 +2912,6 @@
    "valido_dal": "12.11.",
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/star-pesto-tigullio/p11031226",
-   "sezioni": [
-    "grandi-marche"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11142347",
-   "prodotto": "Star Il Mio Gran Ragù",
-   "dettagli": "1 kg = 6.92 € · Dal 12.11. al 18.11.",
-   "formato": "2x 180 g confezione",
-   "prezzo": 2.49,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 2.49,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Oli, spezie e salse / Salse e condimenti",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/star-il-mio-gran-ragu/p11142347",
-   "sezioni": [
-    "grandi-marche"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11008409",
-   "prodotto": "Calvé Maionese classica",
-   "dettagli": "1 l = 6.30 € · Dal 12.11. al 18.11.",
-   "formato": "2x 150 ml confezione",
-   "prezzo": 1.89,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 1.89,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Oli, spezie e salse / Salse e condimenti",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/calve-maionese-classica/p11008409",
-   "sezioni": [
-    "grandi-marche"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11143873",
-   "prodotto": "Mellin Omogeneizzato",
-   "dettagli": "1 kg = 8.72 € · Dal 12.11. al 18.11.",
-   "formato": "4x 80 g confezione",
-   "prezzo": 2.79,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 2.79,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Neonati e bambini / Alimenti per neonati e latte in polvere",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/mellin-omogeneizzato/p11143873",
-   "sezioni": [
-    "grandi-marche"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11143875",
-   "prodotto": "Mellin Merenda alla frutta",
-   "dettagli": "1 kg = 7.67 € · Dal 12.11. al 18.11.",
-   "formato": "90 g confezione",
-   "prezzo": 0.69,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 0.69,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Neonati e bambini / Alimenti per neonati e latte in polvere",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/mellin-merenda-alla-frutta/p11143875",
    "sezioni": [
     "grandi-marche"
    ],
@@ -3885,8 +3605,8 @@
    "dettagli": "32,45 € al kg · Dal 05.11. al 15.11.",
    "formato": "200 g",
    "prezzo": 6.49,
-   "prezzo_precedente": 6.49,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 6.49,
    "promo": {
     "tipo": "altro",
@@ -3906,8 +3626,8 @@
    "dettagli": "34,90 € al kg · Dal 05.11. al 15.11.",
    "formato": "100 g",
    "prezzo": 3.49,
-   "prezzo_precedente": 3.49,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 3.49,
    "promo": {
     "tipo": "altro",
@@ -3927,8 +3647,8 @@
    "dettagli": "Dal 05.11. al 15.11.",
    "formato": "al kg",
    "prezzo": 7.99,
-   "prezzo_precedente": 7.99,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 7.99,
    "promo": {
     "tipo": "altro",
@@ -3969,8 +3689,8 @@
    "dettagli": "7,96 € al kg · Dal 05.11. al 15.11.",
    "formato": "250 g",
    "prezzo": 1.99,
-   "prezzo_precedente": 1.99,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 1.99,
    "promo": {
     "tipo": "altro",
@@ -3990,8 +3710,8 @@
    "dettagli": "10,57 € al kg · Dal 05.11. al 15.11.",
    "formato": "160 g",
    "prezzo": 1.69,
-   "prezzo_precedente": 1.69,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 1.69,
    "promo": {
     "tipo": "altro",
@@ -4032,8 +3752,8 @@
    "dettagli": "7,96 € al kg · Dal 05.11. al 15.11.",
    "formato": "250 g",
    "prezzo": 1.99,
-   "prezzo_precedente": 1.99,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 1.99,
    "promo": {
     "tipo": "altro",
@@ -4074,8 +3794,8 @@
    "dettagli": "9,97 € al kg · Dal 05.11. al 15.11.",
    "formato": "300 g",
    "prezzo": 2.99,
-   "prezzo_precedente": 2.99,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 2.99,
    "promo": {
     "tipo": "altro",
@@ -4326,8 +4046,8 @@
    "dettagli": "6,30 € al kg · Dal 05.11. al 15.11.",
    "formato": "300 g",
    "prezzo": 1.89,
-   "prezzo_precedente": 1.89,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 1.89,
    "promo": {
     "tipo": "altro",
@@ -4347,8 +4067,8 @@
    "dettagli": "6,66 € al kg · Dal 05.11. al 15.11.",
    "formato": "750 g",
    "prezzo": 4.99,
-   "prezzo_precedente": 4.99,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 4.99,
    "promo": {
     "tipo": "altro",
@@ -4389,8 +4109,8 @@
    "dettagli": "13,18 € al kg · Dal 05.11. al 15.11.",
    "formato": "280 g",
    "prezzo": 3.69,
-   "prezzo_precedente": 3.69,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 3.69,
    "promo": {
     "tipo": "altro",
@@ -4410,8 +4130,8 @@
    "dettagli": "122,91 € al kg · Dal 05.11. al 15.11.",
    "formato": "40,6 g",
    "prezzo": 4.99,
-   "prezzo_precedente": 4.99,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 4.99,
    "promo": {
     "tipo": "altro",
@@ -4578,8 +4298,8 @@
    "dettagli": "8,98 € al kg · Dal 05.11. al 15.11.",
    "formato": "500 g",
    "prezzo": 4.49,
-   "prezzo_precedente": 4.49,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 4.49,
    "promo": {
     "tipo": "altro",
@@ -4599,8 +4319,8 @@
    "dettagli": "9,39 € al kg · Dal 05.11. al 15.11.",
    "formato": "2 x 90 g",
    "prezzo": 1.69,
-   "prezzo_precedente": 1.69,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 1.69,
    "promo": {
     "tipo": "altro",
@@ -4620,8 +4340,8 @@
    "dettagli": "12,44 € al kg · Dal 05.11. al 15.11.",
    "formato": "2 x 80 g",
    "prezzo": 1.99,
-   "prezzo_precedente": 1.99,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 1.99,
    "promo": {
     "tipo": "altro",
@@ -4683,8 +4403,8 @@
    "dettagli": "7,99 € al kg · Dal 05.11. al 15.11.",
    "formato": "1 kg",
    "prezzo": 7.99,
-   "prezzo_precedente": 7.99,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 7.99,
    "promo": {
     "tipo": "altro",
@@ -4998,8 +4718,8 @@
    "dettagli": "8,73 € al kg · Dal 05.11. al 15.11.",
    "formato": "4  x 100 g",
    "prezzo": 3.49,
-   "prezzo_precedente": 3.49,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 3.49,
    "promo": {
     "tipo": "altro",
@@ -5124,8 +4844,8 @@
    "dettagli": "4,99 € al kg · Dal 05.11. al 15.11.",
    "formato": "1 kg",
    "prezzo": 4.99,
-   "prezzo_precedente": 4.99,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 4.99,
    "promo": {
     "tipo": "altro",
@@ -5880,8 +5600,8 @@
    "dettagli": "3,99 € al kg · Dal 05.11. al 15.11.",
    "formato": "600 g",
    "prezzo": 2.39,
-   "prezzo_precedente": 2.39,
-   "sconto_pct": 0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
    "prezzo_effettivo": 2.39,
    "promo": {
     "tipo": "altro",
