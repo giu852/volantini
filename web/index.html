@@ -25,6 +25,7 @@ h1{margin:0;font-size:26px}.mu{color:#5C5A52;font-size:13px;margin:4px 0 0}
 </style></head><body><main>
 <section id="v-offerte"><div><h1>Offerte della settimana</h1><p class="mu" id="agg">Caricamento…</p></div>
 <div id="when" role="group" aria-label="Periodo" style="display:flex;gap:8px"></div>
+<div id="opt"></div>
 <div id="shops" role="group" aria-label="Supermercati" style="display:flex;gap:8px;overflow-x:auto;margin:0 -16px;padding:0 16px"></div>
 <div id="chips" role="group" aria-label="Categorie"></div>
 <div id="list" style="display:flex;flex-direction:column;gap:12px"></div></section>
@@ -46,29 +47,34 @@ const cat=o=>{const n=o.prodotto+' '+(o.categoria||'');return Object.keys(CAT).f
 const pct=o=>o.promo.tipo==='1+1'?50:(o.sconto_pct||0);
 const eur=n=>n==null?'':n.toFixed(2).replace('.',',')+' €';
 const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
-let all=[],sel='tutte',when='ora',shop='tutti',SM={};
+let all=[],sel='tutte',when='ora',shop='tutti',SM={},mostra=false;
 const oggi=()=>{const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')};
 const inCorso=o=>(!o.inizio||o.inizio<=oggi())&&(!o.fine||o.fine>=oggi());
 const inArrivo=o=>!!o.inizio&&o.inizio>oggi();
+const ribasso=o=>!!o.prezzo_precedente&&o.prezzo_precedente>o.prezzo;
+const inOfferta=o=>!!(ribasso(o)||o.sconto_pct>0||['sconto','sottocosto','1+1','multi'].includes((o.promo||{}).tipo));
+const visibili=()=>all.filter(o=>mostra||inOfferta(o));
 function negozi(){const box=document.getElementById('shops');box.replaceChildren();
 const nomi=[...new Set([...all.map(o=>o.negozio),...(shop==='tutti'?[]:[shop])])];
 for(const k of ['tutti',...nomi]){const b=el('button','shopchip',(k==='tutti'?'Tutti':k));b.type='button';b.setAttribute('aria-pressed',k===shop);
 const c=SM[k];b.style.background=c?c.bg:'#fff';b.style.color=c?c.fg:'#1B1B18';if(!c)b.style.borderColor=k===shop?'#1B1B18':'#C9C6B8';
 b.onclick=()=>{shop=k;negozi();draw()};box.append(b)}}
 function vaiOfferte(nome){shop=nome;when='ora';sel='tutte';negozi();periodo();chips();draw();location.hash='#offerte'}
-function periodo(){const box=document.getElementById('when');box.replaceChildren();const n=all.filter(inArrivo).length;
-for(const [k,l] of [['ora','In corso ('+all.filter(inCorso).length+')'],['presto','In arrivo ('+n+')']]){const b=el('button','',l);b.type='button';b.className='seg';b.setAttribute('aria-pressed',k===when);b.onclick=()=>{when=k;periodo();draw()};box.append(b)}}
+function periodo(){const box=document.getElementById('when');box.replaceChildren();const n=visibili().filter(inArrivo).length;
+for(const [k,l] of [['ora','In corso ('+visibili().filter(inCorso).length+')'],['presto','In arrivo ('+n+')']]){const b=el('button','',l);b.type='button';b.className='seg';b.setAttribute('aria-pressed',k===when);b.onclick=()=>{when=k;periodo();draw()};box.append(b)}
+const op=document.getElementById('opt');op.replaceChildren();const nn=all.filter(o=>!inOfferta(o)).length;
+if(nn){const b=el('button','lnk',mostra?'Nascondi i prezzi senza sconto':'Mostra anche i prezzi senza sconto ('+nn+')');b.type='button';b.setAttribute('aria-pressed',mostra);b.onclick=()=>{mostra=!mostra;periodo();draw()};op.append(b)}}
 function chips(){const box=document.getElementById('chips');box.replaceChildren();for(const k of ['tutte','frutta','latticini','dispensa','bevande','altro']){const b=el('button','',k[0].toUpperCase()+k.slice(1));b.type='button';b.setAttribute('aria-pressed',k===sel);b.onclick=()=>{sel=k;chips();draw()};box.append(b)}}
 function badge(o){const p=o.promo;return p.tipo==='1+1'?'1+1 gratis':p.tipo==='sottocosto'?'Sottocosto':p.tipo==='multi'?'da '+p.quantita+' '+(p.unita||''):pct(o)?'-'+pct(o)+'%':''}
 function draw(){const L=document.getElementById('list');L.replaceChildren();
-const rows=all.filter(o=>(when==='ora'?inCorso(o):inArrivo(o))&&(shop==='tutti'||o.negozio===shop)&&(sel==='tutte'||cat(o)===sel)).sort((a,b)=>pct(b)-pct(a));
+const rows=visibili().filter(o=>(when==='ora'?inCorso(o):inArrivo(o))&&(shop==='tutti'||o.negozio===shop)&&(sel==='tutte'||cat(o)===sel)).sort((a,b)=>pct(b)-pct(a));
 if(!rows.length)L.append(el('p','mu',shop==='tutti'?'Nessuna offerta con questi filtri.':'Nessuna offerta per '+shop+' con questi filtri (fonte non ancora collegata o nessuna offerta in corso).'));
 for(const o of rows){const k=cat(o),c=el('div','card'),t=el('div','tile');t.style.background=COL[k][0];t.style.color=COL[k][1];
 t.innerHTML='<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+I[k]+'</svg>';
 const m=el('div','mid');const sp=el('span','shop',o.negozio),sc=SM[o.negozio];if(sc){sp.style.background=sc.bg;sp.style.color=sc.fg}else{sp.style.background='#ECEAE2';sp.style.color='#1B1B18'}
 m.append(sp,el('div','nm',o.prodotto),el('div','sub',o.formato||''));
 if(o.dettagli)m.append(el('div','sub',o.dettagli));if(o.scade_prima)m.append(el('div','warn','valido fino al '+o.scade_prima));
-const r=el('div','rt');if(badge(o))r.append(el('span','bd',badge(o)));r.append(el('span','pr',eur(o.prezzo)));if(o.prezzo_precedente)r.append(el('span','old',eur(o.prezzo_precedente)));
+const r=el('div','rt');if(badge(o))r.append(el('span','bd',badge(o)));r.append(el('span','pr',eur(o.prezzo)));if(ribasso(o))r.append(el('span','old',eur(o.prezzo_precedente)));
 c.append(t,m,r);L.append(c)}}
 const avatar=s=>{const a=el('span','av',s.ini);a.style.background=s.bg;a.style.color=s.fg;return a};
 const pill=(x,bg,fg)=>{const p=el('span','pill',x);p.style.background=bg;p.style.color=fg;return p};
