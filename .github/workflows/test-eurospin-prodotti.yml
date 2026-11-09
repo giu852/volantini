@@ -1,0 +1,82 @@
+name: Test Eurospin prodotti
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright
+      - run: playwright install --with-deps chromium
+      - run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          from playwright.sync_api import sync_playwright
+
+          VIEW = "https://www.eurospin.it/smt-digitalflyer/punti-vendita/eurospin-italia/promozioni/p26-2026-sapori-in-festa-speciale-cioccolato"
+          PROD = "https://www.eurospin.it/volantino/product?code=3590701&promotion=202626IT"
+          OUT = Path("out"); OUT.mkdir(exist_ok=True)
+          LOG = open(OUT / "log.txt", "w", encoding="utf-8")
+          def say(*a):
+              s = " ".join(str(x) for x in a)
+              print(s, flush=True); LOG.write(s + "\n"); LOG.flush()
+
+          def esplora(ctx, url, nome, azioni):
+              say(f"\n===== {nome}: {url}")
+              page = ctx.new_page(); chiamate = []
+              def on_resp(r):
+                  u = r.url
+                  if "digitalflyer.eurospin.it" in u and "/files/" not in u and "oauth" not in u:
+                      try:
+                          ct = r.headers.get("content-type", "")
+                          corpo = r.text()[:900] if "json" in ct else ""
+                      except Exception:
+                          corpo = ""
+                      chiamate.append((r.request.method, r.status, u, (r.request.post_data or "")[:200], corpo))
+              page.on("response", on_resp)
+              page.goto(url, wait_until="domcontentloaded", timeout=60000); page.wait_for_timeout(7000)
+              for et in ("Accetta tutti", "Accetta", "Accetto"):
+                  try:
+                      page.get_by_role("button", name=et).first.click(timeout=1500); break
+                  except Exception:
+                      pass
+              if azioni:
+                  for _ in range(8):
+                      page.mouse.wheel(0, 2500); page.wait_for_timeout(1200)
+                  for et in ("Prodotti", "Tutti i prodotti", "Elenco prodotti", "Lista prodotti", "Mostra tutti", "Vedi tutti"):
+                      try:
+                          page.get_by_text(et, exact=False).first.click(timeout=1500); say("Cliccato:", et); page.wait_for_timeout(4000)
+                      except Exception:
+                          pass
+                  for _ in range(8):
+                      page.mouse.wheel(0, 2500); page.wait_for_timeout(1200)
+                  try:
+                      page.locator('a[href*="volantino/product"]').first.click(timeout=3000); say("Cliccata la prima scheda prodotto"); page.wait_for_timeout(5000)
+                  except Exception:
+                      say("Nessuna scheda prodotto cliccabile")
+              page.screenshot(path=str(OUT / f"{nome}.png"), full_page=False)
+              testo = page.inner_text("body")
+              say("Testo visibile (primi 2500 caratteri):\n" + testo[:2500])
+              sch = page.eval_on_selector_all('a[href*="volantino/product"]', "els=>els.map(e=>[e.href,(e.innerText||'').trim().replace(/\\n+/g,' | ').slice(0,120)])")
+              say(f"Link a schede prodotto: {len(sch)}")
+              for h, t in sch[:12]: say("  ", h, "|", t)
+              say(f"Chiamate al servizio dati: {len(chiamate)}")
+              for m, st, u, post, corpo in chiamate:
+                  say(f"  {m} {st} {u[:230]}" + (f"\n     body inviato: {post!r}" if post else "") + (f"\n     risposta: {corpo[:700]!r}" if corpo else ""))
+              page.close()
+
+          with sync_playwright() as p:
+              br = p.chromium.launch()
+              ctx = br.new_context(locale="it-IT", viewport={"width": 1280, "height": 900})
+              esplora(ctx, VIEW, "visualizzatore", True)
+              esplora(ctx, PROD, "scheda", False)
+              br.close()
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eurospin-prodotti
+          path: out/
