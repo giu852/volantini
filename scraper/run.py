@@ -6,6 +6,7 @@ import requests
 from mpreis import parse, URL
 import lidl
 import lidl_offerte
+import eurospin_offerte
 
 DATA = Path(__file__).resolve().parent.parent / "web" / "data"
 
@@ -41,6 +42,17 @@ def main():
         print(f"Lidl: {len(lidl_off)} offerte dal sito")
     except Exception as e:
         print("ATTENZIONE Lidl offerte (uso quelle inserite a mano):", e)
+    eur_off, eur_vol = [], []
+    try:
+        eur_off, eur_vol = eurospin_offerte.scarica_offerte()
+        offerte += [dict(o, negozio="Eurospin") for o in eur_off]
+        d1 = min(o["inizio"] for o in eur_off if o["inizio"]); d2 = max(o["fine"] for o in eur_off if o["fine"])
+        per = f"{d1[8:]}.{d1[5:7]}. – {d2[8:]}.{d2[5:7]}."
+        periodi["Eurospin"] = per
+        fonti.append({"nome": "Eurospin", "ok": True, "n": len(eur_off), "periodo": per + " (dal sito)"})
+        print(f"Eurospin: {len(eur_off)} offerte dal sito")
+    except Exception as e:
+        print("ATTENZIONE Eurospin:", e)
     for m in carica_manuali(DATA):
         if m["negozio"] == "Lidl" and lidl_off:
             continue
@@ -56,6 +68,7 @@ def main():
         print(f"Lidl: {len(volantini)} volantini attivi")
     except Exception as e:
         print("ATTENZIONE Lidl:", e)
+    volantini += eur_vol
     (DATA / "offerte.json").write_text(json.dumps({"aggiornato": datetime.now(timezone.utc).isoformat(), "periodi": periodi, "fonti": fonti, "volantini": volantini, "offerte": offerte}, ensure_ascii=False, indent=1))
     print(f"OK: {len(offerte)} offerte da {len(fonti)} fonti")
 
