@@ -31,7 +31,7 @@ def parse_prodotto(el, promo):
     prezzo, vecchio = _un(p, "END-PRICE"), _un(p, "INITIAL-PRICE")
     if prezzo is None:
         return None
-    if vecchio is not None and p.get("SHOW_INITIAL_PRICE") == [False]:
+    if vecchio is not None and (p.get("SHOW_INITIAL_PRICE") == [False] or vecchio <= prezzo):
         vecchio = None
     pct = _un(p, "DISCOUNT-RATE")
     pct = int(round(pct)) if pct else (round(100 * (1 - prezzo / vecchio)) if vecchio else None)
