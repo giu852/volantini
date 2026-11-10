@@ -1,202 +1,107 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Fitness">
-<meta name="theme-color" content="#fafafa">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" href="/icon-512.png">
-<title>Fitness</title>
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Offerte casa</title><link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="icon-192.png"><meta name="theme-color" content="#1F6B4A">
 <style>
-:root{--bg:#fafafa;--card:#fff;--tx:#111;--mu:#8a8a8e;--ac:#3b6cff;--ac2:#e8eeff;--ok:#16a34a;--bd:#ececef;--in:#f3f3f5;color-scheme:light}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b0b0d;--card:#161618;--tx:#f5f5f7;--mu:#8e8e93;--ac:#6b8cff;--ac2:#1c2540;--ok:#30d158;--bd:#26262a;--in:#1f1f23;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0b0b0d;--card:#161618;--tx:#f5f5f7;--mu:#8e8e93;--ac:#6b8cff;--ac2:#1c2540;--ok:#30d158;--bd:#26262a;--in:#1f1f23;color-scheme:dark}
-*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;min-height:100%;background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",system-ui,sans-serif;line-height:1.35;-webkit-text-size-adjust:100%;position:fixed;inset:0;overflow:hidden}
-#app{position:absolute;inset:0;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px)}
-#scroll{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding-bottom:24px}
-.w{max-width:560px;margin:0 auto;padding:8px 16px}
-.top{max-width:560px;margin:0 auto;padding:10px 16px 0;display:flex;align-items:center;justify-content:space-between}
-.top span{font-size:17px;font-weight:600;letter-spacing:-.01em}
-#th{width:44px;height:44px;border-radius:22px;border:0;background:var(--in);color:var(--tx);display:flex;align-items:center;justify-content:center}
-#th svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-h1{font-size:32px;font-weight:700;letter-spacing:-.02em;margin:12px 0 2px}
-.sub{color:var(--mu);font-size:15px;margin-bottom:14px}
-.weeks{display:flex;gap:8px;overflow-x:auto;padding:2px 0 14px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
-.weeks::-webkit-scrollbar{display:none}
-.chip{flex:none;min-width:48px;height:40px;padding:0 14px;border-radius:20px;border:0;background:var(--in);color:var(--mu);font:inherit;font-size:15px;font-weight:600}
-.chip.on{background:var(--tx);color:var(--bg)}
-.prog{display:flex;align-items:center;gap:12px;margin-bottom:16px;color:var(--mu);font-size:14px}
-.bar{flex:1;height:6px;background:var(--in);border-radius:9px;overflow:hidden}
-.bar i{display:block;height:100%;background:var(--ac);border-radius:9px;transition:width .3s}
-.card{background:var(--card);border-radius:18px;padding:16px;margin-bottom:12px;border:1px solid var(--bd)}
-.card h3{margin:0;font-size:17px;font-weight:600;letter-spacing:-.01em}
-.meta{color:var(--mu);font-size:14px;margin:2px 0 10px}
-.card{border-radius:22px;padding:18px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 8px 24px rgba(0,0,0,.04);transition:border-color .2s}
-.card.done{border-color:var(--ok)}
-.card.done h3::after{content:" ✓";color:var(--ok)}
-.set.ok input{opacity:.5}
-.hero{display:flex;align-items:center;gap:16px;background:var(--card);border:1px solid var(--bd);border-radius:22px;padding:16px;margin-bottom:12px}
-.ring{flex:none;width:68px;height:68px}
-.hero b{font-size:17px}.hero p{margin:2px 0 0;color:var(--mu);font-size:14px}
-details.note summary{font-weight:600;cursor:pointer}
-.gm{font-size:13px;color:var(--ac);font-weight:600;margin-top:2px}
-.gt{font-size:15px;margin:4px 0 0}
-.set.one{grid-template-columns:24px 1fr 48px}
-.seg{display:flex;background:var(--in);border-radius:14px;padding:4px;margin-bottom:12px}
-.seg button{flex:1;height:40px;border:0;border-radius:11px;background:transparent;color:var(--mu);font:inherit;font-size:15px;font-weight:600}
-.seg button.on{background:var(--card);color:var(--tx);box-shadow:0 1px 3px rgba(0,0,0,.12)}
-.eh{display:flex;gap:12px;align-items:center;margin-bottom:6px}
-.eh svg{flex:none;width:72px;height:72px;background:var(--in);border-radius:14px;padding:4px}
-.eh svg *{fill:none;stroke:var(--tx);stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
-.eh svg .e{stroke:var(--ac)}
-.set{display:grid;grid-template-columns:24px 1fr 1fr 48px;gap:8px;align-items:center;margin-top:8px}
-.set span{color:var(--mu);font-size:14px;text-align:center;font-variant-numeric:tabular-nums}
-input{font:inherit;font-size:17px;color:var(--tx);background:var(--in);border:0;border-radius:12px;height:48px;width:100%;text-align:center;-webkit-appearance:none;appearance:none;outline:0}
-input:focus{box-shadow:0 0 0 2px var(--ac)}
-.chk{height:48px;border-radius:12px;border:0;background:var(--in);color:var(--mu);font-size:20px;font-weight:700}
-.chk.d{background:var(--ok);color:#fff}
-.hint{font-size:13px;color:var(--mu);margin-top:10px}
-.alt{font-size:13px;color:var(--mu)}
-.note{background:var(--ac2);color:var(--tx);border-radius:14px;padding:12px 14px;font-size:14px;margin-bottom:12px}
-.btn{width:100%;height:48px;border:0;border-radius:14px;background:var(--in);color:var(--mu);font:inherit;font-size:16px;font-weight:600;margin-top:4px}
-nav{flex:none;display:flex;background:color-mix(in srgb,var(--bg) 85%,transparent);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);border-top:1px solid var(--bd);padding:8px 12px calc(8px + env(safe-area-inset-bottom,0px));gap:6px;z-index:10}
-nav button{flex:1;height:54px;border:0;border-radius:16px;background:transparent;color:var(--mu);font:inherit;font-size:12px;font-weight:600;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px}nav svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-nav button.on{background:var(--ac2);color:var(--ac)}
-#timer{flex:none;margin:0 12px 8px;background:var(--tx);color:var(--bg);border-radius:18px;padding:12px 16px;display:none;align-items:center;justify-content:space-between;z-index:11;box-shadow:0 8px 24px rgba(0,0,0,.2)}
-#timer b{font-size:28px;font-weight:700;font-variant-numeric:tabular-nums}
-#timer button{border:0;background:rgba(128,128,128,.3);color:var(--bg);border-radius:12px;height:40px;padding:0 16px;font:inherit;font-weight:600}
-.sc{overflow-x:auto;-webkit-overflow-scrolling:touch;padding:0}
-table{border-collapse:collapse;font-size:14px;width:100%}
-th,td{padding:10px 10px;text-align:center;white-space:nowrap;border-bottom:1px solid var(--bd)}
-th{color:var(--mu);font-weight:500}
-th:first-child,td:first-child{text-align:left;position:sticky;left:0;background:var(--card);min-width:150px;white-space:normal}
-td.b{color:var(--ac);font-weight:700}
-.ct{padding:16px 16px 4px;font-weight:600}
-</style>
-</head>
-<body>
-<div id="app"><div id="scroll">
-<header class="top"><span>Allenamento fitness</span><button id="th" onclick="toggleTheme()" aria-label="Cambia tema"></button></header>
-<div class="w">
-<h1 id="h"></h1>
-<div class="sub" id="sb"></div>
-<div class="seg" id="seg"></div>
-<div class="weeks" id="wks"></div>
-<div id="main"></div>
-</div>
-</div>
-<div id="timer"><div><div style="font-size:13px;opacity:.7">Recupero</div><b id="tt">0:00</b></div><button onclick="stopT()">Salta</button></div>
-<nav id="nav"></nav></div>
+:root{color-scheme:light}body{margin:0;background:#FBFAF6;color:#1B1B18;font-family:system-ui,-apple-system,sans-serif}
+main{max-width:480px;margin:0 auto;padding:calc(20px + env(safe-area-inset-top)) 16px calc(24px + env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:12px}
+h1{margin:0;font-size:26px}.mu{color:#5C5A52;font-size:13px;margin:4px 0 0}
+#chips{display:flex;gap:8px;overflow-x:auto;margin:0 -16px;padding:0 16px}
+#chips button{flex:none;min-height:44px;padding:0 14px;border-radius:999px;border:1px solid #C9C6B8;background:#fff;font-size:14px;font-weight:600;color:#1B1B18}
+#chips button[aria-pressed=true]{background:#1F6B4A;border-color:#1F6B4A;color:#fff}
+.card{display:flex;gap:12px;align-items:center;background:#fff;border:1px solid #E4E1D6;border-radius:14px;padding:14px}
+.tile{flex:none;width:56px;height:56px;border-radius:16px;display:flex;align-items:center;justify-content:center}
+.mid{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}.nm{font-size:15px;font-weight:600;line-height:1.25}.sub{font-size:13px;color:#5C5A52}.warn{font-size:12px;font-weight:600;color:#7A3E00}
+.rt{display:flex;flex-direction:column;align-items:flex-end;gap:2px}.bd{padding:2px 8px;border-radius:6px;background:#B3361A;color:#fff;font-size:12px;font-weight:700}.pr{font-size:22px;font-weight:700}.old{font-size:12px;color:#5C5A52;text-decoration:line-through}
+[hidden]{display:none!important}main{padding-bottom:calc(88px + env(safe-area-inset-bottom))}section{display:flex;flex-direction:column;gap:12px}
+.av{flex:none;width:44px;height:44px;border-radius:22px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700}
+.pill{flex:none;padding:4px 10px;border-radius:999px;font-size:12px;font-weight:700}
+.info{flex-direction:column;align-items:stretch;background:#E3F0E8;border-color:#C5DDCF;font-size:13px;line-height:1.4}
+#tabs{position:fixed;left:0;right:0;bottom:0;display:flex;background:#fff;border-top:1px solid #E4E1D6;padding-bottom:env(safe-area-inset-bottom)}
+#tabs a{flex:1;min-height:56px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:12px;color:#5C5A52;text-decoration:none}
+#tabs a[aria-current=page]{color:#1F6B4A;font-weight:700}
+.lnk{min-height:44px;box-sizing:border-box;display:inline-flex;align-items:center;padding:0 14px;border-radius:10px;border:1px solid #C9C6B8;background:#fff;color:#1B1B18;font-size:14px;font-weight:600;text-decoration:none}
+#when .seg{flex:1;min-height:44px;border-radius:10px;border:1px solid #C9C6B8;background:#fff;font-size:14px;font-weight:600;color:#1B1B18}#when .seg[aria-pressed=true]{background:#17543A;border-color:#17543A;color:#fff}
+.shopchip{flex:none;min-height:44px;box-sizing:border-box;padding:0 14px;border-radius:999px;border:2px solid transparent;font-size:14px;font-weight:600}.shopchip[aria-pressed=true]{border-color:#1B1B18;font-weight:700}.shop{align-self:flex-start;padding:2px 10px;border-radius:999px;font-size:12px;font-weight:700}
+</style></head><body><main>
+<section id="v-offerte"><div><h1>Offerte della settimana</h1><p class="mu" id="agg">Caricamento…</p></div>
+<div id="when" role="group" aria-label="Periodo" style="display:flex;gap:8px"></div>
+<div id="opt"></div>
+<div id="shops" role="group" aria-label="Supermercati" style="display:flex;gap:8px;overflow-x:auto;margin:0 -16px;padding:0 16px"></div>
+<div id="chips" role="group" aria-label="Categorie"></div>
+<div id="list" style="display:flex;flex-direction:column;gap:12px"></div></section>
+<section id="v-volantini" hidden><div><h1>Volantini</h1><p class="mu">Letti in automatico, nessuna azione richiesta</p></div>
+<div class="card info"><b style="color:#17543A;font-size:15px">Lettura automatica attiva</b><span>Ogni giorno l'app legge le offerte dalle pagine dei supermercati.</span><span id="agg2"></span></div>
+<h2 style="margin:2px 0 0;font-size:16px">Stato delle fonti</h2><p class="mu" style="margin:-6px 0 0">Tocca una catena per vedere le sue offerte.</p><div id="vol" style="display:flex;flex-direction:column;gap:12px"></div>
+<h2 style="margin:2px 0 0;font-size:16px">Volantini trovati</h2><div id="vlist" style="display:flex;flex-direction:column;gap:12px"></div></section>
+<section id="v-supermercati" hidden><div><h1>Supermercati</h1><p class="mu">Le catene da cui leggere le offerte</p></div>
+<div id="sup" style="display:flex;flex-direction:column;gap:12px"></div>
+<p class="mu">Per aggiungere o cambiare una catena si modifica il file web/data/supermercati.json.</p></section>
+</main>
+<nav id="tabs" aria-label="Navigazione">
+<a href="#offerte"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg> Offerte</a><a href="#volantini"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg> Volantini</a><a href="#supermercati"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l1-5h16l1 5M3 9h18M3 9v11h18V9M9 20v-6h6v6"/></svg> Supermercati</a></nav>
 <script>
-const EX={
-push:[
-{n:"Leg press",s:3,r:"10-12",t:90,a:"Leg extension"},
-{n:"Chest press",s:3,r:"8-10",t:90,a:""},
-{n:"Shoulder press",s:3,r:"10",t:90,a:""},
-{n:"Pectoral",s:2,r:"12-15",t:60,a:"Croci ai cavi (torre)"},
-{n:"Pushdown tricipiti (torre cavi)",s:2,r:"12",t:60,a:"Estensioni con corda"},
-{n:"Plank (secondi)",m:"sec",s:2,r:"20-30 sec",t:45,a:"Plank sulle ginocchia"}],
-pull:[
-{n:"Leg curl",s:3,r:"10",t:90,a:""},
-{n:"Lat machine",s:3,r:"10",t:90,a:""},
-{n:"Pulley",s:3,r:"10-12",t:90,a:""},
-{n:"Face pull (torre cavi)",s:2,r:"12-15",t:60,a:"Alzate posteriori con manubri leggeri"},
-{n:"Curl con manubri alternati",s:2,r:"10-12",t:60,a:"Curl ai cavi (torre)"},
-{n:"Dead bug (per lato)",m:"rep",s:2,r:"8",t:45,a:"Abdominal crunch (macchina)"}]};
-const WARM={push:"Riscaldamento 5’: 3’ cyclette o ellittica, rotazioni spalle, 10 squat a corpo libero.",pull:"Riscaldamento 5’: 3’ vogatore o cyclette, gatto-cammello, 10 ponti glutei."};
-const COOL={push:"Defaticamento 5’: camminata 2’, stretching di petto, spalle, tricipiti e quadricipiti.",pull:"Defaticamento 5’: camminata 2’, stretching di dorsali, bicipiti, femorali e glutei."};
-const PH=w=>w%5==0?"Scarico: stessi esercizi, carichi ridotti del 20-30%.":w<=2||(w>5&&w<=7)?"Fase tecnica: carico leggero, 3 ripetizioni di riserva.":"Fase carico: moderato, 1-2 ripetizioni di riserva.";
-const IMG={
-"Leg press":'<circle cx="12" cy="28" r="4"/><path d="M15 31L26 44L38 34L48 44"/><path class="e" d="M6 36L24 50M50 30V56"/>',
-"Chest press":'<circle cx="22" cy="17" r="4"/><path d="M22 22V44H34V58M22 28H38"/><path class="e" d="M38 22V34M14 20V48H34"/>',
-"Shoulder press":'<circle cx="22" cy="19" r="4"/><path d="M22 24V46H34V58M22 28L30 22V10"/><path class="e" d="M25 10H35M14 48H36M14 48V26"/>',
-"Pectoral":'<circle cx="22" cy="19" r="4"/><path d="M22 24V46H34V58M22 28L34 30V18"/><path class="e" d="M31 12V24M40 12V24M14 48H36M14 48V26"/>',
-"Pushdown tricipiti (torre cavi)":'<circle cx="26" cy="11" r="4"/><path d="M26 15V38L22 56M26 38L32 56M26 20L28 32L38 40"/><path class="e" d="M39 7V40"/><circle class="e" cx="39" cy="6" r="2.5"/>',
-"Plank (secondi)":'<circle cx="9" cy="34" r="4"/><path d="M13 37L50 50M16 38V52"/><path class="e" d="M4 52H60"/>',
-"Leg curl":'<circle cx="17" cy="13" r="4"/><path d="M18 18L22 40H38L32 56"/><path class="e" d="M12 44H40M28 56H37"/>',
-"Lat machine":'<circle cx="32" cy="17" r="4"/><path d="M32 22V44M32 25L22 30L18 16M32 25L42 30L46 16M32 44L26 48V58M32 44L38 48V58"/><path class="e" d="M12 14H52M32 14V2M24 46H40"/>',
-"Pulley":'<circle cx="26" cy="17" r="4"/><path d="M26 22V46L44 48M26 28L19 34L30 36"/><path class="e" d="M30 36H58M46 38V58"/>',
-"Face pull (torre cavi)":'<circle cx="32" cy="17" r="4"/><path d="M32 22V44M32 26L16 24L22 14M32 26L48 24L42 14M32 44L27 58M32 44L37 58"/><path class="e" d="M22 10H42M32 4V10"/>',
-"Curl con manubri alternati":'<circle cx="26" cy="10" r="4"/><path d="M26 15V38L22 56M26 38L32 56M26 20V31L36 24"/><path class="e" d="M32 22H42"/>',
-"Dead bug (per lato)":'<circle cx="8" cy="42" r="4"/><path d="M12 45H34V30H46M34 45H56M15 44V24"/><path class="e" d="M4 50H60"/>'};
-const GD={
-"Leg press":["Quadricipiti, glutei","Piedi alla larghezza delle spalle, schiena appoggiata. Scendi controllato fino a circa 90° di ginocchio e spingi senza bloccare le ginocchia in alto."],
-"Chest press":["Petto, spalle, tricipiti", "Schiena appoggiata, maniglie all'altezza del petto. Spingi in avanti senza bloccare i gomiti e torna lentamente."],
-"Shoulder press":["Spalle, tricipiti", "Regola il sedile: le maniglie partono all'altezza delle spalle. Spingi verso l'alto senza inarcare la schiena e scendi lentamente."],
-"Pectoral":["Petto", "Regola il sedile con i gomiti all'altezza del petto. Porta le braccia davanti a te stringendo il petto e torna lentamente, senza appoggiare i pesi."],
-"Pushdown tricipiti (torre cavi)":["Tricipiti","Gomiti fermi lungo i fianchi. Estendi completamente le braccia verso il basso, poi risali lentamente fino a 90°."],
-"Plank (secondi)":["Core","Gomiti sotto le spalle, corpo in linea da testa a talloni, glutei contratti. Non lasciare cadere il bacino."],
-"Leg curl":["Femorali", "Schiena appoggiata, rullo sopra le caviglie. Porta i talloni verso i glutei espirando e torna in 2-3 secondi, senza sbattere i pesi."],
-"Lat machine":["Dorsali, bicipiti", "Presa poco più larga delle spalle, petto in fuori. Porta la barra al petto tirando i gomiti verso i fianchi, senza dondolare."],
-"Pulley":["Schiena, bicipiti", "Piedi sugli appoggi, ginocchia leggermente flesse, busto eretto. Tira la maniglia verso l'addome stringendo le scapole e torna lentamente, senza dondolare."],
-"Face pull (torre cavi)":["Spalle posteriori, postura","Corda all'altezza del viso. Tira verso la fronte aprendo i gomiti e stringendo le scapole. Usa un carico leggero."],
-"Curl con manubri alternati":["Bicipiti","Gomiti fermi ai fianchi. Sali ruotando il polso verso l'alto, scendi in 2-3 secondi senza dondolare il busto."],
-"Dead bug (per lato)":["Core","Schiena a terra, zona lombare aderente. Allunga lentamente braccio e gamba opposti senza staccare la schiena, espirando."]};
-function guide(m){
-let h=`<div class="note"><b>Regole base</b><br>1 secondo per sollevare, 2-3 per scendere. Espira durante lo sforzo. Ferma la serie se la tecnica cede. Con un dolore articolare acuto, interrompi.</div>`;
-["push","pull"].forEach(d=>{h+=`<div class="ct" style="padding:10px 4px 8px">${d=="push"?"Giorno 1 · Push":"Giorno 2 · Pull"}</div>`;EX[d].forEach(e=>{const g=GD[e.n]||["",""];h+=`<div class="card"><div class="eh"><svg viewBox="0 0 64 64" role="img" aria-label="${e.n}">${IMG[e.n]||""}</svg><div><h3>${e.n}</h3><div class="gm">${g[0]}</div></div></div><p class="gt">${g[1]}</p>${e.a?`<div class="hint">Più facile: ${e.a}</div>`:""}</div>`})});
-m.innerHTML=h}
-const K="fit-tracker-v1";
-let S={week:1,logs:{}};
-try{const x=localStorage.getItem(K);if(x){const p=JSON.parse(x);S.week=p.week||1;S.logs=p.logs||{}}}catch(e){}
-const save=()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}};
-let tab="push";
-const $=id=>document.getElementById(id);
-const key=(d,w)=>d+"-"+w;
-function getLog(d,w,i){const k=key(d,w);S.logs[k]=S.logs[k]||{};const e=EX[d][i];if(!S.logs[k][i])S.logs[k][i]=Array.from({length:e.s},()=>({kg:"",rp:"",ok:false}));return S.logs[k][i]}
-function prev(d,i){const e=EX[d][i];if(e.m){for(let w=S.week-1;w>=1;w--){const l=S.logs[key(d,w)]&&S.logs[key(d,w)][i];if(l){const v=l.filter(s=>s.ok&&s.rp!=="").map(s=>+s.rp);if(v.length)return "Sett. "+w+": "+Math.max(...v)+(e.m=="sec"?" secondi":" rip")}}return ""}for(let w=S.week-1;w>=1;w--){const l=S.logs[key(d,w)]&&S.logs[key(d,w)][i];if(l){const dn=l.filter(s=>s.ok&&s.kg!=="");if(dn.length){const m=Math.max(...dn.map(s=>+s.kg));const r=dn.find(s=>+s.kg==m).rp;return "Sett. "+w+": "+m+" kg × "+(r||"?")}}}return ""}
-function prevKg(d,i){for(let w=S.week-1;w>=1;w--){const l=S.logs[key(d,w)]&&S.logs[key(d,w)][i];if(l){const v=l.filter(s=>s.ok&&s.kg!=="").map(s=>+s.kg);if(v.length)return Math.max(...v)}}return ""}
-function upd(d,i,j,f,v){getLog(d,S.week,i)[j][f]=v;save()}
-function tog(d,i,j){const s=getLog(d,S.week,i)[j];s.ok=!s.ok;save();if(s.ok)startT(EX[d][i].t);else stopT();render()}
-function render(){
-const nv=$("nav");nv.innerHTML="";
-const IC={push:'<path d="M12 19V5M5 12l7-7 7 7"/>',pull:'<path d="M12 5v14M5 12l7 7 7-7"/>',hist:'<path d="M5 20V10M12 20V4M19 20v-7"/>',guide:'<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/>'};
-[["push","Push"],["pull","Pull"],["hist","Storico"],["guide","Guida"]].forEach(([k,l])=>{const b=document.createElement("button");b.className=tab==k?"on":"";b.innerHTML='<svg viewBox="0 0 24 24">'+IC[k]+'</svg>'+l;b.onclick=()=>{tab=k;stopT();render();$("scroll").scrollTop=0};nv.appendChild(b)});
-const wk=$("wks");
-if(tab=="hist"||tab=="guide"){$("seg").style.display="none";wk.style.display="none";$("h").textContent=tab=="hist"?"Storico":"Guida";$("sb").textContent=tab=="hist"?"Carico massimo (kg) · Plank in secondi, Dead bug in ripetizioni":"Come eseguire bene ogni esercizio";return tab=="hist"?hist($("main")):guide($("main"))}
-const sg=$("seg");sg.style.display="flex";sg.innerHTML="";[["push","Giorno 1 · Push"],["pull","Giorno 2 · Pull"]].forEach(([k,l])=>{const b=document.createElement("button");b.className=tab==k?"on":"";b.textContent=l;b.onclick=()=>{tab=k;stopT();render()};sg.appendChild(b)});
-wk.style.display="flex";wk.innerHTML="";
-for(let i=1;i<=12;i++){const b=document.createElement("button");b.className="chip"+(S.week==i?" on":"");b.textContent=i;b.onclick=()=>{S.week=i;save();stopT();render()};wk.appendChild(b)}
-const on=wk.querySelector(".on");if(on)wk.scrollLeft=on.offsetLeft-wk.clientWidth/2+on.offsetWidth/2;
-$("h").textContent=tab=="push"?"Push":"Pull";
-$("sb").textContent="Settimana "+S.week+" · "+(tab=="push"?"Giorno 1":"Giorno 2");
-work($("main"))}
-function work(m){
-const d=tab;let tot=0,dn=0,h="";
-EX[d].forEach((e,i)=>{const L=getLog(d,S.week,i);const pk=prevKg(d,i);tot+=L.length;dn+=L.filter(s=>s.ok).length;
-h+=`<div class="card${L.every(s=>s.ok)?" done":""}"><div class="eh"><svg viewBox="0 0 64 64" role="img" aria-label="${e.n}">${IMG[e.n]||""}</svg><div><h3>${e.n}</h3><div class="meta" style="margin-bottom:0">${e.s} × ${e.r} · recupero ${e.t}"</div></div></div>`;
-L.forEach((s,j)=>{h+=`<div class="set${s.ok?" ok":""}${e.m?" one":""}"><span>${j+1}</span>${e.m?"":`<input type="number" inputmode="decimal" step="0.5" placeholder="${pk||"kg"}" value="${s.kg}" onchange="upd('${d}',${i},${j},'kg',this.value)">`}<input type="number" inputmode="numeric" placeholder="${e.m=="sec"?"secondi":"rip"}" value="${s.rp}" onchange="upd('${d}',${i},${j},'rp',this.value)"><button class="chk${s.ok?" d":""}" onclick="tog('${d}',${i},${j})">✓</button></div>`});
-const p=prev(d,i);if(p)h+=`<div class="hint">Ultima volta · ${p}</div>`;
-if(e.a)h+=`<div class="hint alt">Alternativa: ${e.a}</div>`;
-h+="</div>"});
-const pc=tot?Math.round(dn/tot*100):0;
-m.innerHTML=`<div class="hero"><svg class="ring" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="var(--in)" stroke-width="7"/><circle cx="32" cy="32" r="26" fill="none" stroke="var(--ac)" stroke-width="7" stroke-linecap="round" stroke-dasharray="${(pc*1.634).toFixed(1)} 163.4" transform="rotate(-90 32 32)"/><text x="32" y="37" text-anchor="middle" font-size="15" font-weight="700" fill="var(--tx)">${pc}%</text></svg><div><b>${dn}/${tot} serie</b><p>${PH(S.week)}</p></div></div><details class="note"><summary>Riscaldamento</summary>${WARM[d]}</details>${h}<details class="note"><summary>Defaticamento e progressione</summary>${COOL[d]}<br><br>Se completi tutte le serie al massimo delle ripetizioni con buona tecnica, la volta dopo aggiungi 1-2 kg (2,5-5 kg per leg press e stacco).</details><button class="btn" onclick="resetW()">Azzera questa seduta</button>`}
-function resetW(){if(!confirm("Azzerare i dati di questa seduta?"))return;delete S.logs[key(tab,S.week)];save();render()}
-function hist(m){
-let h="";
-["push","pull"].forEach(d=>{
-h+=`<div class="card sc"><div class="ct">${d=="push"?"Push":"Pull"}</div><table><tr><th>Esercizio</th>${Array.from({length:12},(_,i)=>"<th>S"+(i+1)+"</th>").join("")}</tr>`;
-EX[d].forEach((e,i)=>{h+=`<tr><td>${e.n}</td>`;for(let w=1;w<=12;w++){const l=S.logs[key(d,w)]&&S.logs[key(d,w)][i];const f=e.m?"rp":"kg";const v=l?l.filter(s=>s.ok&&s[f]!=="").map(s=>+s[f]):[];h+=v.length?`<td class="b">${Math.max(...v)}</td>`:`<td>–</td>`}h+="</tr>"});
-h+="</table></div>"});
-m.innerHTML=h+`<button class="btn" onclick="resetAll()">Cancella tutti i dati</button>`}
-function resetAll(){if(!confirm("Cancellare tutti i dati?"))return;S={week:1,logs:{}};save();render()}
-let ti=null,te=0;
-function startT(s){te=Date.now()+s*1000;$("timer").style.display="flex";clearInterval(ti);tick();ti=setInterval(tick,250)}
-function tick(){const l=Math.max(0,Math.ceil((te-Date.now())/1000));$("tt").textContent=Math.floor(l/60)+":"+String(l%60).padStart(2,"0");if(l<=0){clearInterval(ti);try{navigator.vibrate&&navigator.vibrate([200,100,200])}catch(e){}setTimeout(stopT,1500)}}
-function stopT(){clearInterval(ti);$("timer").style.display="none"}
-const root=document.documentElement;
-function eff(){return root.dataset.theme||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light")}
-function applyTheme(){const t=eff();$("th").innerHTML='<svg viewBox="0 0 24 24">'+(t=="dark"?'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>':'<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>')+'</svg>';const m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t=="dark"?"#0b0b0d":"#fafafa"}
-function toggleTheme(){const n=eff()=="dark"?"light":"dark";root.dataset.theme=n;try{localStorage.setItem("fit-theme",n)}catch(e){}applyTheme()}
-try{const t=localStorage.getItem("fit-theme");if(t)root.dataset.theme=t}catch(e){}
-addEventListener("focusout",()=>{setTimeout(()=>{if(!document.activeElement||document.activeElement.tagName!="INPUT")scrollTo(0,0)},80)});
-applyTheme();
-render();
-</script>
-</body>
-</html>
+const I={latticini:'<path d="M8 3h8l2 4v14H6V7l2-4z"/><path d="M6 7h12M10 13h4"/>',dispensa:'<path d="M3 12h18a9 9 0 0 1-18 0z"/><path d="M8 12c0-3 2-4 2-7M13 12c0-3 2-4 2-7"/>',bevande:'<path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5V9z"/><path d="M16 10h2a2 2 0 0 1 0 4h-2M8 3v3M12 3v3"/>',frutta:'<path d="M12 7c-2-2-7-1-7 5 0 4 3 8 5 8 1 0 1.5-.5 2-.5s1 .5 2 .5c2 0 5-4 5-8 0-6-5-7-7-5z"/><path d="M12 7c0-2 1-3 3-4"/>',altro:'<path d="M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/>'};
+const COL={latticini:['#E4EEF9','#1F4E8C'],dispensa:['#FBEFD9','#7A4B00'],bevande:['#F1E6DD','#5A3A22'],frutta:['#E3F0E8','#17543A'],altro:['#EDE6F5','#4B2C7A']};
+const CAT={latticini:/latte|yogurt|burro|mozzarella|formaggio/i,bevande:/caff|vino|lagrein|sciroppo|acqua|birra/i,frutta:/mela|mele|arance|broccoli|cavolo|frutta|verdura|insalata/i,dispensa:/dispensa|carn|pesce|salum|conserv|scorte|salmone|tonno|polpa|pomodor|pistacch|pasta|rag[uù]|sugo|olio|mais|fagiolini|ketchup|nutella|pandoro|panettone|cioccolato|pizza/i};
+const cat=o=>{const n=o.prodotto+' '+(o.categoria||'');return Object.keys(CAT).find(k=>CAT[k].test(n))||'altro'};
+const pct=o=>o.promo.tipo==='1+1'?50:(o.sconto_pct||0);
+const eur=n=>n==null?'':n.toFixed(2).replace('.',',')+' €';
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+let all=[],sel='tutte',when='ora',shop='tutti',SM={},mostra=false;
+const oggi=()=>{const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')};
+const inCorso=o=>(!o.inizio||o.inizio<=oggi())&&(!o.fine||o.fine>=oggi());
+const inArrivo=o=>!!o.inizio&&o.inizio>oggi();
+const ribasso=o=>!!o.prezzo_precedente&&o.prezzo_precedente>o.prezzo;
+const inOfferta=o=>!!(ribasso(o)||o.sconto_pct>0||['sconto','sottocosto','1+1','multi'].includes((o.promo||{}).tipo));
+const visibili=()=>all.filter(o=>mostra||inOfferta(o));
+function negozi(){const box=document.getElementById('shops');box.replaceChildren();
+const nomi=[...new Set([...all.map(o=>o.negozio),...(shop==='tutti'?[]:[shop])])];
+for(const k of ['tutti',...nomi]){const b=el('button','shopchip',(k==='tutti'?'Tutti':k));b.type='button';b.setAttribute('aria-pressed',k===shop);
+const c=SM[k];b.style.background=c?c.bg:'#fff';b.style.color=c?c.fg:'#1B1B18';if(!c)b.style.borderColor=k===shop?'#1B1B18':'#C9C6B8';
+b.onclick=()=>{shop=k;negozi();draw()};box.append(b)}}
+function vaiOfferte(nome){shop=nome;when='ora';sel='tutte';negozi();periodo();chips();draw();location.hash='#offerte'}
+function periodo(){const box=document.getElementById('when');box.replaceChildren();const n=visibili().filter(inArrivo).length;
+for(const [k,l] of [['ora','In corso ('+visibili().filter(inCorso).length+')'],['presto','In arrivo ('+n+')']]){const b=el('button','',l);b.type='button';b.className='seg';b.setAttribute('aria-pressed',k===when);b.onclick=()=>{when=k;periodo();draw()};box.append(b)}
+const op=document.getElementById('opt');op.replaceChildren();const nn=all.filter(o=>!inOfferta(o)).length;
+if(nn){const b=el('button','lnk',mostra?'Nascondi i prezzi senza sconto':'Mostra anche i prezzi senza sconto ('+nn+')');b.type='button';b.setAttribute('aria-pressed',mostra);b.onclick=()=>{mostra=!mostra;periodo();draw()};op.append(b)}}
+function chips(){const box=document.getElementById('chips');box.replaceChildren();for(const k of ['tutte','frutta','latticini','dispensa','bevande','altro']){const b=el('button','',k[0].toUpperCase()+k.slice(1));b.type='button';b.setAttribute('aria-pressed',k===sel);b.onclick=()=>{sel=k;chips();draw()};box.append(b)}}
+function badge(o){const p=o.promo;return p.tipo==='1+1'?'1+1 gratis':p.tipo==='sottocosto'?'Sottocosto':p.tipo==='multi'?'da '+p.quantita+' '+(p.unita||''):pct(o)?'-'+pct(o)+'%':''}
+function draw(){const L=document.getElementById('list');L.replaceChildren();
+const rows=visibili().filter(o=>(when==='ora'?inCorso(o):inArrivo(o))&&(shop==='tutti'||o.negozio===shop)&&(sel==='tutte'||cat(o)===sel)).sort((a,b)=>pct(b)-pct(a));
+if(!rows.length)L.append(el('p','mu',shop==='tutti'?'Nessuna offerta con questi filtri.':'Nessuna offerta per '+shop+' con questi filtri (fonte non ancora collegata o nessuna offerta in corso).'));
+for(const o of rows){const k=cat(o),c=el('div','card'),t=el('div','tile');t.style.background=COL[k][0];t.style.color=COL[k][1];
+t.innerHTML='<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+I[k]+'</svg>';
+const m=el('div','mid');const sp=el('span','shop',o.negozio),sc=SM[o.negozio];if(sc){sp.style.background=sc.bg;sp.style.color=sc.fg}else{sp.style.background='#ECEAE2';sp.style.color='#1B1B18'}
+m.append(sp,el('div','nm',o.prodotto),el('div','sub',o.formato||''));
+if(o.dettagli)m.append(el('div','sub',o.dettagli));if(o.scade_prima)m.append(el('div','warn','valido fino al '+o.scade_prima));
+const r=el('div','rt');if(badge(o))r.append(el('span','bd',badge(o)));r.append(el('span','pr',eur(o.prezzo)));if(ribasso(o))r.append(el('span','old',eur(o.prezzo_precedente)));
+c.append(t,m,r);L.append(c)}}
+const avatar=s=>{const a=el('span','av',s.ini);a.style.background=s.bg;a.style.color=s.fg;return a};
+const pill=(x,bg,fg)=>{const p=el('span','pill',x);p.style.background=bg;p.style.color=fg;return p};
+function row(s,detail,state,fn){const c=el('div','card'),m=el('div','mid');m.append(el('div','nm',s.nome+(s.negozio?' · '+s.negozio:'')),el('div','sub',detail));c.append(avatar(s),m,state);if(fn){c.tabIndex=0;c.setAttribute('role','button');c.style.cursor='pointer';c.onclick=fn;c.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();fn()}}}return c}
+function route(){const h=(location.hash||'#offerte').slice(1);for(const k of['offerte','volantini','supermercati']){document.getElementById('v-'+k).hidden=k!==h}
+document.querySelectorAll('#tabs a').forEach(a=>a.getAttribute('href')==='#'+h?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current'));window.scrollTo(0,0)}
+addEventListener('hashchange',route);route();
+Promise.all([fetch('data/offerte.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>null),fetch('data/supermercati.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>[])]).then(([d,S])=>{
+const ag=document.getElementById('agg');
+if(!d){ag.textContent='Nessun dato ancora: lancia "Aggiorna offerte" su GitHub (tab Actions).'}
+else{SM=Object.fromEntries(S.map(s=>[s.nome,s]));all=d.offerte;const quando=new Date(d.aggiornato).toLocaleString('it-IT',{dateStyle:'short',timeStyle:'short'});
+ag.textContent='Aggiornate '+quando+' · '+Object.entries(d.periodi).map(([n,p])=>n+' '+p).join(' · ');document.getElementById('agg2').textContent='Ultimo aggiornamento: '+quando;periodo();negozi();chips();draw()}
+const V=document.getElementById('vol'),G=document.getElementById('sup');
+for(const s of S){const f=((d&&d.fonti)||[]).find(x=>x.nome===s.nome);
+let det,st;if(f&&f.ok){det=f.n+' offerte · '+f.periodo;st=pill('Letto','#E3F0E8','#17543A')}
+else if(f){det='Errore nell\'ultima lettura';st=pill('Errore','#F9E3DE','#8C2A14')}
+else if(s.attivo){det='In attesa della prima lettura';st=pill('In attesa','#FBEFD9','#7A3E00')}
+else{det='Non ancora configurata';st=pill('Non attivo','#ECEAE2','#5C5A52')}
+V.append(row(s,det,st,()=>vaiOfferte(s.nome)));
+G.append(row(s,s.fonte+' · '+s.frequenza,s.attivo?pill('Attivo','#E3F0E8','#17543A'):pill('Da configurare','#ECEAE2','#5C5A52')))}const VL=document.getElementById('vlist');const dm=x=>new Date(x).toLocaleDateString('it-IT',{day:'numeric',month:'numeric'});
+const lidl=S.find(x=>x.nome==='Lidl');
+for(const v of ((d&&d.volantini)||[])){const c=el('div','card'),m=el('div','mid');c.style.flexWrap='wrap';
+m.append(el('div','nm',v.titolo||v.nome),el('div','sub',v.negozio+' · '+dm(v.dal)+' – '+dm(v.al)),el('div','sub',v.pagine?(v.pagine_cibo.length+' pagine con alimentari su '+v.pagine):(v.n_offerte+' offerte lette dal sito')));
+const row=el('div','');row.style.cssText='width:100%;display:flex;gap:8px';
+for(const [l,u] of [['Apri volantino',v.url],['PDF',v.pdf]]){if(!u)continue;const a=el('a','lnk',l);a.href=u;a.target='_blank';a.rel='noopener';row.append(a)}
+const sv=S.find(x=>x.nome===v.negozio);c.append(sv?avatar(sv):el('span'),m,v.stato==='sito'?pill('Offerte dal sito','#E3F0E8','#17543A'):v.stato==='parziale'?pill('Letto in parte','#FBEFD9','#7A3E00'):pill('Da leggere','#ECEAE2','#5C5A52'),row);VL.append(c)}
+if(!VL.children.length)VL.append(el('p','mu','Nessun volantino trovato: succede dopo il primo aggiornamento.'));
+});
+if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+</script></body></html>
