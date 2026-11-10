@@ -1,9 +1,9 @@
 {
- "aggiornato": "2026-11-09T16:58:54.727961+00:00",
+ "aggiornato": "2026-11-10T13:47:44.313620+00:00",
  "periodi": {
   "MPreis": "VEN 30.10. – VEN 13.11.",
   "Lidl": "02.11. – 18.11.",
-  "Eurospin": "05.11. – 15.11."
+  "Eurospin": "05.11. – 29.11."
  },
  "fonti": [
   {
@@ -15,14 +15,14 @@
   {
    "nome": "Lidl",
    "ok": true,
-   "n": 120,
+   "n": 141,
    "periodo": "02.11. – 18.11. (dal sito)"
   },
   {
    "nome": "Eurospin",
    "ok": true,
-   "n": 253,
-   "periodo": "05.11. – 15.11. (dal sito)"
+   "n": 436,
+   "periodo": "05.11. – 29.11. (dal sito)"
   }
  ],
  "volantini": [
@@ -35,14 +35,13 @@
    "al": "2026-11-11",
    "url": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-2-11-al-11-11-volantino-settimanale-NAZ-sci/ar/IT00148",
    "pdf": "https://assets.leaflets.schwarz/leaflets/pdfs/01a18837-38a5-77fc-8143-9bda0b982973/Offerte-valide-dal-2-11-al-11-11-Volantino-settimanale-00.pdf",
-   "pagine": 57,
+   "pagine": 58,
    "pagine_cibo": [
     1,
     2,
     3,
     4,
     6,
-    7,
     8,
     9,
     10,
@@ -51,6 +50,7 @@
     13,
     14,
     15,
+    16,
     18,
     19,
     20,
@@ -64,7 +64,7 @@
     48,
     49,
     51,
-    55
+    56
    ],
    "stato": "sito"
   },
@@ -155,6 +155,20 @@
    "pagine": null,
    "pagine_cibo": [],
    "n_offerte": 253,
+   "stato": "sito"
+  },
+  {
+   "negozio": "Eurospin",
+   "id": "black-friday-2026-eurospin-online",
+   "titolo": "Black Friday Eurospin Online",
+   "nome": "Black Friday Eurospin Online",
+   "dal": "2026-11-05",
+   "al": "2026-11-29",
+   "url": "https://www.eurospin.it/smt-digitalflyer/punti-vendita/eurospin-italia/promozioni/black-friday-2026-eurospin-online",
+   "pdf": null,
+   "pagine": null,
+   "pagine_cibo": [],
+   "n_offerte": 183,
    "stato": "sito"
   }
  ],
@@ -501,210 +515,6 @@
    "fine": "2026-11-13"
   },
   {
-   "id": "11151119",
-   "prodotto": "Peperoni misti",
-   "dettagli": "1 kg = 3.58 € · Con Lidl Plus · Dal 05.11. al 11.11.",
-   "formato": "500 g confezione",
-   "prezzo": 1.79,
-   "prezzo_precedente": 2.49,
-   "sconto_pct": 28,
-   "prezzo_effettivo": 1.79,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 28
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / Verdure",
-   "valido_dal": "05.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/peperoni-misti/p11151119",
-   "sezioni": [
-    "lidl-plus",
-    "frutta-e-verdura"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-05",
-   "fine": "2026-11-11"
-  },
-  {
-   "id": "11029707",
-   "prodotto": "Cetrioli snack",
-   "dettagli": "1 kg = 4.76 € · Con Lidl Plus · Dal 05.11. al 11.11.",
-   "formato": "250 g confezione",
-   "prezzo": 1.19,
-   "prezzo_precedente": 1.49,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 1.19,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / Verdure",
-   "valido_dal": "05.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/cetrioli-snack/p11029707",
-   "sezioni": [
-    "lidl-plus",
-    "frutta-e-verdura"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-05",
-   "fine": "2026-11-11"
-  },
-  {
-   "id": "11029600",
-   "prodotto": "Ryneczek Lidla Patate Selenella",
-   "dettagli": "1 kg = 1.46 € · Con Lidl Plus · Dal 05.11. al 11.11.",
-   "formato": "1500g rete",
-   "prezzo": 2.19,
-   "prezzo_precedente": 2.99,
-   "sconto_pct": 26,
-   "prezzo_effettivo": 2.19,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 26
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / Verdure",
-   "valido_dal": "05.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/patate-selenella/p11029600",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-05",
-   "fine": "2026-11-11"
-  },
-  {
-   "id": "11150925",
-   "prodotto": "Kiwi",
-   "dettagli": "Con Lidl Plus · Dal 05.11. al 11.11.",
-   "formato": "1 kg confezione",
-   "prezzo": 2.79,
-   "prezzo_precedente": 3.69,
-   "sconto_pct": 24,
-   "prezzo_effettivo": 2.79,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 24
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / La frutta",
-   "valido_dal": "05.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/kiwi/p11150925",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-05",
-   "fine": "2026-11-11"
-  },
-  {
-   "id": "11030106",
-   "prodotto": "Mele Fuji Alto Adige IGP",
-   "dettagli": "1 kg = 1.85 € · Con Lidl Plus · Dal 09.11. al 11.11.",
-   "formato": "750 g confezione",
-   "prezzo": 1.39,
-   "prezzo_precedente": 1.79,
-   "sconto_pct": 22,
-   "prezzo_effettivo": 1.39,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 22
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / La frutta",
-   "valido_dal": "09.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/mele-fuji-alto-adige-igp/p11030106",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-09",
-   "fine": "2026-11-11"
-  },
-  {
-   "id": "11151128",
-   "prodotto": "Finocchio",
-   "dettagli": "Con Lidl Plus · Dal 09.11. al 11.11.",
-   "formato": "Al kg",
-   "prezzo": 1.99,
-   "prezzo_precedente": 2.49,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 1.99,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / Verdure",
-   "valido_dal": "09.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/finocchio/p11151128",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-09",
-   "fine": "2026-11-11"
-  },
-  {
-   "id": "11141571",
-   "prodotto": "- Fusi di pollo",
-   "dettagli": "1 kg = 3.99 € · Con Lidl Plus · Dal 05.11. al 11.11.",
-   "formato": "800 g confezione",
-   "prezzo": 3.19,
-   "prezzo_precedente": 3.99,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 3.19,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Pollame",
-   "valido_dal": "05.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/fusi-di-pollo/p11141571",
-   "sezioni": [
-    "lidl-plus",
-    "carne-e-pesce"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-05",
-   "fine": "2026-11-11"
-  },
-  {
-   "id": "11140224",
-   "prodotto": "- Pollo intero",
-   "dettagli": "1 kg = 3.12 € · Con Lidl Plus · Dal 05.11. al 11.11.",
-   "formato": "1150 g confezione",
-   "prezzo": 3.59,
-   "prezzo_precedente": 4.59,
-   "sconto_pct": 21,
-   "prezzo_effettivo": 3.59,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 21
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Pollame",
-   "valido_dal": "05.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/pollo-intero/p11140224",
-   "sezioni": [
-    "lidl-plus",
-    "carne-e-pesce"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-05",
-   "fine": "2026-11-11"
-  },
-  {
    "id": "11144368",
    "prodotto": "Rio Mare Tonno all'olio d'oliva",
    "dettagli": "1 kg = 10.96 €, 1 kg (sgocc.) = 16.86 € · Dal 02.11. al 11.11.",
@@ -801,6 +611,102 @@
    "fine": "2026-11-11"
   },
   {
+   "id": "11149209",
+   "prodotto": "Rovagnati Prosciutto cotto alta qualità",
+   "dettagli": "1 kg = 12.16 € · Dal 02.11. al 11.11.",
+   "formato": "2x 160 g confezione",
+   "prezzo": 3.89,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.89,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Salumi e affettati",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/rovagnati-prosciutto-cotto-alta-qualita/p11149209",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11147346",
+   "prodotto": "Grattugiato fresco Gran Biraghi",
+   "dettagli": "1 kg = 11.56 € · Dal 02.11. al 11.11.",
+   "formato": "250 g confezione",
+   "prezzo": 2.89,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.89,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Formaggio",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/biraghi-grattugiato-fresco-gran-biraghi/p11147346",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11147089",
+   "prodotto": "Fini Le paste fresche di Telesforo - Tortellini al prosciutto crudo",
+   "dettagli": "1 kg = 3.98 € · Dal 02.11. al 11.11.",
+   "formato": "400 g confezione",
+   "prezzo": 1.59,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.59,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Pasta fresca e impasti",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/fini-le-paste-fresche-di-telesforo-tortellini-al-prosciutto-crudo/p11147089",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11149233",
+   "prodotto": "Aia Hamburger di pollo",
+   "dettagli": "1 kg = 7.48 € · Dal 02.11. al 11.11.",
+   "formato": "400 g confezione",
+   "prezzo": 2.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/aia-hamburger-di-pollo/p11149233",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
+  },
+  {
    "id": "11006688",
    "prodotto": "Coca-Cola",
    "dettagli": "1 l = 0.64 € · Dal 02.11. al 11.11.",
@@ -841,30 +747,6 @@
    "valido_dal": "02.11.",
    "valido_al": "11.11.",
    "url": "https://www.lidl.it/p/peroni-birra/p11148250",
-   "sezioni": [
-    "sottocosto-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-02",
-   "fine": "2026-11-11"
-  },
-  {
-   "id": "12283079",
-   "prodotto": "Caffè Borbone Capsule caffè Miscela Decisa",
-   "dettagli": "1 capsula = 0.12 € · Dal 02.11. al 11.11.",
-   "formato": "120 capsule",
-   "prezzo": 14.99,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 14.99,
-   "promo": {
-    "tipo": "sottocosto"
-   },
-   "scade_prima": null,
-   "categoria": "Caffè, tè e cacao",
-   "valido_dal": "02.11.",
-   "valido_al": "11.11.",
-   "url": "https://www.lidl.it/p/caffe-borbone-capsule-caffe-miscela-decisa/p12283079",
    "sezioni": [
     "sottocosto-lidl-black-days"
    ],
@@ -1089,6 +971,236 @@
    "fine": "2026-11-11"
   },
   {
+   "id": "11143405",
+   "prodotto": "Scottex Carta da cucina Tuttofare",
+   "dettagli": "Dal 02.11. al 11.11.",
+   "formato": "Alla confezione",
+   "prezzo": 4.89,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.89,
+   "promo": {
+    "tipo": "sottocosto"
+   },
+   "scade_prima": null,
+   "categoria": "Bilancio / Carta igienica",
+   "valido_dal": "02.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/scottex-carta-da-cucina-tuttofare/p11143405",
+   "sezioni": [
+    "sottocosto-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-02",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11151119",
+   "prodotto": "Peperoni misti",
+   "dettagli": "1 kg = 3.58 € · Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "500 g confezione",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 28,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 28
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/peperoni-misti/p11151119",
+   "sezioni": [
+    "lidl-plus",
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11029707",
+   "prodotto": "Cetrioli snack",
+   "dettagli": "1 kg = 4.76 € · Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "250 g confezione",
+   "prezzo": 1.19,
+   "prezzo_precedente": 1.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/cetrioli-snack/p11029707",
+   "sezioni": [
+    "lidl-plus",
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11029600",
+   "prodotto": "Ryneczek Lidla Patate Selenella",
+   "dettagli": "1 kg = 1.46 € · Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "1500g rete",
+   "prezzo": 2.19,
+   "prezzo_precedente": 2.99,
+   "sconto_pct": 26,
+   "prezzo_effettivo": 2.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 26
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/patate-selenella/p11029600",
+   "sezioni": [
+    "lidl-plus",
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11150925",
+   "prodotto": "Kiwi",
+   "dettagli": "Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "1 kg confezione",
+   "prezzo": 2.79,
+   "prezzo_precedente": 3.69,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 2.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 24
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/kiwi/p11150925",
+   "sezioni": [
+    "lidl-plus",
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11030106",
+   "prodotto": "Mele Fuji Alto Adige IGP",
+   "dettagli": "1 kg = 1.85 € · Con Lidl Plus · Dal 09.11. al 11.11.",
+   "formato": "750 g confezione",
+   "prezzo": 1.39,
+   "prezzo_precedente": 1.79,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 1.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "09.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/mele-fuji-alto-adige-igp/p11030106",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-09",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11151128",
+   "prodotto": "Finocchio",
+   "dettagli": "Con Lidl Plus · Dal 09.11. al 11.11.",
+   "formato": "Al kg",
+   "prezzo": 1.99,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "09.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/finocchio/p11151128",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-09",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11141571",
+   "prodotto": "- Fusi di pollo",
+   "dettagli": "1 kg = 3.99 € · Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "800 g confezione",
+   "prezzo": 3.19,
+   "prezzo_precedente": 3.99,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 3.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/fusi-di-pollo/p11141571",
+   "sezioni": [
+    "lidl-plus",
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
+  },
+  {
+   "id": "11140224",
+   "prodotto": "- Pollo intero",
+   "dettagli": "1 kg = 3.12 € · Con Lidl Plus · Dal 05.11. al 11.11.",
+   "formato": "1150 g confezione",
+   "prezzo": 3.59,
+   "prezzo_precedente": 4.59,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 3.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "05.11.",
+   "valido_al": "11.11.",
+   "url": "https://www.lidl.it/p/pollo-intero/p11140224",
+   "sezioni": [
+    "lidl-plus",
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-11"
+  },
+  {
    "id": "11151157",
    "prodotto": "Broccoli",
    "dettagli": "1 kg = 1.98 € · Dal 05.11. al 11.11.",
@@ -1137,6 +1249,58 @@
    "negozio": "Lidl",
    "inizio": "2026-11-05",
    "fine": "2026-11-11"
+  },
+  {
+   "id": "11029883",
+   "prodotto": "Mango",
+   "dettagli": "Con Lidl Plus · Dal 12.11. al 15.11.",
+   "formato": "Al pezzo",
+   "prezzo": 1.11,
+   "prezzo_precedente": 1.49,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 1.11,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "12.11.",
+   "valido_al": "15.11.",
+   "url": "https://www.lidl.it/p/mango/p11029883",
+   "sezioni": [
+    "frutta-e-verdura",
+    "lidl-plus",
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-15"
+  },
+  {
+   "id": "11113446",
+   "prodotto": "Clementine",
+   "dettagli": "Dal 09.11. al 18.11.",
+   "formato": "1 kg rete",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.49,
+   "sconto_pct": 28,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 28
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "09.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/clementine/p11113446",
+   "sezioni": [
+    "frutta-e-verdura"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-09",
+   "fine": "2026-11-18"
   },
   {
    "id": "11139917",
@@ -1407,6 +1571,106 @@
    "valido_dal": null,
    "valido_al": null,
    "url": "https://www.lidl.it/p/deluxe-camembert/p11008543",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11031157",
+   "prodotto": "Deluxe Gorgonzola DOP e mascarpone",
+   "dettagli": "1 kg = 12.45 €",
+   "formato": "200 g confezione",
+   "prezzo": 2.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Formaggi, latticini e uova / Formaggio",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-gorgonzola-dop-e-mascarpone/p11031157",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11144374",
+   "prodotto": "Deluxe Gnocchi di patate con ceci, semi di chia e curcuma",
+   "dettagli": "1 kg = 4.23 €",
+   "formato": "400 g confezione",
+   "prezzo": 1.69,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Pasta fresca e impasti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-gnocchi-di-patate-con-ceci-semi-di-chia-e-curcuma/p11144374",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11149165",
+   "prodotto": "Deluxe Girasoli con faraona, pinoli e uvetta",
+   "dettagli": "1 kg = 7.16 €",
+   "formato": "250 g confezione",
+   "prezzo": 1.79,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Pasta fresca e impasti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-girasoli-con-faraona-pinoli-e-uvetta/p11149165",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11206448",
+   "prodotto": "Deluxe Medaglioni con formaggio di capra, frutta secca e miele",
+   "dettagli": "1 kg = 6.76 €",
+   "formato": "250 g confezione",
+   "prezzo": 1.69,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Pasta fresca e impasti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-medaglioni-con-formaggio-di-capra-frutta-secca-e-miele/p11206448",
    "sezioni": [
     "deluxe"
    ],
@@ -1815,6 +2079,81 @@
    "fine": null
   },
   {
+   "id": "11146831",
+   "prodotto": "Favorina Torroncini morbidi alle mandorle tostate",
+   "dettagli": "1 kg = 10.95 €",
+   "formato": "200 g confezione",
+   "prezzo": 2.19,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.19,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / prodotti al cioccolato",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/favorina-torroncini-morbidi-alle-mandorle-tostate/p11146831",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11007581",
+   "prodotto": "Favorina Babbo Natale di cioccolato al latte",
+   "dettagli": "1 kg = 9.00 €",
+   "formato": "110 g confezione",
+   "prezzo": 0.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 0.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / prodotti al cioccolato",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/favorina-babbo-natale-di-cioccolato-al-latte/p11007581",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11007011",
+   "prodotto": "Favorina Bastoncini natalizi al cioccolato",
+   "dettagli": "1 kg = 13.27 €",
+   "formato": "150 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / prodotti al cioccolato",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/favorina-bastoncini-natalizi-al-cioccolato/p11007011",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
    "id": "11142514",
    "prodotto": "Ferrero Rocher",
    "dettagli": "1 kg = 29.31 €",
@@ -2057,32 +2396,6 @@
    "valido_dal": "12.11.",
    "valido_al": "15.11.",
    "url": "https://www.lidl.it/p/zucca-butternut/p11151149",
-   "sezioni": [
-    "lidl-plus",
-    "frutta-e-verdura"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-15"
-  },
-  {
-   "id": "11029883",
-   "prodotto": "Mango",
-   "dettagli": "Con Lidl Plus · Dal 12.11. al 15.11.",
-   "formato": "Al pezzo",
-   "prezzo": 1.11,
-   "prezzo_precedente": 1.49,
-   "sconto_pct": 25,
-   "prezzo_effettivo": 1.11,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 25
-   },
-   "scade_prima": null,
-   "categoria": "Frutta e verdura / La frutta",
-   "valido_dal": "12.11.",
-   "valido_al": "15.11.",
-   "url": "https://www.lidl.it/p/mango/p11029883",
    "sezioni": [
     "lidl-plus",
     "frutta-e-verdura"
@@ -2820,29 +3133,129 @@
    "fine": "2026-11-15"
   },
   {
-   "id": "11007282",
-   "prodotto": "Philadelphia",
-   "dettagli": "1 kg = 7.68 € · Dal 12.11. al 15.11.",
-   "formato": "220 g confezione",
-   "prezzo": 1.69,
-   "prezzo_precedente": 2.35,
-   "sconto_pct": 28,
-   "prezzo_effettivo": 1.69,
+   "id": "11140698",
+   "prodotto": "Eva Acqua minerale naturale",
+   "dettagli": "1 l = 0.21 € · Con Lidl Plus · Dal 12.11. al 15.11.",
+   "formato": "6x 1.5 l confezione",
+   "prezzo": 1.86,
+   "prezzo_precedente": 2.64,
+   "sconto_pct": 29,
+   "prezzo_effettivo": 1.86,
    "promo": {
     "tipo": "sconto",
-    "valore": 28
+    "valore": 29
    },
    "scade_prima": null,
-   "categoria": "Formaggi, latticini e uova / Formaggio",
+   "categoria": "Bevande / Acqua",
    "valido_dal": "12.11.",
    "valido_al": "15.11.",
-   "url": "https://www.lidl.it/p/philadelphia-philadelphia/p11007282",
+   "url": "https://www.lidl.it/p/eva-acqua-minerale-naturale/p11140698",
    "sezioni": [
     "lidl-mega-offerte"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-12",
    "fine": "2026-11-15"
+  },
+  {
+   "id": "11147891",
+   "prodotto": "Filetto di salmone",
+   "dettagli": "1 kg (sgocc.) = 21.90€ · Dal 12.11. al 15.11.",
+   "formato": "100 g (sgocc.) confezione",
+   "prezzo": 2.19,
+   "prezzo_precedente": 3.19,
+   "sconto_pct": 31,
+   "prezzo_effettivo": 2.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 31
+   },
+   "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Pesce e frutti di mare surgelati",
+   "valido_dal": "12.11.",
+   "valido_al": "15.11.",
+   "url": "https://www.lidl.it/p/filetto-di-salmone/p11147891",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-15"
+  },
+  {
+   "id": "11143632",
+   "prodotto": "Realforno Biscotti Fior di zucchero",
+   "dettagli": "1 kg = 1.99 € · Dal 12.11. al 15.11.",
+   "formato": "700 g confezione",
+   "prezzo": 1.39,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 30,
+   "prezzo_effettivo": 1.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 30
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": "12.11.",
+   "valido_al": "15.11.",
+   "url": "https://www.lidl.it/p/realforno-biscotti-fior-di-zucchero/p11143632",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-15"
+  },
+  {
+   "id": "11040821",
+   "prodotto": "Maribel Miele",
+   "dettagli": "1 kg = 7.98 € · Dal 12.11. al 15.11.",
+   "formato": "500 g confezione",
+   "prezzo": 3.99,
+   "prezzo_precedente": 5.49,
+   "sconto_pct": 27,
+   "prezzo_effettivo": 3.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 27
+   },
+   "scade_prima": null,
+   "categoria": "Muesli e creme spalmabili / Marmellate, creme spalmabili e miele",
+   "valido_dal": "12.11.",
+   "valido_al": "15.11.",
+   "url": "https://www.lidl.it/p/maribel-miele/p11040821",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-15"
+  },
+  {
+   "id": "11111739",
+   "prodotto": "Tronic Termoventilatore senza pale con LED",
+   "dettagli": null,
+   "formato": "",
+   "prezzo": 79.0,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 79.0,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Riscaldamento e raffreddamento",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/tronic-termoventilatore-senza-pale-con-led/p11111739",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
   },
   {
    "id": "11146873",
@@ -3220,6 +3633,106 @@
    "fine": null
   },
   {
+   "id": "11147602",
+   "prodotto": "Deluxe Ravioli alla zucca e castagne",
+   "dettagli": "1 kg = 7.16 €",
+   "formato": "250 g confezione",
+   "prezzo": 1.79,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Pasta fresca e impasti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-ravioli-alla-zucca-e-castagne/p11147602",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11148447",
+   "prodotto": "Deluxe Mezzelune con Radicchio, Gorgonzola DOP e Amarone della Valpolicella DOCG Classico",
+   "dettagli": "1 kg = 7.16 €",
+   "formato": "250 g confezione",
+   "prezzo": 1.79,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Pasta fresca e impasti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-mezzelune-con-radicchio-gorgonzola-dop-e-amarone-della-valpolicella-docg-classico/p11148447",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11140191",
+   "prodotto": "Deluxe Cocktail di mazzancolle tropicali",
+   "dettagli": "1 kg = 13.83 €",
+   "formato": "180 g confezione",
+   "prezzo": 2.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Piatti pronti / Insalate, frutta e antipasti da asporto",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-cocktail-di-mazzancolle-tropicali/p11140191",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11083199",
+   "prodotto": "Deluxe Panettoncini gastronomici",
+   "dettagli": "1 kg = 12.46 €",
+   "formato": "3x 80 g confezione",
+   "prezzo": 2.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Panificio / Pasticcini",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-panettoncini-gastronomici/p11083199",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
    "id": "11141043",
    "prodotto": "Deluxe Croccante",
    "dettagli": "1 kg = 14.21 €",
@@ -3395,6 +3908,56 @@
    "fine": null
   },
   {
+   "id": "11031158",
+   "prodotto": "Deluxe Panettone alla stracciatella",
+   "dettagli": "1 kg = 6.86 €",
+   "formato": "800 g confezione",
+   "prezzo": 5.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 5.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-panettone-alla-stracciatella/p11031158",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11143743",
+   "prodotto": "Favorina Torroncini alla mandorla",
+   "dettagli": "1 kg = 7.45 € · Dal 12.11. al 18.11.",
+   "formato": "200 g confezione",
+   "prezzo": 1.49,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 1.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / prodotti al cioccolato",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/favorina-torroncini-alla-mandorla/p11143743",
+   "sezioni": [
+    "favorina"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
+  },
+  {
    "id": "11001812",
    "prodotto": "Favorina Biscotti speziati",
    "dettagli": "1 kg = 3.32 €",
@@ -3462,31 +4025,6 @@
    "valido_dal": null,
    "valido_al": null,
    "url": "https://www.lidl.it/p/favorina-frutta-secca/p11000943",
-   "sezioni": [
-    "favorina"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11000041",
-   "prodotto": "Favorina Giochino in legno con caramelle gommose e cioccolato al latte",
-   "dettagli": null,
-   "formato": "Alla confezione",
-   "prezzo": 5.99,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 5.99,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Giocattoli",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/favorina-giochino-in-legno-con-caramelle-gommose-e-cioccolato-al-latte/p11000041",
    "sezioni": [
     "favorina"
    ],
@@ -8805,6 +9343,3849 @@
    "fine": "2026-11-15",
    "promozione": "SAPORI IN FESTA E SPECIALE CIOCCOLATO",
    "url": "https://www.eurospin.it/volantino/product?code=13175601&promotion=202626IT",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19115901",
+   "prodotto": "Lavapavimenti a vapore 2 in 1 \"hoover\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Potenza 1700W, serbatoio 0,5L, cavo 7 m, 3 livelli di regolazione del vapore, lava, aspira e pulisce a vapore su tutte le superfici, colore blu, misura: 28x30x122 cm.",
+   "prezzo": 69.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 69.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19115901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19211001",
+   "prodotto": "Lavatrice 7 kg aqua70012k-j \"akai\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Carica frontale, 1200 giri, motore BLDC inverter, funzione Vapore, design Slim, misura: 59,8x40,5x84,5h cm, colore bianco, classe energetica A.",
+   "prezzo": 189.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 189.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19211001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18924201",
+   "prodotto": "Smart tv led ultra hd 50\" frameless \"majestic\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Sistema operativo VIDAA, sintonizzatore analogico e digitale terrestre DVB-T/T2 e DVB-C, satellitare DVB-S/S2, ingressi AV(RCA)x1, HDMIx3, USBx2, formato 16:9, risoluzione 3840x2160 pixel, Wi-Fi, alimentazione AC 100/240V, misura con piedistallo: 111,1x25,7x69h cm, classe energetica E.",
+   "prezzo": 239.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 239.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18924201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19192401",
+   "prodotto": "Tv led hd 32’’ imptv32euh \"improve\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Risoluzione HD 1366x768, audio Dolby Surround, 2 altoparlanti, connettività: RF, DVB-T2/C/S2, HDMI, USB, AV, CI, accessori: telecomando, piedini e viti, potenza 55W, misura con piedini: 71,8x20,4x48 cm, classe energetica E.",
+   "prezzo": 99.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 99.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19192401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19204201",
+   "prodotto": "Smart tv full hd 40\" vidaa \"melchioni\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Risoluzione Full HD 1920x1080, DVB-T2/S2/C,  3xHDMI, 2xUSB 2.0, formati supportati: MPEG-1/2/4, H264, AVI, MP3, FLAC, alimentazione 100-240V, misura con stand: 89,2x21,6x56,6 cm, colore nero, classe energetica E.",
+   "prezzo": 159.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 159.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19204201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19088801",
+   "prodotto": "Smart tv 55\" ultra hd 4k unled55km10vda \"united\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Sistema operativo VIDAA, schermo LED, risoluzione 3840x2160 pixel, tuner: DVB-T2/ S2/C, ingresso HDMI e USB, misura con base: 122,6x26,4x76,6h cm, classe energetica G.",
+   "prezzo": 269.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 269.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19088801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19230501",
+   "prodotto": "Soundbar b400f \"samsung\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Dolby Audio, Bluetooth 4.2, HDMI, USB, montaggio a parete, telecomando incluso, colore nero, misura: 64,1x66,5x10,7 cm.",
+   "prezzo": 89.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 89.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19230501&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19230301",
+   "prodotto": "Smart soundbar con subwoofer  b45of \"samsung\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Dolby Audio e DTS Virtual:X, include modalità Adaptive Sound, HDMI, Bluetooth e USB, telecomando e kit parete inclusi, colore nero, misura: soundbar: 85,8x5,9x7,5 cm, subwoofer: 18,4x34,3x29,5 cm.",
+   "prezzo": 119.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 119.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19230301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_04",
+   "prodotto": "Braccialetto fitness onair \"nilox\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Senza schermo, monitora frequenza cardiaca, HRV, SpO2, pressione e sonno tramite App Nilox Onai, 2 cinturini intercambiali inclusi, batteria 180 mAh, autonomia 25 giorni, compatibile con IOS 11.0+/Android 5.0+.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_04&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_03",
+   "prodotto": "Smartwatch fit \"motorola'\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Cassa rettangolare in metallo 9,5mm, cinturino verde regolabile, display Amoled Aways-on 1,9\", 390x450 pixel, batteria 300 mAh, bluetooth, impermeabilità fino a 50m, compatibile con Android 12+.",
+   "prezzo": 49.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 49.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_03&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19221101",
+   "prodotto": "Power bank 10000mah \"unico\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Ingresso micro USB, Type-C, indicazione LED batteria, misura: 14x1,6x6,7 cm, colori: nero o bianco.",
+   "prezzo": 7.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19221101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19221201",
+   "prodotto": "Power bank 20000mah \"unico\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Ingresso Type-C, display digitale LED, misura: 14,6x2,9x7 cm, cavo C‑C 5 poli in dotazione, colori: nero o bianco.",
+   "prezzo": 11.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 11.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19221201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19221701",
+   "prodotto": "Videocamera da parete per interni \"unico\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Doppia registrazione, angolo di rotazione: orizzontale 355°; verticale 90°, connessione Wi-Fi, bluetooth, alimentazione 5V, 4 led infrarossi, 4 led luce bianca, 39 canali.",
+   "prezzo": 24.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 24.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19221701&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19221801",
+   "prodotto": "Telecamera da interni a doppia luce \"unico\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Angolo di rotazione: orizzontale 355°; verticale 45°, connessione Wi-Fi, bluetooth, alimentazione 5V, 4 led infrarossi, 4 led luce bianca, 39 canali, installazione a soffitto.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19221801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_40",
+   "prodotto": "Speaker wireless con trolley \"bontempi\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "2 microfoni senza fili, luci e telecomando, USB, micro SD e dispositivi wireless, ricarica USB-C, colore nero, misura: 26x82x24 cm.",
+   "prezzo": 59.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 59.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_40&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19228401",
+   "prodotto": "Tastiera elettrica \"bontempi\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "37 tasti, 10 canzoni preregistrate, 8 suoni, 16 ritmi, polifonia 8 note, funzione di registrazione e riascolto, alimentazione con cavo USB-C, misura: 50,4x15,6x4,9 cm, colore nero.",
+   "prezzo": 24.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 24.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19228401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19228601",
+   "prodotto": "Custodia imbottita per tastiera \"bontempi\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19228601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19212101",
+   "prodotto": "Lavatrice 7kg ima762mytimeit \"indesit\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Libera installazione, 1200 giri, misura: 60x47,4x85h cm, colore bianco, classe energetica A.",
+   "prezzo": 219.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 219.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19212101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_09",
+   "prodotto": "Lavatrice 9kg dhw914ilva1 \"daya\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Carica frontale, motore inverter, temperatura regolabile, 15 programmi, programma vapore, misura: 59,5x54x84,5h cm, classe energetica A.",
+   "prezzo": 239.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 239.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_09&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19212201",
+   "prodotto": "Lavatrice 9kg ey29g8-s \"candy\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "1200 giri, motore Inverter BPM, funzione Vapore, misura: 59,5x60,1x85h cm, colore bianco, classe energetica A-20%.",
+   "prezzo": 249.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 249.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19212201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19211101",
+   "prodotto": "Lavatrice 10kg aqua1061as-sl \"akai\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Carica frontale, 1400 giri, motore BLDC inverter, funzione Vapore, display LED, misura: 59,5x56x85h cm, colore silver, classe energetica A-30%.",
+   "prezzo": 249.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 249.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19211101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19212301",
+   "prodotto": "Lavatrice 10kg ww10fg5u34aeet \"samsung\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "1400 giri, motore digital inverter, funzione Vapore, misura: 60x55x85h cm, colore bianco, classe energetica A.",
+   "prezzo": 349.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 349.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19212301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18687501",
+   "prodotto": "Lavatrice carica alta 7kg tze273d2/s  \"zerowatt\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "1200 giri, Wi-Fi, 17 programmi, misura: 41x60x86h cm, colore bianco, classe energetica D.",
+   "prezzo": 229.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 229.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18687501&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19212001",
+   "prodotto": "Asciugatrice 8kg eozh8a2de-11 \"zerowatt\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Pompa di calore, 15+1 programmi, misura: 59,6x60,4x85h cm, colore bianco, classe energetica E.",
+   "prezzo": 279.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 279.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19212001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19211401",
+   "prodotto": "Asciugatrice 10kg dysn1054edg-s \"sansui\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "A pompa di calore, 16 programmi, display touch, misura: 59,5x67x85h cm, colore grigio scuro, classe energetica E.",
+   "prezzo": 299.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 299.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19211401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18673001",
+   "prodotto": "Kit torre style 60l \"meliconi\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Kit di sovrapposizione universale per lavatrice e asciugatrice, misura: 60x55 cm, colori: bianco.",
+   "prezzo": 39.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 39.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18673001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19210801",
+   "prodotto": "Kit torre nero \"meliconi\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Kit di sovrapposizione universale per lavatrice e asciugatrice, misura: 60x55 cm.",
+   "prezzo": 39.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 39.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19210801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18673101",
+   "prodotto": "Kit di sovrapposizione con ripiano estraibile bianco \"meliconi\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Ripiano estraibile in ABS portata max. 10kg, struttura premontata in ABS tecnopolimero, con cinghia di sicurezza integrata nella base,  portata max. 250kg. Compatibile con lavatrici e asciugatrici a carica frontale di 60 cm. Made in Italy, Certificazione TUV.",
+   "prezzo": 44.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 44.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18673101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19210901",
+   "prodotto": "Kit di sovrapposizione con ripiano estraibile nero \"meliconi\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Con ripiano estraibile in legno, portata max. 18kg, premontato, con cinghia di sicurezza integrata nella base, con bolle di allineamento per colonna in asse, portata max. 250kg, Made in Italy, certificazione TUV.",
+   "prezzo": 59.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 59.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19210901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18925901",
+   "prodotto": "Mini asciugatrice 2,5kg asc025b \"akai\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "A condensazione, oblò Ø43 cm, misura: 50x40x50h cm, colore bianco, classe energetica G.",
+   "prezzo": 129.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 129.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18925901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19211601",
+   "prodotto": "Lavasciuga 10+7kg aqua1071k-tl \"akai\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "1400 giri, motore BLDC Inverter, funzione Vapore, 16 programmi, misura: 59,5x62,5x85h cm, colore bianco, classe energetica A/E.",
+   "prezzo": 299.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 299.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19211601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_10",
+   "prodotto": "Lavastoviglie dsdw158vwbl \"daya\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "15 coperti, motore inverter, tecnologia Dual Wash e Turbo Dry, display touch, 8 programmi, luce LED interna e cestello regolabile, misura: 59,8x59,8x84,5 cm, classe energetica B.",
+   "prezzo": 299.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 299.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_10&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19116401",
+   "prodotto": "Lavastoviglie dish1325s/sl \"akai\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Libera installazione, 13 coperti, display LED, 9 programmi preimpostati, partenza ritardata, colore silver, misura: 59,8x59,8x84,5h cm, classe energetica E.",
+   "prezzo": 199.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 199.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19116401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_11",
+   "prodotto": "Frigo combinato 262l dhcb34sm1xe0 \"daya\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Libera installazione, design slim, finitura total inox, luce LED, misura: 55x56x180h cm, classe energetica E.",
+   "prezzo": 219.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 219.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_11&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19211701",
+   "prodotto": "Frigorifero combinato 290l akfr290s/sl \"akai\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Libera installazione,\nNo Frost, porte reversibili, misura: 55x60x178,9h cm, colore silver, classe energetica E.",
+   "prezzo": 259.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 259.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19211701&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18926101",
+   "prodotto": "Frigo da tavolo 90l akfr105nl \"akai\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Libera installazione, monoporta, porta reversibile, misura: 45x43x83,1h cm, colore bianco, classe energetica E",
+   "prezzo": 99.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 99.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18926101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19204801",
+   "prodotto": "Minifrigo 23l \"melchioni\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Rumorosità 20dB, porta in vetro, temperatura 5°-18°C, ripiani regolabili, luce LED interna, alimentazione 220-240V, misura: 38x38x47,5 cm, classe energetica E.",
+   "prezzo": 119.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 119.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19204801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19211901",
+   "prodotto": "Congelatore verticale 65l cgvsn116w-r \"sansui\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Libera installazione, 3 cassetti, porta reversibile, misura: 45,5x45,5x82,5h cm, colore bianco, classe energetica E.",
+   "prezzo": 99.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 99.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19211901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19241201",
+   "prodotto": "Congelatore a pozzetto 98l dcp100miew0 \"daya\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Libera installazione, convertibile in frigo o freezer, compressore inverter, misura: 54,5x49,5x85,5cm, colore bianco, classe energetica E.",
+   "prezzo": 99.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 99.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19241201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19230101",
+   "prodotto": "Congelatore a pozzetto 198l dcp200miew0 \"daya\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Libera installazione, convertibile in frigo o freezer, compressore inverter, rumorosità 38dB, misura: 91x56x85h cm, colore bianco, classe energetica E.",
+   "prezzo": 159.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 159.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19230101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-17436101",
+   "prodotto": "Cantinetta per vino 6 bottiglie age6 \"h. koenig\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Temperatura regolabile da 11°C a 18°C, pannello di controllo touch, schermo LED, sistema anti-vibrazione, 3 ripiani in legno, misura: 24,6x50x37,8 cm, classe energetica E.",
+   "prezzo": 99.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 99.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=17436101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19204901",
+   "prodotto": "Cantinetta 18 bottiglie \"melchioni\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Capacità 50L, luce LED interna, temperatura da 5°C a 18°C, display LED, rumorosità 41dB, piedini regolabili, auto-defrost, alimentazione: 220-240V, misura: 45x34,5x77,5 cm, classe energetica G.",
+   "prezzo": 129.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 129.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19204901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19205301",
+   "prodotto": "Mini frullatore portatile mooth9 \"h.koenig\" - grigio scuro",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "6 lame in acciaio inox, potenza 110W, ricaricabile tramite USB-C, capacità 470 ml, lavabile in lavastoviglie, misura: 8,2 x 9,2  x 26,6 cm",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19205301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19205501",
+   "prodotto": "Mini frullatore portatile mooth16 'h.koenig' - azzurro",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "6 lame in acciaio inox, potenza 110W, ricaricabile tramite USB-C, capacità 470 ml, lavabile in lavastoviglie, misura: 8,2 x 9,2  x 26,6 cm",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19205501&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19205601",
+   "prodotto": "Mini frullatore portatile mooth18 'h.koenig' - verde",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "6 lame in acciaio inox, potenza 110W, ricaricabile tramite USB-C, capacità 470 ml, lavabile in lavastoviglie, misura: 8,2 x 9,2  x 26,6 cm",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19205601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19204401",
+   "prodotto": "Microonde con grill 20l 'melchioni' - bianco",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Timer fino a 35min, potenza 1150W, alimentazione 230V, misura: 44,8x33x25 cm.",
+   "prezzo": 49.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 49.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19204401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19204601",
+   "prodotto": "Microonde con grill 20l 'melchioni' - nero",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Timer fino a 35min, potenza 1150W, alimentazione 230V, misura: 44,8x33x25 cm.",
+   "prezzo": 49.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 49.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19204601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19226501",
+   "prodotto": "Friggitrice ad aria 7,5l easy fry mega \"moulinex\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "8 programmi preimpostati, temperatura regolabile da 80°C a 200°C, timer fino a 60 min, cestello antiaderente e lavabile, App per ricette, misura: 31x39,6x31,5h cm.",
+   "prezzo": 59.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 59.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19226501&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19194001",
+   "prodotto": "Impastatrice planetaria 3 in 1 \"improve\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Con 3 utensili di miscelazione ed impasto, caraffa in vetro 1,5L e tritacarne, 6 velocità + pulse, kit per insaccati, spegnimento automatico, piedini anti-scivolo, potenza 1500W, alimentazione 220-240V, misura: 47x25x57,5 cm, colore rosso.",
+   "prezzo": 79.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 79.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19194001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-17234301",
+   "prodotto": "Spillatore per birra 5l bw1880 'h. koenig'",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Temperatura regolabile da 2°C a 12°C, schermo digitale, vassoio raccogligocce amovibile, compatibile con fusti universali 5L, universali non pressurizzati e universali Heineken, piedini antiscivolo, misura: 28x37x44 cm",
+   "prezzo": 119.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 119.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=17234301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19240301",
+   "prodotto": "Macina sale e pepe elettrico",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "2 scomparti separati, 2 macine indipendenti, regolazione finitura macina, illuminazione LED, misura: 7,2x7x17,5 cm, colore argento.",
+   "prezzo": 8.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 8.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19240301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19240401",
+   "prodotto": "Cavatappi elettrico",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In acciaio inox, luce LED, taglierino per capsula, misura: 5,4x5,1x26,7 cm, colore argento.",
+   "prezzo": 8.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 8.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19240401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18668501",
+   "prodotto": "Scopa a vapore steam plus xxl 173948 \"vileda\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Testa snodabile XXL larga 40 cm, 2 panni in microfibra lavabili inclusi, cavo lungo 6m, capacità serbatoio acqua 400 ml, vapore regolabile.",
+   "prezzo": 65.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 65.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18668501&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19002201",
+   "prodotto": "Scopa elettrica senza filo 'go home flexy' \"hoover\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Motore brushless 200W, batteria al litio 25,9V, autonomia 45 min in modalità Eco,\naccessori inclusi, tubo flessibile, supporto a parete, misura: 24,2x26x111 cm.",
+   "prezzo": 69.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 69.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19002201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19002101",
+   "prodotto": "Robot hydro turbo slim hg2 \"hoover\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Lava e aspira, potenza di aspirazione 5000 Pa, autonomia 160 min, controllo remoto tramite App, Wi‑Fi, contenitore polvere 0,25L, batteria al litio 14,4V, 4 livelli di aspirazione, accessori inclusi, misura: 33x33x8,3 cm.",
+   "prezzo": 79.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 79.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19002101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19192701",
+   "prodotto": "Scalda asciugamani elettrico \"improve\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "6 barre di alluminio riscaldate, con interruttore on/off, temperatura max 45-55°C, installabile a terra o a parete, potenza 100W, alimentazione 220-240V, misura: 52x85 cm, colore grigio.",
+   "prezzo": 29.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 29.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19192701&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19193201",
+   "prodotto": "Stendibiancheria elettrico \"improve\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "20 elementi riscaldanti in alluminio, temperatura di riscaldamento 45-55°C, interruttore on/off, pieghevole, piedini anti-scivolo, carico max. 15 kg, potenza 280W, alimentazione 230V, misura: aperto 182x54x108h cm, chiuso 140x55x5 cm, colore grigio.",
+   "prezzo": 39.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 39.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19193201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18406101",
+   "prodotto": "Macchina per cucire n83 \"necchi\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "19 punti, lunghezza micrometrica del punto regolabile 1-5 mm, con infilatura automatica dell'ago, braccio libero, maniglia per il trasporto.",
+   "prezzo": 119.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 119.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18406101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19171501",
+   "prodotto": "Macchina per cucire elettronica \"necchi\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "40 punti, lunghezza punto, 4,5mm, larghezza 7mm, sistema di spolina a caduta orizzontale, 3 stili di asola, infila ago automatico, velocità di cucitura 800 ppm.",
+   "prezzo": 179.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 179.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19171501&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19171101",
+   "prodotto": "Set padelle 3 pezzi - ingenio inox \"lagostina\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Wok 26 cm, padella 24 cm, e manico.\nCompatibile con piano a induzione.",
+   "prezzo": 39.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 39.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19171101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18759001",
+   "prodotto": "Set padelle 3 pezzi -  ingenio mineralis green \"lagostina\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Wok 28 cm, padella 24 cm e manico.\nCompatibile con piano a induzione.",
+   "prezzo": 49.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 49.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18759001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19171201",
+   "prodotto": "Set padelle 8 pezzi -  linea rose \"lagostina\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Casseruola 1 manico Ø16 cm, padelle Ø24/28 cm, casseruola a 2 manici Ø20 cm, tegame Ø24 cm, coperchi in vetro Ø16/20/24 cm.\nCompatibile con piano a induzione.",
+   "prezzo": 79.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 79.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19171201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19171301",
+   "prodotto": "Set pentole 8 pezzi \"tognana\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Corpo in alluminio forgiato, rivestimento esterno resistente alle alte temperature, rivestimento interno ceramico antiaderente, manico con finitura soft touch, adatte all'induzione, colore nero.",
+   "prezzo": 69.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 69.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19171301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19171401",
+   "prodotto": "Set pentole 12 pezzi \"tognana\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Corpo in alluminio forgiato, rivestimento esterno resistente alle alte temperature, rivestimento interno antiaderente, manico con finitura soft touch, adatte all'induzione, colore verde militare.",
+   "prezzo": 99.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 99.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19171401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19194201",
+   "prodotto": "Cucina a gas impcu6400m6 \"improve\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Piano cottura a gas con 4 fuochi, forno a gas con grill elettrico, copertura in metallo, porta in doppio vetro, luce interna, accensione manuale, piedini regolabili, griglia e teglia incluse, misura: 60x60x80,5h cm.",
+   "prezzo": 219.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 219.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19194201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19194101",
+   "prodotto": "Asciugacapelli 2200w \"improve\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "3 livelli di temperatura e 2 velocità, funzione colpo freddo, concentratore e diffusore inclusi, gancio per appenderlo, lunghezza cavo 1,6m, alimentazione 220-240V, misura: 22,5x28,9x9,3 cm.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19194101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18915101",
+   "prodotto": "Asciugacapelli p2 2200 \"imetec\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "8 combinazioni di aria e temperatura, misura: 24,5x10,5x25 cm, colore nero.",
+   "prezzo": 24.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 24.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18915101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18813701",
+   "prodotto": "Spazzola modellante ceramic air \"bellissima\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Rivestimento in ceramica e setole in plastica, accessori inclusi, potenza 800W, 2 combinazioni di aria e temperatura, borsa per il trasporto inclusa, misura: 4,5x6,5x7 cm, colore nero e rosa.",
+   "prezzo": 21.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 21.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18813701&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_19",
+   "prodotto": "Pistola massaggiante mini \"unico\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Interfaccia di ricarica Type-C, indicazione ricarica, potenza 24W, 2 tasti touch, velocità di rotazione 1800-3200 giri/min, 99 velocità regolabili.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_19&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19221001",
+   "prodotto": "Pistola massaggiante multifunzione \"unico\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "4 velocità, potenza 30W, velocità di rotazione 2100-2900 giri/min, autonomia 3,45 ore, batteria 1200 mAh.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19221001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_21",
+   "prodotto": "Termoventilatore ceramico da parete 2000w",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "2 livelli di potenza, protezione anti-surriscaldamento, timer 24h, telecomando incluso, termostato regolabile.",
+   "prezzo": 29.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 29.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_21&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_23",
+   "prodotto": "Stufa a parabola con piantana 900w",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "A carbonio, 2 livelli di potenza, diametro parabola 40cm, timer 3h, oscillazione automatica, protezione anti-surriscaldamento, anti-ribaltamento, altezza regolabile 74-90 cm.",
+   "prezzo": 34.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 34.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_23&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_20",
+   "prodotto": "Termoventilatore ceramico a colonna con fiamma led \"beper\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Potenza 1400-2000W, display LED, pannello touch, temperatura regolabile 18-45°, fiamma LED, telecomando, oscillazione orizzontale, timer 8h, misura: 20,5x22x64h cm.",
+   "prezzo": 54.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 54.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_20&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_55",
+   "prodotto": "Stufetta caminetto \"beper\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Potenza 1750-1950W, alimentazione 220-240V, fiamma LED, spina Shuko, 2 livelli di potenza, termostato regolabile, protezione surriscaldamento, lunghezza cavo 148 cm, misura: 37,3x23x51 cm.",
+   "prezzo": 59.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 59.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_55&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_22",
+   "prodotto": "Caminetto elettrico muro led \"beper\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In acciaio, 2 livelli di potenza 875W-1750W, alimentazione 220-240V, fiamma LED regolabile, telecomando, protezione surriscaldamento, misura: 72,5x19,5x60h cm.",
+   "prezzo": 89.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 89.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_22&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-17926301",
+   "prodotto": "Stufa gas sc22-r \"master\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "3 impostazioni di potenza (1,5-4,1kW), con sistema di sicurezza per ossigeno, compatibile con bombola fino a 15 kg, misura: 42x35,2x73,2 cm. \nKit di giunzione gas non incluso.",
+   "prezzo": 59.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 59.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=17926301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19173301",
+   "prodotto": "Tavolo rettangolare marrone",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In MDF, gambe nere in metallo verniciato, portata max. 20 kg, misura: 140x80x75h cm.",
+   "prezzo": 149.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 149.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19173301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19173401",
+   "prodotto": "Tavolo rettangolare grigio",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In MDF, bordi arrotondati, gambe nere in metallo verniciato con motivo a incrocio, portata max. 20 kg, misura: 160x90x75h cm.",
+   "prezzo": 149.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 149.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19173401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19173501",
+   "prodotto": "Tavolo rettangolare allungabile bianco",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In pannello truciolare, portata max. 20 kg, misura: 51/300x90x78h cm.",
+   "prezzo": 169.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 169.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19173501&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19173601",
+   "prodotto": "Set 4 sedie in tessuto grigio",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Sedia imbottita in spugna, gambe nere in metallo, portata max. 100 kg, misura: 42x44x95h cm.",
+   "prezzo": 99.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 99.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19173601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19173701",
+   "prodotto": "Set 4 sedie in tessuto beige",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Sedia imbottita in spugna, gambe nere in metallo, portata max. 100 kg, misura: 54x45x87h cm.",
+   "prezzo": 119.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 119.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19173701&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18252001",
+   "prodotto": "Tavolo bar",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Struttura in metallo e piano in MDF, misure 100x60x87h cm, piano color rovere.",
+   "prezzo": 49.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 49.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18252001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-16937801",
+   "prodotto": "Set 2 sgabelli bianchi",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In PVC con struttura e poggiapiedi cromati, regolabili in altezza, potata max. 100 kg, misura: 48x59x95/116h cm.",
+   "prezzo": 89.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 89.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=16937801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19173901",
+   "prodotto": "Set 2 sgabelli neri",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In similpelle, struttura e poggiapiedi in metallo colore antracite, regolabili in altezza con meccanismo a gas, misura: 48x54x81/105h cm.",
+   "prezzo": 99.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 99.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19173901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19175601",
+   "prodotto": "Poltrona reclinabile manuale",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In tessuto poliestere, struttura in legno, con schienale e poggiapiedi reclinabili (apertura manuale con maniglia), portata max. 100 kg, misura: 65x95x103h cm, colori: grigio scuro o marrone chiaro.",
+   "prezzo": 179.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 179.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19175601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18801401",
+   "prodotto": "Divano letto con contenitore",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "3 posti, con 2 cuscini, piedini in plastica neri, misura: divano 215x82x80h cm, letto 180x104x43h cm (seduta)/62h cm (bracciolo), colori: blu, grigio scuro e tortora.",
+   "prezzo": 249.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 249.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18801401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19175401",
+   "prodotto": "Poltrona pieghevole",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Trasformabile in letto e in chaise lounge, in tessuto poliestere effetto velluto, con cuscino, gambe in metallo argento, portata max. 100 kg, misura: poltrona: 75x80x84h cm, chaise longue: 75x140x84h cm, letto: 75x190x32h cm, colori: beige scuro e grigio.",
+   "prezzo": 169.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 169.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19175401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19176001",
+   "prodotto": "Poltrona elettrica reclinabile con telecomando",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In tessuto poliestere, struttura in legno, con schienale e poggiapiedi reclinabili (apertura con telecomando), portata max. 100 kg, misura: 78x87x103,5h cm, colore: grigio chiaro.",
+   "prezzo": 279.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 279.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19176001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19173201",
+   "prodotto": "Divano letto 3 posti",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In velluto, struttura in legno, gambe in metallo argento, portata max. 270 kg, misura: divano 172x75x72h cm, letto 172x93x36h cm, colore beige.",
+   "prezzo": 139.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 139.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19173201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19175301",
+   "prodotto": "Panchetta ovale pieghevole",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In tessuto, struttura in MDF, imbottita in spugna, coperchio trasformabile in vassoio, misura: 76x38x38h cm, colore: grigio o beige scuro.",
+   "prezzo": 39.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 39.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19175301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19177201",
+   "prodotto": "Scarpiera 2 ante",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Doppia profondità, 1 ripiano superiore, in pannello truciolare, struttura con gambe in metallo nero, misura: 63x24x140,5h cm, color quercia.",
+   "prezzo": 39.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 39.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19177201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19177101",
+   "prodotto": "Consolle 2 cassetti",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In pannello truciolare, struttura con gambe in metallo nero, 2 cassetti, 1 vano e 1 ripiano, misura: 100x35x81h cm, color quercia.",
+   "prezzo": 49.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 49.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19177101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19177301",
+   "prodotto": "Scarpiera 3 ante",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Doppia profondità, 1 ripiano superiore, in pannello truciolare, struttura con gambe in metallo nero, misura: 63x24x105,5h cm, color quercia.",
+   "prezzo": 49.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 49.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19177301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19177401",
+   "prodotto": "Comodino 2 cassetti",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In pannello truciolare, misura: 39,5x39,5x53,5h cm, color quercia.",
+   "prezzo": 29.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 29.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19177401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19177501",
+   "prodotto": "Mobile 3 cassetti",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In pannello truciolare, misura: 79,5x39,5x75,5h cm, color quercia.",
+   "prezzo": 59.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 59.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19177501&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19177601",
+   "prodotto": "Mobile 3+3 cassetti",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In pannello truciolare, misura: 120x39,5x75,5h cm, color quercia.",
+   "prezzo": 89.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 89.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19177601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19177701",
+   "prodotto": "Mobile 4+2 cassetti",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In pannello truciolare, misura: 179,5x39,5x120h cm, color quercia.",
+   "prezzo": 99.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 99.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19177701&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18692601",
+   "prodotto": "Sedia gaming",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In similpelle, reclinabile e regolabile in altezza con meccanismo a gas, braccioli imbottiti, cuscino lombare e poggiatesta, con schienale alto, con base e rotelle in nylon, misura: 65x63x115/125h cm, colori: blu, rosso o verde.",
+   "prezzo": 89.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 89.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18692601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19177801",
+   "prodotto": "Mobile da bagno con anta specchio",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In pannello truciolare, 1 anta, 1 ripiano interno e 3 laterali, misura: 44x15x55h cm, colore bianco.",
+   "prezzo": 22.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 22.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19177801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19178001",
+   "prodotto": "Mobile da bagno 1 anta",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In pannello truciolare, misura: 30x28x80h cm, colore bianco.",
+   "prezzo": 29.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 29.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19178001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19177901",
+   "prodotto": "Mobile da bagno 1 anta e 3 scomparti",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In pannello truciolare, misura: 30x28x160h cm, colore bianco.",
+   "prezzo": 39.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 39.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19177901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19178101",
+   "prodotto": "Mobile basso da bagno 1 anta e 3 scomparti",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In pannello truciolare, misura: 50x28x80h cm, colore bianco.",
+   "prezzo": 39.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 39.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19178101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18656001",
+   "prodotto": "Scaffale 4 ripiani",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Portata max: ripiani alti 25 kg per ripiano, ripiano basso 50 kg, misura: 60x30x95h cm, colore nero.",
+   "prezzo": 7.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18656001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18607401",
+   "prodotto": "Scaffale 5 ripiani",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Portata max: ripiani alti 25 kg per ripiano, ripiano basso 50 kg, misura: 60x30x180h cm, colore nero.",
+   "prezzo": 11.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 11.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18607401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19169201",
+   "prodotto": "Plaid a mantella con bottoni 130x150 cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Colori: rosa, grigio, blu.",
+   "prezzo": 8.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 8.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19169201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19169301",
+   "prodotto": "Plaid a poncho 80x80 cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Colori: grigio, blu, verde e viola.",
+   "prezzo": 6.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 6.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19169301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19169401",
+   "prodotto": "Parure copripiumino matrimoniale 'mehndi'",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "100% cotone, misura sacco 250x220 cm, coppia federe 50x80 cm. Colori: verde e rosa.",
+   "prezzo": 14.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19169401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19169501",
+   "prodotto": "Parure copripiumino matrimoniale 'paisley'",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "100% cotone, misura sacco 250x220 cm, coppia federe 50x80 cm. Colori: blu, rosa e grigio.",
+   "prezzo": 14.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19169501&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19169601",
+   "prodotto": "Parure copripiumino singolo 'picture'",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "100% cotone, misura sacco 150x200 cm, coppia federe 50x80 cm. Varianti: montagna, cagnolino, bosco, inverno.",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19169601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19184001",
+   "prodotto": "Parure copripiumino matrimoniale 'picture'",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "100% cotone, misura sacco 250x200 cm, coppia federe 50x80 cm. Varianti: montagna, cagnolino, bosco, inverno.",
+   "prezzo": 16.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 16.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19184001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19189401",
+   "prodotto": "Federa in seta 50x80 cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In scatola, 20 cm flap, colori disponibili: argento, tortora, avorio o grigio.",
+   "prezzo": 26.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 26.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19189401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19245801",
+   "prodotto": "Sciarpa riscaldante cordless \"beper\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "3 livelli di calore regolabili, utilizzabile con power bank 6,5x9,7x1,2 cm, USB incluso, potenza 10W, voltaggio 5V, misura: 10x85 cm.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19245801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19245901",
+   "prodotto": "Coperta riscaldante indossabile \"beper\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Chiusura frontale con zip, 3 livelli di calore regolabili, utilizzabile con power bank 14,5x7x2,3 cm, USB incluso, potenza 8-12W, voltaggio 5V, misura: 136x80 cm.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19245901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19170001",
+   "prodotto": "Ciotola 0,35l",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Anti-scivolo, colore bianco.",
+   "prezzo": 4.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Animali",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19170001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19170201",
+   "prodotto": "Ciotola doppia 0,7l",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Anti-scivolo, colore bianco.",
+   "prezzo": 4.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Animali",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19170201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19170101",
+   "prodotto": "Contenitore per cibo secco 6l",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Misura: 27,2x21,3x29,5 cm.",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Animali",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19170101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19169801",
+   "prodotto": "Trasportino per animali",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Colore bianco e grigio, misura: 32,2x49,4x30,4 cm.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Animali",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19169801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19169901",
+   "prodotto": "Bacinella coperta per animali",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Con paletta e filtro, colore bianco e grigio, misura: 57,3x44,4x43,8 cm.",
+   "prezzo": 34.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 34.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Animali",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19169901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19222001",
+   "prodotto": "Gioco interattivo cane - livello facile \"brainy games\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Include 12 scomparti e 7 cursori mobili, allenamento mentale, migliora la digestione, prolunga i tempi del pasto, antiscivolo. Misura: 14x13,5x3 cm.",
+   "prezzo": 8.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 8.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Animali",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19222001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19222101",
+   "prodotto": "Gioco interattivo cane - livello difficile \"brainy games\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Include 10 scomparti e 18 elementi scorrevoli, allenamento mentale, migliora la digestione, prolunga i tempi del pasto, antiscivolo. Misura: 29,5x29,5x5 cm.",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Animali",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19222101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19222201",
+   "prodotto": "Distributore di acqua e cibo - nero",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Capacità contenitore: acqua 3L, cibo 3,1kg, ciotole rimovibili in acciaio inox, misura: 40x16,2x29x1 cm.",
+   "prezzo": 44.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 44.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Animali",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19222201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19222401",
+   "prodotto": "Distributore di acqua e cibo - bianco",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Capacità contenitore: acqua 3L, cibo 3,1kg, ciotole rimovibili in acciaio inox, misura: 40x16,2x29x1 cm.",
+   "prezzo": 44.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 44.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Animali",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19222401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19169101",
+   "prodotto": "Orso \"baloo\" 250 cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "",
+   "prezzo": 189.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 189.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19169101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19215101",
+   "prodotto": "Peluche stitch 25 cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19215101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19171601",
+   "prodotto": "Banchetto dei giochi educativi",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Attività basate sul metodo montessori, età 3-6 anni.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19171601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19215201",
+   "prodotto": "Saetta mc queen 1:32 rc cars",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In scala 1:32, misura 14 cm, 1 canale, 27 Mhz, età: + 4 anni.",
+   "prezzo": 14.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19215201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19207701",
+   "prodotto": "Drone radiocomandato space wasp//32 - radiofly",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Pieghevole, 8 funzioni, fermo posizione, carica USB, decollo e atterraggio assistiti, 3 velocità, camera 480p, Wi-Fi, app per telefono, misura 32x27x5,2 cm, età: +8 anni.",
+   "prezzo": 39.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 39.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19207701&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19207801",
+   "prodotto": "Macchina telecomandata extra speed scala 1:16 - radiocom",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "7 funzioni, 2 velocità, si trasforma e cambia velocità, velocità 15 km/h, 3 luci, età: +6 anni.",
+   "prezzo": 39.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 39.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19207801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19171701",
+   "prodotto": "Barbie fashion boutique",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Bambola Barbie inclusa, età: +4 anni.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19171701&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19171801",
+   "prodotto": "Barbie dream summer villa",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Bambola Barbie inclusa, età: +4 anni.",
+   "prezzo": 34.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 34.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19171801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_26",
+   "prodotto": "Bontempi tastiera elettronica 24 tasti bambino",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_26&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_29",
+   "prodotto": "Bontempi tastiera elettronica 24 tasti bambina",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_29&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19171901",
+   "prodotto": "Inside out 2 - il gioco delle emozioni",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Età: +6 anni.",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19171901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19207901",
+   "prodotto": "Console di gioco egame  e256 - radiocom",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Schermo a colori TFT da 2,8\", grafica 8 bit, 256 giochi, batteria ricaricabile 250 mAh, cavo USB, età: +8 anni.",
+   "prezzo": 14.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19207901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19172101",
+   "prodotto": "Calcetto",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Con aste telescopiche, 2-4 giocatori, manopole antiscivolo, misura: 119x61,2x80,6 cm, età: +3 anni.",
+   "prezzo": 89.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 89.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19172101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19207601",
+   "prodotto": "Kit aerografo creatu'",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Inserendo il pennarello all'interno dell'aerografo è possibile nebulizzare il colore e ricreare, colorare e sfumare diverse figure utilizzando gli stencil forniti. Include: 6 pennarelli jumbo, 4 stencil, 1 cavo USB. Età: +5 anni.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19207601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19207501",
+   "prodotto": "Lavagna led luminosa a4 creatu'",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Batteria Li-On integrata, supporto pieghevole, clip fissa per stabilizzazione del foglio, 6 livelli di luminosità, misura: 34,2x25x1,1 cm, area di lavoro: 31,1x21,8 cm, alimentazione: tipo C, capacità batteria: 1500mA. Età: +3 anni.",
+   "prezzo": 24.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 24.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Casa",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19207501&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19170901",
+   "prodotto": "Barca corsara \"playmobil\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Con vela, tre pirati, forziere, monete e gioielli, misura: 25x28x9 cm, età: +4 anni.",
+   "prezzo": 36.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 36.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19170901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19171001",
+   "prodotto": "Casa delle bambole portatile \"playmobil\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Stanze arredate, personaggi e accessori, misura: 28x29x24 cm, età: +4 anni.",
+   "prezzo": 36.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 36.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19171001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19170801",
+   "prodotto": "L'attacco dello spinosauro \"playmobil\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Con Spinosauro, veicolo da esplorazione e ricercatore, misura: 38x28x12 cm, età: +4 anni.",
+   "prezzo": 49.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 49.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19170801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19170701",
+   "prodotto": "Clinica veterinaria \"playmobil\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Con veterinaria, cavallo e attrezzature mediche, misura: 38x28x7 cm, età: +4 anni.",
+   "prezzo": 49.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 49.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19170701&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19170501",
+   "prodotto": "Grande maneggio \"playmobil\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Con scuderia, cavalli e personaggi, misura: 52x38x9 cm, età: +4 anni.",
+   "prezzo": 79.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 79.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19170501&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19170601",
+   "prodotto": "Torre dei cavalieri del drago \"playmobil\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Con roccia a forma di drago, cavalieri, scheletro e grande drago rosso, misura: 58x11x18 cm, età: +4 anni.",
+   "prezzo": 79.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 79.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19170601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18243801",
+   "prodotto": "Albero bosco con pigne 210h cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "600 rami.",
+   "prezzo": 89.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 89.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18243801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18677401",
+   "prodotto": "Albero di natale pino mediterraneo 180h cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "610 rami.",
+   "prezzo": 59.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 59.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18677401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18244101",
+   "prodotto": "Ramo decorativo verde con luci 2,7m",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "180 luci.",
+   "prezzo": 19.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 19.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Mondo Bimbi",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18244101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19182701",
+   "prodotto": "Trenino con supporto per albero",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Con luci, musica e fumo, funziona con 4 batterie AA.",
+   "prezzo": 24.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 24.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19182701&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19183001",
+   "prodotto": "Trenino a due livelli con supporto per albero",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "13 pezzi, con luci e suoni.",
+   "prezzo": 14.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19183001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19192201",
+   "prodotto": "Borsa per albero di natale 136x53 cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In poliestere, con manici, colore verde.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19192201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19195601",
+   "prodotto": "Decorazione renna oro 80h cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "600 gocce di LED bianco caldo, con flash, misura: 53x23x80h cm. Uso interno ed esterno-",
+   "prezzo": 69.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 69.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19195601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19195701",
+   "prodotto": "Decorazione renna con led 55h cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Con tubo LED bianco caldo, 120 LED, 220-240V, misura: 48x23x55h cm. Uso interno ed esterno.",
+   "prezzo": 26.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 26.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19195701&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19182201",
+   "prodotto": "500 luci led - 25 m",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Luce bianca calda.",
+   "prezzo": 12.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 12.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19182201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19182401",
+   "prodotto": "1500 luci led - 60 m",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Luce bianca calda.",
+   "prezzo": 24.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 24.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19182401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19182301",
+   "prodotto": "1000 luci led - 50 m",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Luce bianca calda.",
+   "prezzo": 18.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 18.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19182301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19182601",
+   "prodotto": "120 luci led a cascata 3m",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "80 LED bianco caldo + 40 flash bianco freddo, uso interno ed esterno.",
+   "prezzo": 22.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 22.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19182601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19183201",
+   "prodotto": "Set 12 sfere rosse 80mm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "In velluto e matte, in scatola, in PVC.",
+   "prezzo": 4.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 4.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19183201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19195201",
+   "prodotto": "Decorazione albero di natale oro 40h cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "200/300 gocce di led bianco caldo, con flash",
+   "prezzo": 14.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19195201&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19195301",
+   "prodotto": "Decorazione albero di natale oro 60h cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "200/300 gocce di led bianco caldo, con flash",
+   "prezzo": 26.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 26.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19195301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19195401",
+   "prodotto": "Decorazione stella oro 40h cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "200/300 gocce di led bianco caldo, con flash.",
+   "prezzo": 14.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19195401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19195501",
+   "prodotto": "Decorazione stella oro 60h cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "200/300 gocce di led bianco caldo, con flash.",
+   "prezzo": 26.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 26.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19195501&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19208001",
+   "prodotto": "Kit palloncino albero di natale 130h cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Palloncino in mylar con pompa per il gonfiaggio.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19208001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19208101",
+   "prodotto": "Kit palloncino soldatino 150h cm",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Palloncino in mylar con pompa per il gonfiaggio.",
+   "prezzo": 9.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 9.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19208101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19226901",
+   "prodotto": "City bike one tube 26\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Monovelocità, con telaio in alluminio, freni v-brake, cambio Shimano, portapacco, parafanghi e cavalletto, portata max. 100 kg. Colore grigio/bianco.",
+   "prezzo": 114.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 114.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tempo Libero",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19226901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19227001",
+   "prodotto": "City bike 20\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in acciaio, cambio Shimano, 6 velocità, freni v-brake, cavalletto, portata max. 60 kg. Colore bianco/fuxia.",
+   "prezzo": 139.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 139.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tempo Libero",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19227001&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19227101",
+   "prodotto": "Mtb full suspension 20\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in acciaio, cambio Shimano, 6 velocità, freni v-brake, cavalletto, portata max 60 kg. Colore nero/arancio/bianco.",
+   "prezzo": 139.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 139.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tempo Libero",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19227101&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_47",
+   "prodotto": "Mtb 27,5\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in acciaio, freni v-brake, forcella rigida, 18 velocità, cambio Saiguan, portata max. 120 kg. Colore nero/arancio.",
+   "prezzo": 139.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 139.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_47&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_48",
+   "prodotto": "Mtb 27,5\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in acciaio, freni v-brake, forcella rigida, 18 velocità, cambio Shimano, portata max. 120 kg. Colore rosso.",
+   "prezzo": 139.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 139.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_48&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_49",
+   "prodotto": "Mtb 26\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in acciaio, freni v-brake, forcella suspended, 21 velocità, cambio Shimano, portata max. 120 kg. Colore rosso.",
+   "prezzo": 149.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 149.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_49&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_50",
+   "prodotto": "Mtb 26\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in acciaio, 21 velocità, forcella suspended, freni v-brake, cambio Shimano, portata max. 120 kg. Colore bianco.",
+   "prezzo": 149.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 149.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_50&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_46",
+   "prodotto": "Mtb 29\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in alluminio, 21 velocità, forcella suspended, freno anteriore a disco meccanico, posteriore v-brake, cambio Shimano, portata max. 120 kg. Colore giallo.",
+   "prezzo": 169.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 169.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_46&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18947901",
+   "prodotto": "City 26\" e4000 e-bike 25402 - nero",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in acciaio, batteria 7,8Ah, autonomia fino a 50 km, motore posteriore 250W, cambio shimano 6 velocità, display LED, portapacco, parafanghi e luci, colori: nero matt, bianco o selce.",
+   "prezzo": 499.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 499.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tempo Libero",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18947901&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-18701401",
+   "prodotto": "City 26\" e4000 e-bike  25045 - bianco/selce",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in acciaio, batteria 7,8Ah, autonomia fino a 50 km, motore posteriore 250W, cambio shimano 6 velocità, display LED, portapacco, parafanghi e luci, colori: nero matt, bianco o selce.",
+   "prezzo": 499.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 499.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tempo Libero",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=18701401&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_42",
+   "prodotto": "E-bike uomo 28\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in alluminio, forcella suspended, freni v-brake, 6 velocità, cambio Saiguan, display LED, motore 350W, portata max. 120 kg, autonomia 60 km. Colore nero.",
+   "prezzo": 519.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 519.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_42&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_43",
+   "prodotto": "E-bike 26\" 22e200 donna - nera",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in alluminio, 6 velocità, batteria 36V. \nDonna: display LED, forcella rigida, batteria sul portapacco, colore bianco o nero.\nUomo: forcella suspended, batteria esterna, colore nero.",
+   "prezzo": 519.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 519.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_43&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_44",
+   "prodotto": "E-bike 26\" 22e200b  donna -bianca",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in alluminio, 6 velocità, batteria 36V. \nDonna: display LED, forcella rigida, batteria sul portapacco, colore bianco o nero.\nUomo: forcella suspended, batteria esterna, colore nero.",
+   "prezzo": 519.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 519.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_44&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19226701",
+   "prodotto": "City e-bike urban 27,5\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in alluminio, con batteria 13Ah, autonomia fino a 80 km, motore posteriore 250W, cambio 24 velocità, forcella ammortizzata, freni a disco e display LCD, portata max. 130 kg. Colore nero opaco.",
+   "prezzo": 599.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 599.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tempo Libero",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19226701&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19226801",
+   "prodotto": "Fat e-bike 20\" pieghevole",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in acciaio, con batteria 13Ah, autonomia fino a 65 km, motore posteriore 250W, cambio Shimano 6 velocità, forcella ammortizzata, pneumatici fat 20x4.0 e freni a disco, portata max. 130 kg. Colore grigio.",
+   "prezzo": 649.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 649.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tempo Libero",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19226801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19226601",
+   "prodotto": "City e- bike 28\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in alluminio, con batteria 12,8 Ah, autonomia fino a 75 km, motore posteriore 250W, cambio Shimano, 7 velocità, forcella ammortizzata, freni a disco e display LCD, portata max. 130 kg. Colore verde lucido.",
+   "prezzo": 649.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 649.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tempo Libero",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19226601&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_39",
+   "prodotto": "E-bike 26\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in alluminio, forcella suspended, cambio Shimano, 6 velocità, freni v-brake, motore Shengyi - hub motor, batteria integrata 36V, autonomia fino a 70 km, portata max. 120 kg. Colore verde.",
+   "prezzo": 699.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 699.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_39&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19211801",
+   "prodotto": "Frigorifero combinato 265l glass265bkl \"akai\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Libera installazione, defrost, porta in vetro nero, porte reversibili, misura: 54,5x56,8x181,8h cm, colore nero, classe energetica E.",
+   "prezzo": 249.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 249.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Tecnologia E Elettrodomestici",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19211801&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-19208301",
+   "prodotto": "Bidone aspira solidi e liquidi 12l \"karcher\"",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Potenza 850W, cavo 3m, tubo di aspirazione 1,8m, sistema di bloccaggio e maniglia per il trasporto.",
+   "prezzo": 44.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 44.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Fai Da Te",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=19208301&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_51",
+   "prodotto": "Bici olanda 28\"  226628- nera",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in acciaio, 1 velocità, forcella rigida. Colore: nero o bianco.",
+   "prezzo": 119.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 119.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_51&promotion=BLACKFRIDAY2026EUROSPINONLINE",
+   "negozio": "Eurospin"
+  },
+  {
+   "id": "BLACKFRIDAY2026EUROSPINONLINE-BF_2026_52",
+   "prodotto": "Bici olanda  28\" 226628b - bianca",
+   "dettagli": "Dal 05.11. al 29.11.",
+   "formato": "Telaio in acciaio, 1 velocità, forcella rigida. Colore: nero o bianco.",
+   "prezzo": 119.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 119.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "",
+   "inizio": "2026-11-05",
+   "fine": "2026-11-29",
+   "promozione": "Black Friday Eurospin Online",
+   "url": "https://www.eurospin.it/volantino/product?code=BF_2026_52&promotion=BLACKFRIDAY2026EUROSPINONLINE",
    "negozio": "Eurospin"
   }
  ]
