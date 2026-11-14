@@ -1,8 +1,8 @@
 {
- "aggiornato": "2026-11-13T13:23:14.644578+00:00",
+ "aggiornato": "2026-11-14T12:27:45.145548+00:00",
  "periodi": {
   "MPreis": "VEN 13.11. – VEN 27.11.",
-  "Lidl": "12.11. – 18.11.",
+  "Lidl": "12.11. – 25.11.",
   "Eurospin": "05.11. – 29.11."
  },
  "fonti": [
@@ -15,8 +15,8 @@
   {
    "nome": "Lidl",
    "ok": true,
-   "n": 60,
-   "periodo": "12.11. – 18.11. (dal sito)"
+   "n": 64,
+   "periodo": "12.11. – 25.11. (dal sito)"
   },
   {
    "nome": "Eurospin",
@@ -41,6 +41,7 @@
     2,
     3,
     4,
+    5,
     6,
     7,
     8,
@@ -572,6 +573,106 @@
    "valido_dal": "16.11.",
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/arance/p11150788",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-16",
+   "fine": "2026-11-18"
+  },
+  {
+   "id": "11150773",
+   "prodotto": "Pompelmo",
+   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "Sfuso al kg",
+   "prezzo": 1.55,
+   "prezzo_precedente": 1.99,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 1.55,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/pompelmo/p11150773",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
+  },
+  {
+   "id": "11151055",
+   "prodotto": "Cetrioli lunghi",
+   "dettagli": "Con Lidl Plus · Dal 12.11. al 25.11.",
+   "formato": "Al pezzo",
+   "prezzo": 0.95,
+   "prezzo_precedente": 1.19,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 0.95,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / Verdure",
+   "valido_dal": "12.11.",
+   "valido_al": "25.11.",
+   "url": "https://www.lidl.it/p/cetrioli-lunghi/p11151055",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-25"
+  },
+  {
+   "id": "11029915",
+   "prodotto": "Pere Abate",
+   "dettagli": "Con Lidl Plus · Dal 12.11. al 18.11.",
+   "formato": "Sfuso al kg",
+   "prezzo": 2.79,
+   "prezzo_precedente": 3.49,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 2.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "12.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/pere-abate/p11029915",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-12",
+   "fine": "2026-11-18"
+  },
+  {
+   "id": "11029953",
+   "prodotto": "Susine",
+   "dettagli": "Con Lidl Plus · Dal 16.11. al 18.11.",
+   "formato": "Sfuse al kg",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.29,
+   "sconto_pct": 21,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 21
+   },
+   "scade_prima": null,
+   "categoria": "Frutta e verdura / La frutta",
+   "valido_dal": "16.11.",
+   "valido_al": "18.11.",
+   "url": "https://www.lidl.it/p/susine/p11029953",
    "sezioni": [
     "lidl-plus"
    ],
