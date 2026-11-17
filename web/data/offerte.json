@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-16T13:59:26.605299+00:00",
+ "aggiornato": "2026-11-17T14:51:33.029040+00:00",
  "periodi": {
   "MPreis": "VEN 13.11. – VEN 27.11.",
   "Lidl": "12.11. – 25.11.",
@@ -15,7 +15,7 @@
   {
    "nome": "Lidl",
    "ok": true,
-   "n": 112,
+   "n": 108,
    "periodo": "12.11. – 25.11. (dal sito)"
   },
   {
@@ -35,13 +35,12 @@
    "al": "2026-11-18",
    "url": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-12-11-al-18-11-volantino-settimanale-NAZ/ar/700",
    "pdf": "https://assets.leaflets.schwarz/leaflets/pdfs/01a1b151-5d16-7df1-9139-2d4ee4b79bbf/Offerte-valide-dal-12-11-al-18-11-Volantino-settimanale-00.pdf",
-   "pagine": 68,
+   "pagine": 70,
    "pagine_cibo": [
     1,
     2,
     3,
     4,
-    5,
     6,
     7,
     8,
@@ -53,25 +52,26 @@
     15,
     17,
     18,
-    19,
     20,
     22,
     23,
     24,
     25,
     26,
-    27,
     28,
+    29,
     30,
     31,
     32,
     33,
-    40,
-    58,
-    59,
+    34,
+    35,
+    42,
     60,
     61,
-    66
+    62,
+    63,
+    68
    ],
    "stato": "sito"
   },
@@ -782,8 +782,7 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/italiamo-pecorino-romano-dop/p11031151",
    "sezioni": [
-    "lidl-plus",
-    "super-offerte-lidl-black-days"
+    "lidl-plus"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-12",
@@ -860,8 +859,7 @@
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/select-go-tramezzini/p11141165",
    "sezioni": [
-    "lidl-plus",
-    "super-offerte-lidl-black-days"
+    "lidl-plus"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-12",
@@ -961,156 +959,6 @@
    "valido_dal": "12.11.",
    "valido_al": "18.11.",
    "url": "https://www.lidl.it/p/favorina-panettone-senza-canditi/p11141572",
-   "sezioni": [
-    "super-offerte-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11003555",
-   "prodotto": "Dal Salumiere Affettato di pollo affumicato",
-   "dettagli": "1 kg = 9.27 € · Con Lidl Plus · Dal 12.11. al 18.11.",
-   "formato": "150 g confezione",
-   "prezzo": 1.39,
-   "prezzo_precedente": 1.99,
-   "sconto_pct": 30,
-   "prezzo_effettivo": 1.39,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 30
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Salumi e affettati",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/dal-salumiere-affettato-di-pollo-affumicato/p11003555",
-   "sezioni": [
-    "super-offerte-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11151591",
-   "prodotto": "Allini Prosecco DOC",
-   "dettagli": "1 l = 3.99 € · Con Lidl Plus · Dal 12.11. al 18.11.",
-   "formato": "0.75 l bottiglia",
-   "prezzo": 2.99,
-   "prezzo_precedente": 3.99,
-   "sconto_pct": 25,
-   "prezzo_effettivo": 2.99,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 25
-   },
-   "scade_prima": null,
-   "categoria": "Champagne, spumante & Co. / Prosecco",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/allini-prosecco-doc/p11151591",
-   "sezioni": [
-    "super-offerte-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11141688",
-   "prodotto": "Salumeo Bastone di salame",
-   "dettagli": "1 kg = 7.96 € · Con Lidl Plus · Dal 12.11. al 18.11.",
-   "formato": "250 g confezione",
-   "prezzo": 1.99,
-   "prezzo_precedente": 2.49,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 1.99,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Salumi e affettati",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/salumeo-bastone-di-salame/p11141688",
-   "sezioni": [
-    "super-offerte-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11141625",
-   "prodotto": "Certossa Pane per tramezzini",
-   "dettagli": "1 kg = 3.17 € · Con Lidl Plus · Dal 12.11. al 18.11.",
-   "formato": "350 g confezione",
-   "prezzo": 1.11,
-   "prezzo_precedente": 1.65,
-   "sconto_pct": 32,
-   "prezzo_effettivo": 1.11,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 32
-   },
-   "scade_prima": null,
-   "categoria": "Panificio / Toast e prodotti da forno a lunga conservazione",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/certossa-pane-per-tramezzini/p11141625",
-   "sezioni": [
-    "super-offerte-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11031410",
-   "prodotto": "Italiamo Trecce di mozzarella",
-   "dettagli": "1 kg = 7.95 € · Dal 12.11. al 18.11.",
-   "formato": "200 g confezione",
-   "prezzo": 1.59,
-   "prezzo_precedente": 1.99,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 1.59,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Formaggi, latticini e uova / Formaggio",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/italiamo-trecce-di-mozzarella/p11031410",
-   "sezioni": [
-    "super-offerte-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-12",
-   "fine": "2026-11-18"
-  },
-  {
-   "id": "11141991",
-   "prodotto": "Vallericca Lattughino Bio",
-   "dettagli": "1 kg = 7.90 € · Dal 12.11. al 18.11.",
-   "formato": "100 g confezione",
-   "prezzo": 0.79,
-   "prezzo_precedente": 0.99,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 0.79,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Piatti pronti / Insalate, frutta e antipasti da asporto",
-   "valido_dal": "12.11.",
-   "valido_al": "18.11.",
-   "url": "https://www.lidl.it/p/vallericca-lattughino-bio/p11141991",
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
@@ -1569,106 +1417,6 @@
    "fine": null
   },
   {
-   "id": "11147602",
-   "prodotto": "Deluxe Ravioli alla zucca e castagne",
-   "dettagli": "1 kg = 7.16 €",
-   "formato": "250 g confezione",
-   "prezzo": 1.79,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 1.79,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Piatti pronti / Pasta fresca e impasti",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/deluxe-ravioli-alla-zucca-e-castagne/p11147602",
-   "sezioni": [
-    "deluxe"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11148447",
-   "prodotto": "Deluxe Mezzelune con Radicchio, Gorgonzola DOP e Amarone della Valpolicella DOCG Classico",
-   "dettagli": "1 kg = 7.16 €",
-   "formato": "250 g confezione",
-   "prezzo": 1.79,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 1.79,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Piatti pronti / Pasta fresca e impasti",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/deluxe-mezzelune-con-radicchio-gorgonzola-dop-e-amarone-della-valpolicella-docg-classico/p11148447",
-   "sezioni": [
-    "deluxe"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11140191",
-   "prodotto": "Deluxe Cocktail di mazzancolle tropicali",
-   "dettagli": "1 kg = 13.83 €",
-   "formato": "180 g confezione",
-   "prezzo": 2.49,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 2.49,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Piatti pronti / Insalate, frutta e antipasti da asporto",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/deluxe-cocktail-di-mazzancolle-tropicali/p11140191",
-   "sezioni": [
-    "deluxe"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11083199",
-   "prodotto": "Deluxe Panettoncini gastronomici",
-   "dettagli": "1 kg = 12.46 €",
-   "formato": "3x 80 g confezione",
-   "prezzo": 2.99,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 2.99,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Panificio / Pasticcini",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/deluxe-panettoncini-gastronomici/p11083199",
-   "sezioni": [
-    "deluxe"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
    "id": "11141043",
    "prodotto": "Deluxe Croccante",
    "dettagli": "1 kg = 14.21 €",
@@ -1771,12 +1519,12 @@
   {
    "id": "11148185",
    "prodotto": "Deluxe Tartufi di cioccolato bianco con nocciole",
-   "dettagli": "1 kg = 16.61 €",
+   "dettagli": "1 kg = 14,94 €",
    "formato": "180 g confezione",
-   "prezzo": 2.99,
+   "prezzo": 2.69,
    "prezzo_precedente": null,
    "sconto_pct": null,
-   "prezzo_effettivo": 2.99,
+   "prezzo_effettivo": 2.69,
    "promo": {
     "tipo": "altro",
     "testo": ""
@@ -2637,6 +2385,156 @@
    "valido_dal": "19.11.",
    "valido_al": "25.11.",
    "url": "https://www.lidl.it/p/hamburger-di-tacchino/p11140217",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-25"
+  },
+  {
+   "id": "11141736",
+   "prodotto": "- Fettine per pizzaiola di bovino adulto scottona",
+   "dettagli": "Dal 19.11. al 25.11.",
+   "formato": "Al kg",
+   "prezzo": 13.99,
+   "prezzo_precedente": 15.99,
+   "sconto_pct": 13,
+   "prezzo_effettivo": 13.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 13
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Carne di manzo",
+   "valido_dal": "19.11.",
+   "valido_al": "25.11.",
+   "url": "https://www.lidl.it/p/fettine-per-pizzaiola-di-bovino-adulto-scottona/p11141736",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-25"
+  },
+  {
+   "id": "11141737",
+   "prodotto": "- Hamburger di bovino adulto scottona",
+   "dettagli": "1 kg = 11.45 € · Con Lidl Plus · Dal 19.11. al 25.11.",
+   "formato": "2x 100 g confezione",
+   "prezzo": 2.29,
+   "prezzo_precedente": 2.99,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 2.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Carne di manzo",
+   "valido_dal": "19.11.",
+   "valido_al": "25.11.",
+   "url": "https://www.lidl.it/p/hamburger-di-bovino-adulto-scottona/p11141737",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-25"
+  },
+  {
+   "id": "11140229",
+   "prodotto": "- Salsiccia di suino alla toscana",
+   "dettagli": "1 kg = 6.38 € · Con Lidl Plus · Dal 19.11. al 25.11.",
+   "formato": "500 g confezione",
+   "prezzo": 3.19,
+   "prezzo_precedente": 4.19,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 3.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "19.11.",
+   "valido_al": "25.11.",
+   "url": "https://www.lidl.it/p/salsiccia-di-suino-alla-toscana/p11140229",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-25"
+  },
+  {
+   "id": "11330462",
+   "prodotto": "Macinato di bovino adulto scottona XXL",
+   "dettagli": "1 kg = 13.11 € · Dal 19.11. al 25.11.",
+   "formato": "800 g confezione",
+   "prezzo": 10.49,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 10.49,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Carne di manzo",
+   "valido_dal": "19.11.",
+   "valido_al": "25.11.",
+   "url": "https://www.lidl.it/p/macinato-di-bovino-adulto-scottona-xxl/p11330462",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-25"
+  },
+  {
+   "id": "11143378",
+   "prodotto": "- Mini spiedini di pollo con suino",
+   "dettagli": "1 kg = 8.30 € · Dal 19.11. al 25.11.",
+   "formato": "300 g confezione",
+   "prezzo": 2.49,
+   "prezzo_precedente": 3.29,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 24
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "19.11.",
+   "valido_al": "25.11.",
+   "url": "https://www.lidl.it/p/mini-spiedini-di-pollo-con-suino/p11143378",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-25"
+  },
+  {
+   "id": "11008351",
+   "prodotto": "Chef Select To Go Sushi Box Sapporo",
+   "dettagli": "1 kg = 12.95 € · Dal 19.11. al 25.11.",
+   "formato": "462.5 g confezione",
+   "prezzo": 5.99,
+   "prezzo_precedente": 7.99,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 5.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Pesce e frutti di mare",
+   "valido_dal": "19.11.",
+   "valido_al": "25.11.",
+   "url": "https://www.lidl.it/p/chef-select-to-go-sushi-box-sapporo/p11008351",
    "sezioni": [
     "carne-e-pesce"
    ],
