@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-19T14:40:41.748140+00:00",
+ "aggiornato": "2026-11-20T14:19:16.828484+00:00",
  "periodi": {
   "MPreis": "VEN 13.11. – VEN 27.11.",
   "Lidl": "15.11. – 25.11.",
@@ -15,7 +15,7 @@
   {
    "nome": "Lidl",
    "ok": true,
-   "n": 44,
+   "n": 51,
    "periodo": "15.11. – 25.11. (dal sito)"
   },
   {
@@ -566,12 +566,113 @@
    "categoria": "Frutta e verdura / Verdure",
    "valido_dal": "23.11.",
    "valido_al": "25.11.",
-   "url": "https://www.lidl.it/p/qualite-suisse-patate-della-sila-igp/p11029603",
+   "url": "https://www.lidl.it/p/patate-della-sila-igp/p11029603",
    "sezioni": [
     "lidl-plus"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-23",
+   "fine": "2026-11-25"
+  },
+  {
+   "id": "11140217",
+   "prodotto": "- Hamburger di tacchino",
+   "dettagli": "1 kg = 6.95 € · Con Lidl Plus · Dal 19.11. al 25.11.",
+   "formato": "200 g confezione",
+   "prezzo": 1.39,
+   "prezzo_precedente": 1.79,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 1.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "19.11.",
+   "valido_al": "25.11.",
+   "url": "https://www.lidl.it/p/hamburger-di-tacchino/p11140217",
+   "sezioni": [
+    "lidl-plus",
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-25"
+  },
+  {
+   "id": "11141737",
+   "prodotto": "- Hamburger di bovino adulto scottona",
+   "dettagli": "1 kg = 11.45 € · Con Lidl Plus · Dal 19.11. al 25.11.",
+   "formato": "2x 100 g confezione",
+   "prezzo": 2.29,
+   "prezzo_precedente": 2.99,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 2.29,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Carne di manzo",
+   "valido_dal": "19.11.",
+   "valido_al": "25.11.",
+   "url": "https://www.lidl.it/p/hamburger-di-bovino-adulto-scottona/p11141737",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-25"
+  },
+  {
+   "id": "11140229",
+   "prodotto": "- Salsiccia di suino alla toscana",
+   "dettagli": "1 kg = 6.38 € · Con Lidl Plus · Dal 19.11. al 25.11.",
+   "formato": "500 g confezione",
+   "prezzo": 3.19,
+   "prezzo_precedente": 4.19,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 3.19,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "19.11.",
+   "valido_al": "25.11.",
+   "url": "https://www.lidl.it/p/salsiccia-di-suino-alla-toscana/p11140229",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-25"
+  },
+  {
+   "id": "11142744",
+   "prodotto": "- Filetto di maiale",
+   "dettagli": "Con Lidl Plus · Dal 19.11. al 25.11.",
+   "formato": "Al kg",
+   "prezzo": 7.99,
+   "prezzo_precedente": 9.99,
+   "sconto_pct": 20,
+   "prezzo_effettivo": 7.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 20
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Carne di maiale",
+   "valido_dal": "19.11.",
+   "valido_al": "25.11.",
+   "url": "https://www.lidl.it/p/filetto-di-maiale/p11142744",
+   "sezioni": [
+    "lidl-plus"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
    "fine": "2026-11-25"
   },
   {
@@ -851,31 +952,6 @@
    "fine": "2026-11-25"
   },
   {
-   "id": "11140217",
-   "prodotto": "- Hamburger di tacchino",
-   "dettagli": "1 kg = 6.95 € · Con Lidl Plus · Dal 19.11. al 25.11.",
-   "formato": "200 g confezione",
-   "prezzo": 1.39,
-   "prezzo_precedente": 1.79,
-   "sconto_pct": 22,
-   "prezzo_effettivo": 1.39,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 22
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Pollame",
-   "valido_dal": "19.11.",
-   "valido_al": "25.11.",
-   "url": "https://www.lidl.it/p/hamburger-di-tacchino/p11140217",
-   "sezioni": [
-    "carne-e-pesce"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-25"
-  },
-  {
    "id": "11142592",
    "prodotto": "- Sovracosce di pollo",
    "dettagli": "1 kg = 8.20 € · Dal 19.11. al 22.11.",
@@ -968,6 +1044,106 @@
    "valido_dal": "19.11.",
    "valido_al": "22.11.",
    "url": "https://www.lidl.it/p/quark-high-protein/p11251928",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-22"
+  },
+  {
+   "id": "11001540",
+   "prodotto": "Alesto Mandorle al naturale",
+   "dettagli": "1 kg = 13.95 € · Con Lidl Plus · Dal 19.11. al 22.11.",
+   "formato": "200 g confezione",
+   "prezzo": 2.79,
+   "prezzo_precedente": 3.99,
+   "sconto_pct": 30,
+   "prezzo_effettivo": 2.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 30
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
+   "valido_dal": "19.11.",
+   "valido_al": "22.11.",
+   "url": "https://www.lidl.it/p/alesto-mandorle-al-naturale/p11001540",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-22"
+  },
+  {
+   "id": "11039941",
+   "prodotto": "Realforno Croissant con crema pasticcera",
+   "dettagli": "1 kg = 3.18 € · Dal 19.11. al 22.11.",
+   "formato": "500 g confezione",
+   "prezzo": 1.59,
+   "prezzo_precedente": 2.29,
+   "sconto_pct": 30,
+   "prezzo_effettivo": 1.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 30
+   },
+   "scade_prima": null,
+   "categoria": "Panificio / Toast e prodotti da forno a lunga conservazione",
+   "valido_dal": "19.11.",
+   "valido_al": "22.11.",
+   "url": "https://www.lidl.it/p/realforno-croissant-con-crema-pasticcera/p11039941",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-22"
+  },
+  {
+   "id": "11145863",
+   "prodotto": "Lines Assorbenti Seta Ultra",
+   "dettagli": "Dal 19.11. al 22.11.",
+   "formato": "24, 20, 18 o 16 pezzi",
+   "prezzo": 2.59,
+   "prezzo_precedente": 3.75,
+   "sconto_pct": 30,
+   "prezzo_effettivo": 2.59,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 30
+   },
+   "scade_prima": null,
+   "categoria": "Prodotti per la cura della persona / Igiene femminile e dei neonati",
+   "valido_dal": "19.11.",
+   "valido_al": "22.11.",
+   "url": "https://www.lidl.it/p/lines-assorbenti-seta-ultra/p11145863",
+   "sezioni": [
+    "lidl-mega-offerte"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-22"
+  },
+  {
+   "id": "11028627",
+   "prodotto": "Parkside Smerigliatrice angolare ricaricabile",
+   "dettagli": "Dal 19.11. al 22.11.",
+   "formato": "",
+   "prezzo": 39.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 39.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Strumenti a batteria",
+   "valido_dal": "19.11.",
+   "valido_al": "22.11.",
+   "url": "https://www.lidl.it/p/parkside-smerigliatrice-angolare-ricaricabile/p11028627",
    "sezioni": [
     "lidl-mega-offerte"
    ],
