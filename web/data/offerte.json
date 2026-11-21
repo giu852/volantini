@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-20T14:19:16.828484+00:00",
+ "aggiornato": "2026-11-21T13:41:48.467235+00:00",
  "periodi": {
   "MPreis": "VEN 13.11. – VEN 27.11.",
   "Lidl": "15.11. – 25.11.",
@@ -15,7 +15,7 @@
   {
    "nome": "Lidl",
    "ok": true,
-   "n": 51,
+   "n": 48,
    "periodo": "15.11. – 25.11. (dal sito)"
   },
   {
@@ -35,7 +35,7 @@
    "al": "2026-11-25",
    "url": "https://www.lidl.it/l/it/volantini/offerte-valide-dal-19-11-al-25-11-volantino-settimanale-NAZ/ar/700",
    "pdf": "https://assets.leaflets.schwarz/leaflets/pdfs/01a1d534-708c-7085-a74b-86a6c6be3b22/Offerte-valide-dal-19-11-al-25-11-Volantino-settimanale-00.pdf",
-   "pagine": 72,
+   "pagine": 74,
    "pagine_cibo": [
     1,
     3,
@@ -59,13 +59,13 @@
     25,
     26,
     27,
-    29,
-    34,
-    35,
-    46,
-    62,
-    63,
-    70
+    31,
+    36,
+    37,
+    48,
+    64,
+    65,
+    72
    ],
    "stato": "sito"
   },
@@ -575,107 +575,6 @@
    "fine": "2026-11-25"
   },
   {
-   "id": "11140217",
-   "prodotto": "- Hamburger di tacchino",
-   "dettagli": "1 kg = 6.95 € · Con Lidl Plus · Dal 19.11. al 25.11.",
-   "formato": "200 g confezione",
-   "prezzo": 1.39,
-   "prezzo_precedente": 1.79,
-   "sconto_pct": 22,
-   "prezzo_effettivo": 1.39,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 22
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Pollame",
-   "valido_dal": "19.11.",
-   "valido_al": "25.11.",
-   "url": "https://www.lidl.it/p/hamburger-di-tacchino/p11140217",
-   "sezioni": [
-    "lidl-plus",
-    "carne-e-pesce"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-25"
-  },
-  {
-   "id": "11141737",
-   "prodotto": "- Hamburger di bovino adulto scottona",
-   "dettagli": "1 kg = 11.45 € · Con Lidl Plus · Dal 19.11. al 25.11.",
-   "formato": "2x 100 g confezione",
-   "prezzo": 2.29,
-   "prezzo_precedente": 2.99,
-   "sconto_pct": 23,
-   "prezzo_effettivo": 2.29,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 23
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Carne di manzo",
-   "valido_dal": "19.11.",
-   "valido_al": "25.11.",
-   "url": "https://www.lidl.it/p/hamburger-di-bovino-adulto-scottona/p11141737",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-25"
-  },
-  {
-   "id": "11140229",
-   "prodotto": "- Salsiccia di suino alla toscana",
-   "dettagli": "1 kg = 6.38 € · Con Lidl Plus · Dal 19.11. al 25.11.",
-   "formato": "500 g confezione",
-   "prezzo": 3.19,
-   "prezzo_precedente": 4.19,
-   "sconto_pct": 23,
-   "prezzo_effettivo": 3.19,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 23
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Pollame",
-   "valido_dal": "19.11.",
-   "valido_al": "25.11.",
-   "url": "https://www.lidl.it/p/salsiccia-di-suino-alla-toscana/p11140229",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-25"
-  },
-  {
-   "id": "11142744",
-   "prodotto": "- Filetto di maiale",
-   "dettagli": "Con Lidl Plus · Dal 19.11. al 25.11.",
-   "formato": "Al kg",
-   "prezzo": 7.99,
-   "prezzo_precedente": 9.99,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 7.99,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Carne di maiale",
-   "valido_dal": "19.11.",
-   "valido_al": "25.11.",
-   "url": "https://www.lidl.it/p/filetto-di-maiale/p11142744",
-   "sezioni": [
-    "lidl-plus"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-25"
-  },
-  {
    "id": "11140222",
    "prodotto": "- Quarto posteriore di pollo",
    "dettagli": "1 kg = 2.81 € · Dal 19.11. al 25.11.",
@@ -952,6 +851,31 @@
    "fine": "2026-11-25"
   },
   {
+   "id": "11140217",
+   "prodotto": "- Hamburger di tacchino",
+   "dettagli": "1 kg = 6.95 € · Con Lidl Plus · Dal 19.11. al 25.11.",
+   "formato": "200 g confezione",
+   "prezzo": 1.39,
+   "prezzo_precedente": 1.79,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 1.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "19.11.",
+   "valido_al": "25.11.",
+   "url": "https://www.lidl.it/p/hamburger-di-tacchino/p11140217",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-19",
+   "fine": "2026-11-25"
+  },
+  {
    "id": "11142592",
    "prodotto": "- Sovracosce di pollo",
    "dettagli": "1 kg = 8.20 € · Dal 19.11. al 22.11.",
@@ -1044,106 +968,6 @@
    "valido_dal": "19.11.",
    "valido_al": "22.11.",
    "url": "https://www.lidl.it/p/quark-high-protein/p11251928",
-   "sezioni": [
-    "lidl-mega-offerte"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-22"
-  },
-  {
-   "id": "11001540",
-   "prodotto": "Alesto Mandorle al naturale",
-   "dettagli": "1 kg = 13.95 € · Con Lidl Plus · Dal 19.11. al 22.11.",
-   "formato": "200 g confezione",
-   "prezzo": 2.79,
-   "prezzo_precedente": 3.99,
-   "sconto_pct": 30,
-   "prezzo_effettivo": 2.79,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 30
-   },
-   "scade_prima": null,
-   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
-   "valido_dal": "19.11.",
-   "valido_al": "22.11.",
-   "url": "https://www.lidl.it/p/alesto-mandorle-al-naturale/p11001540",
-   "sezioni": [
-    "lidl-mega-offerte"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-22"
-  },
-  {
-   "id": "11039941",
-   "prodotto": "Realforno Croissant con crema pasticcera",
-   "dettagli": "1 kg = 3.18 € · Dal 19.11. al 22.11.",
-   "formato": "500 g confezione",
-   "prezzo": 1.59,
-   "prezzo_precedente": 2.29,
-   "sconto_pct": 30,
-   "prezzo_effettivo": 1.59,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 30
-   },
-   "scade_prima": null,
-   "categoria": "Panificio / Toast e prodotti da forno a lunga conservazione",
-   "valido_dal": "19.11.",
-   "valido_al": "22.11.",
-   "url": "https://www.lidl.it/p/realforno-croissant-con-crema-pasticcera/p11039941",
-   "sezioni": [
-    "lidl-mega-offerte"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-22"
-  },
-  {
-   "id": "11145863",
-   "prodotto": "Lines Assorbenti Seta Ultra",
-   "dettagli": "Dal 19.11. al 22.11.",
-   "formato": "24, 20, 18 o 16 pezzi",
-   "prezzo": 2.59,
-   "prezzo_precedente": 3.75,
-   "sconto_pct": 30,
-   "prezzo_effettivo": 2.59,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 30
-   },
-   "scade_prima": null,
-   "categoria": "Prodotti per la cura della persona / Igiene femminile e dei neonati",
-   "valido_dal": "19.11.",
-   "valido_al": "22.11.",
-   "url": "https://www.lidl.it/p/lines-assorbenti-seta-ultra/p11145863",
-   "sezioni": [
-    "lidl-mega-offerte"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-22"
-  },
-  {
-   "id": "11028627",
-   "prodotto": "Parkside Smerigliatrice angolare ricaricabile",
-   "dettagli": "Dal 19.11. al 22.11.",
-   "formato": "",
-   "prezzo": 39.99,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 39.99,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Strumenti a batteria",
-   "valido_dal": "19.11.",
-   "valido_al": "22.11.",
-   "url": "https://www.lidl.it/p/parkside-smerigliatrice-angolare-ricaricabile/p11028627",
    "sezioni": [
     "lidl-mega-offerte"
    ],
@@ -1544,6 +1368,106 @@
    "valido_dal": null,
    "valido_al": null,
    "url": "https://www.lidl.it/p/deluxe-lasagne-ai-frutti-di-mare/p11147281",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11141536",
+   "prodotto": "Deluxe Paté di \"Cipolla Rossa di Tropea Calabria IGP\"",
+   "dettagli": "1 kg = 9.42 €",
+   "formato": "190 g confezione",
+   "prezzo": 1.79,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Oli, spezie e salse / Salse e condimenti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-pate-di-cipolla-rossa-di-tropea-calabria-igp/p11141536",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11146775",
+   "prodotto": "Deluxe Sugo con ricotta, tartufo e pepe nero",
+   "dettagli": "1 kg = 10.47 €",
+   "formato": "190 g confezione",
+   "prezzo": 1.99,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.99,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Oli, spezie e salse / Salse e condimenti",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-sugo-con-ricotta-tartufo-e-pepe-nero/p11146775",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11145150",
+   "prodotto": "Deluxe Risotto Carnaroli con \"Radicchio di Chioggia IGP\" e scamorza",
+   "dettagli": "1 kg = 8.52 €",
+   "formato": "210 g confezione",
+   "prezzo": 1.79,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Scorte alimentari / Zuppe e salse",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-risotto-carnaroli-con-radicchio-di-chioggia-igp-e-scamorza/p11145150",
+   "sezioni": [
+    "deluxe"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11145110",
+   "prodotto": "Deluxe Fettuccine al nero di seppia",
+   "dettagli": "1 kg = 8.76 €",
+   "formato": "250 g confezione",
+   "prezzo": 2.19,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 2.19,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Scorte alimentari / Riso, pasta e legumi",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/deluxe-fettuccine-al-nero-di-seppia/p11145110",
    "sezioni": [
     "deluxe"
    ],
