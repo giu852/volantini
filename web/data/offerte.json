@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-24T16:13:32.156980+00:00",
+ "aggiornato": "2026-11-25T15:59:45.866845+00:00",
  "periodi": {
   "MPreis": "VEN 13.11. – VEN 27.11.",
   "Lidl": "02.12. – 29.11.",
@@ -15,7 +15,7 @@
   {
    "nome": "Lidl",
    "ok": true,
-   "n": 98,
+   "n": 89,
    "periodo": "02.12. – 29.11. (dal sito)"
   },
   {
@@ -84,7 +84,6 @@
     3,
     4,
     5,
-    6,
     8,
     9,
     10,
@@ -112,6 +111,7 @@
     61,
     63,
     64,
+    65,
     69
    ],
    "stato": "sito"
@@ -1131,106 +1131,6 @@
    "fine": "2026-11-25"
   },
   {
-   "id": "11145054",
-   "prodotto": "Plasmon Il Biscotto",
-   "dettagli": "1 kg = 5.83 € · Dal 19.11. al 25.11.",
-   "formato": "1200 g confezione",
-   "prezzo": 6.99,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 6.99,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Neonati e bambini / Alimenti per neonati e latte in polvere",
-   "valido_dal": "19.11.",
-   "valido_al": "25.11.",
-   "url": "https://www.lidl.it/p/plasmon-il-biscotto/p11145054",
-   "sezioni": [
-    "grandi-marche-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-25"
-  },
-  {
-   "id": "11006499",
-   "prodotto": "Mulino Bianco Baiocchi",
-   "dettagli": "1 kg = 8.60 € · Dal 19.11. al 25.11.",
-   "formato": "336 g confezione",
-   "prezzo": 2.89,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 2.89,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
-   "valido_dal": "19.11.",
-   "valido_al": "25.11.",
-   "url": "https://www.lidl.it/p/mulino-bianco-baiocchi/p11006499",
-   "sezioni": [
-    "grandi-marche-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-25"
-  },
-  {
-   "id": "11006512",
-   "prodotto": "Mulino Bianco Pan Carrè",
-   "dettagli": "1 kg = 2.07 € · Con Lidl Plus · Dal 19.11. al 25.11.",
-   "formato": "430 g confezione",
-   "prezzo": 0.89,
-   "prezzo_precedente": 1.15,
-   "sconto_pct": 22,
-   "prezzo_effettivo": 0.89,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 22
-   },
-   "scade_prima": null,
-   "categoria": "Panificio / Toast e prodotti da forno a lunga conservazione",
-   "valido_dal": "19.11.",
-   "valido_al": "25.11.",
-   "url": "https://www.lidl.it/p/mulino-bianco-pan-carre/p11006512",
-   "sezioni": [
-    "grandi-marche-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-25"
-  },
-  {
-   "id": "11147899",
-   "prodotto": "Kinder Maxi",
-   "dettagli": "1 kg = 14.24 € · Dal 19.11. al 25.11.",
-   "formato": "210 g confezione",
-   "prezzo": 2.99,
-   "prezzo_precedente": 3.99,
-   "sconto_pct": 25,
-   "prezzo_effettivo": 2.99,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 25
-   },
-   "scade_prima": null,
-   "categoria": "Dolciumi e snack / prodotti al cioccolato",
-   "valido_dal": "19.11.",
-   "valido_al": "25.11.",
-   "url": "https://www.lidl.it/p/kinder-maxi/p11147899",
-   "sezioni": [
-    "grandi-marche-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-25"
-  },
-  {
    "id": "11140455",
    "prodotto": "Vergani Sultano gran nocciolato gianduia",
    "dettagli": "1 kg = 13.56 €",
@@ -1731,106 +1631,6 @@
    "fine": null
   },
   {
-   "id": "11031204",
-   "prodotto": "Favorina Panettone",
-   "dettagli": "1 kg = 5.99 €",
-   "formato": "750 g confezione",
-   "prezzo": 4.49,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 4.49,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Panificio / Pasticcini",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/favorina-panettone/p11031204",
-   "sezioni": [
-    "favorina"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11140009",
-   "prodotto": "Favorina Pandoro classico",
-   "dettagli": null,
-   "formato": "1 kg confezione",
-   "prezzo": 4.79,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 4.79,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/favorina-pandoro-classico/p11140009",
-   "sezioni": [
-    "favorina"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11140003",
-   "prodotto": "Favorina Pandoro con crema al limone",
-   "dettagli": "1 kg = 6.61 €",
-   "formato": "800 g confezione",
-   "prezzo": 5.29,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 5.29,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Panificio / Pasticcini",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/favorina-pandoro-con-crema-al-limone/p11140003",
-   "sezioni": [
-    "favorina"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11000519",
-   "prodotto": "Favorina Biscotti di pasta frolla di Natale",
-   "dettagli": "1 kg = 4.98 € · Dal 19.11. al 25.11.",
-   "formato": "600 g confezione",
-   "prezzo": 2.99,
-   "prezzo_precedente": null,
-   "sconto_pct": 21,
-   "prezzo_effettivo": 2.99,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 21
-   },
-   "scade_prima": null,
-   "categoria": "Dolciumi e snack / Biscotti e pasticcini",
-   "valido_dal": "19.11.",
-   "valido_al": "25.11.",
-   "url": "https://www.lidl.it/p/favorina-biscotti-di-pasta-frolla-di-natale/p11000519",
-   "sezioni": [
-    "favorina"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-19",
-   "fine": "2026-11-25"
-  },
-  {
    "id": "11113446",
    "prodotto": "Clementine",
    "dettagli": "Con Lidl Plus · Dal 26.11. al 29.11.",
@@ -2251,31 +2051,6 @@
    "valido_dal": "26.11.",
    "valido_al": "02.12.",
    "url": "https://www.lidl.it/p/dal-salumiere-prosciutto-cotto-alta-qualita-nostrano/p11140204",
-   "sezioni": [
-    "super-offerte-lidl-black-days"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-26",
-   "fine": "2026-12-02"
-  },
-  {
-   "id": "11143123",
-   "prodotto": "Dal Salumiere Prosciutto crudo stagionato",
-   "dettagli": "Dal 26.11. al 02.12.",
-   "formato": "Al kg",
-   "prezzo": 7.99,
-   "prezzo_precedente": 9.99,
-   "sconto_pct": 20,
-   "prezzo_effettivo": 7.99,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 20
-   },
-   "scade_prima": null,
-   "categoria": "Carne e pollame / Salumi e affettati",
-   "valido_dal": "26.11.",
-   "valido_al": "02.12.",
-   "url": "https://www.lidl.it/p/dal-salumiere-prosciutto-crudo-stagionato/p11143123",
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
