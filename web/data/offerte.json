@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-27T15:29:49.281295+00:00",
+ "aggiornato": "2026-11-28T14:28:58.090457+00:00",
  "periodi": {
   "MPreis": "VEN 27.11. – VEN 11.12.",
   "Lidl": "02.12. – 29.11.",
@@ -15,7 +15,7 @@
   {
    "nome": "Lidl",
    "ok": true,
-   "n": 54,
+   "n": 61,
    "periodo": "02.12. – 29.11. (dal sito)"
   },
   {
@@ -50,7 +50,6 @@
     12,
     14,
     15,
-    16,
     17,
     19,
     20,
@@ -69,6 +68,7 @@
     61,
     63,
     64,
+    65,
     70
    ],
    "stato": "sito"
@@ -568,7 +568,7 @@
   },
   {
    "id": "11151084",
-   "prodotto": "Ryneczek Lidla Pomodori ciliegino Pachino IGP",
+   "prodotto": "Qualité Suisse Pomodori ciliegino Pachino IGP",
    "dettagli": "1 kg = 6.30 € · Con Lidl Plus · Dal 26.11. al 02.12.",
    "formato": "300g confezione",
    "prezzo": 1.89,
@@ -583,7 +583,7 @@
    "categoria": "Frutta e verdura / Verdure",
    "valido_dal": "26.11.",
    "valido_al": "02.12.",
-   "url": "https://www.lidl.it/p/ryneczek-lidla-pomodori-ciliegino-pachino-igp/p11151084",
+   "url": "https://www.lidl.it/p/pomodori-ciliegino-pachino-igp/p11151084",
    "sezioni": [
     "lidl-plus"
    ],
@@ -685,7 +685,8 @@
    "valido_al": "02.12.",
    "url": "https://www.lidl.it/p/findus-sofficini-con-prosciutto-cotto-e-cuore-di-mozzarella/p11146832",
    "sezioni": [
-    "lidl-plus"
+    "lidl-plus",
+    "super-offerte-lidl-black-days"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-26",
@@ -764,6 +765,32 @@
    "sezioni": [
     "lidl-plus",
     "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-26",
+   "fine": "2026-12-02"
+  },
+  {
+   "id": "11007580",
+   "prodotto": "Favorina Calendario dell'Avvento",
+   "dettagli": "1 pezzo 1 kg = 18.53 € / 2 pezzi 12.67 € · Con Lidl Plus · Dal 26.11. al 02.12.",
+   "formato": "75 g",
+   "prezzo": 0.95,
+   "prezzo_precedente": 1.39,
+   "sconto_pct": 32,
+   "prezzo_effettivo": 0.95,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 32
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / prodotti al cioccolato",
+   "valido_dal": "26.11.",
+   "valido_al": "02.12.",
+   "url": "https://www.lidl.it/p/favorina-calendario-dell-avvento/p11007580",
+   "sezioni": [
+    "lidl-plus",
+    "favorina"
    ],
    "negozio": "Lidl",
    "inizio": "2026-11-26",
@@ -970,6 +997,106 @@
    "fine": "2026-12-02"
   },
   {
+   "id": "11140220",
+   "prodotto": "- Cotoletta di tacchino con spinaci",
+   "dettagli": "1 kg = 3.84 € · Con Lidl Plus · Dal 26.11. al 02.12.",
+   "formato": "440 g confezione",
+   "prezzo": 1.69,
+   "prezzo_precedente": 2.19,
+   "sconto_pct": 22,
+   "prezzo_effettivo": 1.69,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 22
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "26.11.",
+   "valido_al": "02.12.",
+   "url": "https://www.lidl.it/p/cotoletta-di-tacchino-con-spinaci/p11140220",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-26",
+   "fine": "2026-12-02"
+  },
+  {
+   "id": "11140226",
+   "prodotto": "- Controfiletti di pollo",
+   "dettagli": "1 kg = 6.98 € · Con Lidl Plus · Dal 26.11. al 02.12.",
+   "formato": "400 g confezione",
+   "prezzo": 2.79,
+   "prezzo_precedente": 3.69,
+   "sconto_pct": 24,
+   "prezzo_effettivo": 2.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 24
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Pollame",
+   "valido_dal": "26.11.",
+   "valido_al": "02.12.",
+   "url": "https://www.lidl.it/p/controfiletti-di-pollo/p11140226",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-26",
+   "fine": "2026-12-02"
+  },
+  {
+   "id": "11676752",
+   "prodotto": "Mare Gioioso Mix di mare",
+   "dettagli": "1 kg = 15.16 € · Dal 26.11. al 02.12.",
+   "formato": "250 g confezione",
+   "prezzo": 3.79,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 3.79,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Pesce e frutti di mare surgelati",
+   "valido_dal": "26.11.",
+   "valido_al": "02.12.",
+   "url": "https://www.lidl.it/p/mare-gioioso-mix-di-mare/p11676752",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-26",
+   "fine": "2026-12-02"
+  },
+  {
+   "id": "11141732",
+   "prodotto": "- Tagliata di bovino adulto scottona",
+   "dettagli": "Dal 26.11. al 02.12.",
+   "formato": "Al kg",
+   "prezzo": 14.99,
+   "prezzo_precedente": 19.99,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 14.99,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Carne di manzo",
+   "valido_dal": "26.11.",
+   "valido_al": "02.12.",
+   "url": "https://www.lidl.it/p/tagliata-di-bovino-adulto-scottona/p11141732",
+   "sezioni": [
+    "carne-e-pesce"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-26",
+   "fine": "2026-12-02"
+  },
+  {
    "id": "11140204",
    "prodotto": "Dal Salumiere Prosciutto cotto alta qualità Nostrano",
    "dettagli": "1 kg = 16,58 € · Con Lidl Plus · Dal 26.11. al 02.12.",
@@ -1012,6 +1139,181 @@
    "valido_dal": "26.11.",
    "valido_al": "02.12.",
    "url": "https://www.lidl.it/p/dal-salumiere-mortadella-con-pistacchio/p11143362",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-26",
+   "fine": "2026-12-02"
+  },
+  {
+   "id": "11142601",
+   "prodotto": "Italiamo Salamino Cacciatore Italiano DOP",
+   "dettagli": "1 kg = 11.56 € · Dal 26.11. al 02.12.",
+   "formato": "160 g confezione",
+   "prezzo": 1.85,
+   "prezzo_precedente": 2.69,
+   "sconto_pct": 31,
+   "prezzo_effettivo": 1.85,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 31
+   },
+   "scade_prima": null,
+   "categoria": "Carne e pollame / Salumi e affettati",
+   "valido_dal": "26.11.",
+   "valido_al": "02.12.",
+   "url": "https://www.lidl.it/p/italiamo-salamino-cacciatore-italiano-dop/p11142601",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-26",
+   "fine": "2026-12-02"
+  },
+  {
+   "id": "11146833",
+   "prodotto": "Findus Sofficini con pomodoro e cuore di mozzarella",
+   "dettagli": "1 kg = 7.97 € · Con Lidl Plus · Dal 26.11. al 02.12.",
+   "formato": "312.5 g confezione",
+   "prezzo": 2.49,
+   "prezzo_precedente": 3.35,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 2.49,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Piatti pronti surgelati",
+   "valido_dal": "26.11.",
+   "valido_al": "02.12.",
+   "url": "https://www.lidl.it/p/findus-sofficini-con-pomodoro-e-cuore-di-mozzarella/p11146833",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-26",
+   "fine": "2026-12-02"
+  },
+  {
+   "id": "11006610",
+   "prodotto": "Italpizza Pizza Margherita 26x38",
+   "dettagli": "1 kg = 5.96 € · Dal 26.11. al 02.12.",
+   "formato": "485 g confezione",
+   "prezzo": 2.89,
+   "prezzo_precedente": 3.79,
+   "sconto_pct": 23,
+   "prezzo_effettivo": 2.89,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 23
+   },
+   "scade_prima": null,
+   "categoria": "Cibo congelato (Cibo congelato) / Pizza e snack surgelati",
+   "valido_dal": "26.11.",
+   "valido_al": "02.12.",
+   "url": "https://www.lidl.it/p/italpizza-pizza-margherita-26x38/p11006610",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-26",
+   "fine": "2026-12-02"
+  },
+  {
+   "id": "11147441",
+   "prodotto": "Bavaria Birra lager",
+   "dettagli": "1 l = 1.58 € · Dal 26.11. al 02.12.",
+   "formato": "500 ml lattina",
+   "prezzo": 0.79,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 0.79,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Birra e sidro",
+   "valido_dal": "26.11.",
+   "valido_al": "02.12.",
+   "url": "https://www.lidl.it/p/bavaria-birra-lager/p11147441",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-26",
+   "fine": "2026-12-02"
+  },
+  {
+   "id": "11008640",
+   "prodotto": "Corte Aurelio Nero d'Avola Sicilia DOP",
+   "dettagli": "1 bottiglia = 3.59 €, 1 l = 2.39 € - 2 bottiglie = 5.39 €, 1 l = 1.80 € · Dal 26.11. al 02.12.",
+   "formato": "1.5 l bottiglia",
+   "prezzo": 5.39,
+   "prezzo_precedente": 7.18,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 5.39,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Vino / Vino rosso",
+   "valido_dal": "26.11.",
+   "valido_al": "02.12.",
+   "url": "https://www.lidl.it/p/corte-aurelio-nero-d-avola-sicilia-dop/p11008640",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": "2026-11-26",
+   "fine": "2026-12-02"
+  },
+  {
+   "id": "12181470",
+   "prodotto": "Mutti Polpa di pomodoro",
+   "dettagli": "1 kg = 2.23 €",
+   "formato": "400 g confezione",
+   "prezzo": 0.89,
+   "prezzo_precedente": null,
+   "sconto_pct": null,
+   "prezzo_effettivo": 0.89,
+   "promo": {
+    "tipo": "altro",
+    "testo": ""
+   },
+   "scade_prima": null,
+   "categoria": "Scorte alimentari / Conserve di frutta e verdura",
+   "valido_dal": null,
+   "valido_al": null,
+   "url": "https://www.lidl.it/p/mutti-polpa-di-pomodoro/p12181470",
+   "sezioni": [
+    "super-offerte-lidl-black-days"
+   ],
+   "negozio": "Lidl",
+   "inizio": null,
+   "fine": null
+  },
+  {
+   "id": "11005947",
+   "prodotto": "Pringles",
+   "dettagli": "1 kg = 9.68 € · Dal 26.11. al 02.12.",
+   "formato": "185 g confezione",
+   "prezzo": 1.79,
+   "prezzo_precedente": 2.39,
+   "sconto_pct": 25,
+   "prezzo_effettivo": 1.79,
+   "promo": {
+    "tipo": "sconto",
+    "valore": 25
+   },
+   "scade_prima": null,
+   "categoria": "Dolciumi e snack / Snack salati",
+   "valido_dal": "26.11.",
+   "valido_al": "02.12.",
+   "url": "https://www.lidl.it/p/pringles-pringles/p11005947",
    "sezioni": [
     "super-offerte-lidl-black-days"
    ],
@@ -1312,106 +1614,6 @@
    "valido_dal": null,
    "valido_al": null,
    "url": "https://www.lidl.it/p/deluxe-risotto-carnaroli/p11040972",
-   "sezioni": [
-    "deluxe"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11031212",
-   "prodotto": "Deluxe Burro aromatizzato",
-   "dettagli": "1 kg = 31.13 €",
-   "formato": "80 g confezione",
-   "prezzo": 2.49,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 2.49,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Formaggi, latticini e uova / Burro",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/deluxe-burro-aromatizzato/p11031212",
-   "sezioni": [
-    "deluxe"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11142005",
-   "prodotto": "Ragù",
-   "dettagli": "1 kg = 16.61 €",
-   "formato": "180 g confezione",
-   "prezzo": 2.99,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 2.99,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Oli, spezie e salse / Salse e condimenti",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/ragu/p11142005",
-   "sezioni": [
-    "deluxe"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11142694",
-   "prodotto": "Deluxe Spiedini gratinati di scorfano atlantico e zucchine",
-   "dettagli": "1 kg = 10.68 €",
-   "formato": "280 g confezione",
-   "prezzo": 2.99,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 2.99,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Cibo congelato (Cibo congelato) / Pesce e frutti di mare surgelati",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/deluxe-spiedini-gratinati-di-scorfano-atlantico-e-zucchine/p11142694",
-   "sezioni": [
-    "deluxe"
-   ],
-   "negozio": "Lidl",
-   "inizio": null,
-   "fine": null
-  },
-  {
-   "id": "11031208",
-   "prodotto": "Deluxe Sugo agli scampi",
-   "dettagli": "1 kg = 9.97 €",
-   "formato": "300 g confezione",
-   "prezzo": 2.99,
-   "prezzo_precedente": null,
-   "sconto_pct": null,
-   "prezzo_effettivo": 2.99,
-   "promo": {
-    "tipo": "altro",
-    "testo": ""
-   },
-   "scade_prima": null,
-   "categoria": "Cibo congelato (Cibo congelato) / Pesce e frutti di mare surgelati",
-   "valido_dal": null,
-   "valido_al": null,
-   "url": "https://www.lidl.it/p/deluxe-sugo-agli-scampi/p11031208",
    "sezioni": [
     "deluxe"
    ],
@@ -1793,31 +1995,6 @@
    "negozio": "Lidl",
    "inizio": null,
    "fine": null
-  },
-  {
-   "id": "11007580",
-   "prodotto": "Favorina Calendario dell'Avvento",
-   "dettagli": "1 kg = 18.53 € - 2 calendari = 1.95 €, 1 kg = 13.00 € · Con Lidl Plus · Dal 26.11. al 02.12.",
-   "formato": "75 g confezione",
-   "prezzo": 1.95,
-   "prezzo_precedente": 2.78,
-   "sconto_pct": 30,
-   "prezzo_effettivo": 1.95,
-   "promo": {
-    "tipo": "sconto",
-    "valore": 30
-   },
-   "scade_prima": null,
-   "categoria": "Dolciumi e snack / prodotti al cioccolato",
-   "valido_dal": "26.11.",
-   "valido_al": "02.12.",
-   "url": "https://www.lidl.it/p/favorina-calendario-dell-avvento/p11007580",
-   "sezioni": [
-    "favorina"
-   ],
-   "negozio": "Lidl",
-   "inizio": "2026-11-26",
-   "fine": "2026-12-02"
   },
   {
    "id": "202628IT-13625201",
